@@ -3,7 +3,100 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kailash Dham — Space of Rituals</title>
+
+  <!-- Primary SEO -->
+  <title>Яг'я — Давній Вогняний Ритуал | Kailash Dham</title>
+  <meta name="description" content="Kailash Dham — ашрам і духовний центр ведичних ритуалів. Яг'я для очищення, захисту, благословення та гармонізації. Групові та індивідуальні формати. Особиста та дистанційна участь.">
+  <meta name="keywords" content="яг'я, ягья, yagya, ведичний ритуал, вогняний ритуал, ашрам, Kailash Dham, очищення, благословення, захист, санкальпа, ведические ритуалы, огненный ритуал">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://kailashdham.space/">
+  <link rel="alternate" hreflang="ru" href="https://kailashdham.space/">
+  <link rel="alternate" hreflang="uk" href="https://kailashdham.space/">
+  <link rel="alternate" hreflang="en" href="https://kailashdham.space/">
+  <link rel="alternate" hreflang="x-default" href="https://kailashdham.space/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kailashdham.space/">
+  <meta property="og:title" content="Яг'я — Давній Вогняний Ритуал | Kailash Dham">
+  <meta property="og:description" content="Kailash Dham — ашрам і духовний центр ведичних ритуалів. Яг'я для очищення, захисту, благословення та гармонізації. Групові та індивідуальні формати.">
+  <meta property="og:image" content="https://kailashdham.space/images/hero.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="uk_UA">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:site_name" content="Kailash Dham">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Яг'я — Давній Вогняний Ритуал | Kailash Dham">
+  <meta name="twitter:description" content="Kailash Dham — ашрам і духовний центр ведичних ритуалів. Яг'я для очищення, захисту, благословення та гармонізації.">
+  <meta name="twitter:image" content="https://kailashdham.space/images/hero.png">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://kailashdham.space/#organization",
+        "name": "Kailash Dham",
+        "alternateName": "Kailash Dham Space of Rituals",
+        "url": "https://kailashdham.space/",
+        "logo": "https://kailashdham.space/images/logo.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "url": "https://t.me/kailashdham_bot"
+        },
+        "sameAs": ["https://t.me/kailashdham_bot"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://kailashdham.space/#website",
+        "url": "https://kailashdham.space/",
+        "name": "Kailash Dham",
+        "publisher": {"@id": "https://kailashdham.space/#organization"}
+      },
+      {
+        "@type": "Service",
+        "name": "Яг'я — ведичний вогняний ритуал",
+        "provider": {"@id": "https://kailashdham.space/#organization"},
+        "description": "Яг'я — давній ведичний вогняний ритуал для очищення, благословення, захисту, гармонізації та підтримки у важливих сферах життя. Групові та індивідуальні формати, особиста та дистанційна участь.",
+        "serviceType": "Vedic Ritual",
+        "areaServed": "Worldwide",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Групова яг'я «Вогонь Єдності»",
+            "price": "39",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "name": "Індивідуальна яг'я «Вогонь Очищення»",
+            "price": "169",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "name": "Індивідуальна яг'я з гороскопом «Вогонь Наміру»",
+            "price": "369",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "name": "VIP яг'я «Вогонь Преображення»",
+            "price": "1369",
+            "priceCurrency": "USD"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -44,7 +137,7 @@
       text-decoration: none;
     }
 
-    .logo-icon { width: 40px; height: 40px; flex-shrink: 0; }
+    .logo-icon { width: 52px; height: 52px; flex-shrink: 0; object-fit: contain; mix-blend-mode: screen; }
 
     .logo-text {
       display: flex;
@@ -68,6 +161,12 @@
       text-transform: uppercase;
     }
 
+    nav {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+    }
+
     .desktop-nav {
       display: flex;
       gap: 32px;
@@ -77,12 +176,37 @@
     .desktop-nav a {
       color: var(--w100);
       text-decoration: none;
-      font-size: 13px;
+      font-size: 15px;
       font-weight: 400;
       transition: color 0.25s;
     }
 
     .desktop-nav a:hover { color: var(--gold); }
+
+    /* ── LANG SWITCHER ───────────────────────── */
+    .lang-switcher {
+      display: flex;
+      gap: 4px;
+      align-items: center;
+      margin-right: 20px;
+    }
+    .lang-switcher button {
+      background: none;
+      border: 1px solid rgba(201,148,58,0.3);
+      color: rgba(255,255,255,0.55);
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      padding: 4px 8px;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .lang-switcher button:hover,
+    .lang-switcher button.active {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
 
     /* ── BURGER ──────────────────────────────── */
     .burger {
@@ -163,9 +287,10 @@
     .hero-bg {
       position: absolute;
       inset: 0;
-      background-image: url('images/hero.png');
+      background-image: url('images/hero.jpg');
       background-size: cover;
       background-position: 65% center;
+      filter: brightness(1.2) saturate(1.5);
       z-index: 0;
     }
 
@@ -228,7 +353,7 @@
     /* Heading */
     .hero-title {
       font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(22px, 2.85vw, 38px);
+      font-size: clamp(26px, 3.4vw, 46px);
       font-weight: 700;
       line-height: 1.18;
       letter-spacing: 2px;
@@ -238,7 +363,21 @@
     }
 
     .hero-title .gold { color: var(--gold); }
-    .hero-title .title-big { font-size: 1.4em; line-height: 1; }
+    .hero-title .title-big { font-size: 1.7em; line-height: 1; }
+
+    .title-first-line {
+      display: flex;
+      align-items: baseline;
+    }
+    .title-first-line .title-big {
+      flex: 1;
+      text-align: center;
+    }
+    .title-dash {
+      font-size: 1.4em;
+      line-height: 1;
+      color: var(--gold);
+    }
 
     /* Separator dot */
     .sep {
@@ -257,7 +396,7 @@
     /* Subtitle — centred */
     .hero-sub {
       font-size: 17px;
-      font-weight: 300;
+      font-weight: 500;
       line-height: 1.8;
       color: var(--w70);
       margin-bottom: 18px;
@@ -346,7 +485,7 @@
     .hero-note svg { flex-shrink: 0; opacity: 0.45; margin-top: 1px; }
 
     .hero-note p {
-      font-size: 11px;
+      font-size: 14px;
       line-height: 1.7;
       color: var(--w45);
     }
@@ -399,7 +538,7 @@
         text-align: center;
       }
 
-      .hero-title { font-size: clamp(22px, 6.5vw, 34px); }
+      .hero-title { font-size: clamp(26px, 7.5vw, 40px); }
 
       .hero-bullet { justify-content: center; }
 
@@ -407,42 +546,48 @@
     }
 
     @media (max-width: 480px) {
-      .hero-title { font-size: clamp(20px, 7.5vw, 28px); letter-spacing: 1px; }
+      .hero-title { font-size: clamp(24px, 8.5vw, 34px); letter-spacing: 1px; }
       .cta-btn { padding: 14px 32px; }
     }
-  </style>
+  
+.site-footer{background:#050403;border-top:1px solid rgba(201,148,58,.15);padding:40px 24px}
+.footer-inner{max-width:960px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px}
+@media(max-width:640px){.footer-inner{grid-template-columns:1fr}}
+.footer-col{display:flex;flex-direction:column;gap:8px}
+.footer-col a{font-size:.72rem;color:rgba(201,148,58,.65);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;transition:color .2s}
+.footer-col a:hover{color:#c9943a}
+.footer-col strong{font-size:.78rem;color:rgba(255,255,255,.65);letter-spacing:.04em;margin-bottom:4px}
+.footer-col span{color:rgba(255,255,255,.3);font-size:.72rem;line-height:1.6}
+.footer-col .footer-link{color:rgba(255,255,255,.3);text-decoration:none;font-size:.72rem;text-transform:none;letter-spacing:0}
+.footer-col .footer-link:hover{color:rgba(201,148,58,.7)}
+.footer-note{color:rgba(255,255,255,.2);font-size:.67rem;font-style:italic;margin-top:6px}
+</style>
 </head>
 <body>
 
 <!-- HEADER -->
 <header>
   <a class="logo" href="#">
-    <svg class="logo-icon" viewBox="0 0 42 42" fill="none">
-      <circle cx="21" cy="21" r="20" stroke="#c9943a" stroke-width="0.8" opacity="0.35"/>
-      <path d="M21 3c0 0-3.5 7-3.5 13 0 2.5 1.6 4 3.5 4s3.5-1.5 3.5-4c0-6-3.5-13-3.5-13Z" fill="#c9943a" opacity="0.9"/>
-      <path d="M39 21c0 0-7-3.5-13-3.5-2.5 0-4 1.6-4 3.5s1.5 3.5 4 3.5c6 0 13-3.5 13-3.5Z" fill="#c9943a" opacity="0.9"/>
-      <path d="M21 39c0 0 3.5-7 3.5-13 0-2.5-1.6-4-3.5-4s-3.5 1.5-3.5 4c0 6 3.5 13 3.5 13Z" fill="#c9943a" opacity="0.9"/>
-      <path d="M3 21c0 0 7 3.5 13 3.5 2.5 0 4-1.6 4-3.5s-1.5-3.5-4-3.5C10 17.5 3 21 3 21Z" fill="#c9943a" opacity="0.9"/>
-      <path d="M33.2 8.8c0 0-6.2 4.7-8.4 9.7-.9 1.9-.1 4.1 1.8 5s4.1.1 5-1.8c2.2-5 1.6-12.9 1.6-12.9Z" fill="#c9943a" opacity="0.5"/>
-      <path d="M33.2 33.2c0 0-4.7-6.2-9.7-8.4-1.9-.9-4.1-.1-5 1.8s-.1 4.1 1.8 5c5 2.2 12.9 1.6 12.9 1.6Z" fill="#c9943a" opacity="0.5"/>
-      <path d="M8.8 33.2c0 0 6.2-4.7 8.4-9.7.9-1.9.1-4.1-1.8-5s-4.1-.1-5 1.8c-2.2 5-1.6 12.9-1.6 12.9Z" fill="#c9943a" opacity="0.5"/>
-      <path d="M8.8 8.8c0 0 4.7 6.2 9.7 8.4 1.9.9 4.1.1 5-1.8s.1-4.1-1.8-5C16.7 8.2 8.8 8.8 8.8 8.8Z" fill="#c9943a" opacity="0.5"/>
-      <circle cx="21" cy="21" r="4.5" fill="#c9943a"/>
-      <circle cx="21" cy="21" r="2.5" fill="#0a0806"/>
-    </svg>
+    <img class="logo-icon" src="images/logo.jpg" alt="Kailash Dham">
     <div class="logo-text">
       <span class="logo-name">KAILASH DHAM</span>
-      <span class="logo-sub">Space of Rituals</span>
+      <span class="logo-sub" data-i18n="logo_sub">Space of Rituals</span>
     </div>
   </a>
 
   <nav>
+    <div class="lang-switcher">
+      <button onclick="setLang('uk')" data-lang="uk">UK</button>
+      <button onclick="setLang('ru')" data-lang="ru">RU</button>
+      <button onclick="setLang('en')" data-lang="en">EN</button>
+    </div>
     <ul class="desktop-nav">
-      <li><a href="#yagya">Про Яг'ю</a></li>
-      <li><a href="#formats">Формати участі</a></li>
-      <li><a href="#yagyas">Яг'ї</a></li>
-      <li><a href="#kailash">Про Kailash Dham</a></li>
-      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#yagya" data-i18n="nav_yagya">Про Яг'ю</a></li>
+      <li><a href="#formats" data-i18n="nav_formats">Формати участі</a></li>
+      <li><a href="#yagyas" data-i18n="nav_yagyas">Яг'ї</a></li>
+      <li><a href="#kailash" data-i18n="nav_kailash">Про Kailash Dham</a></li>
+      <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
+      <li><a href="/blog/" data-i18n="nav_blog">Блог</a></li>
     </ul>
   </nav>
 
@@ -454,11 +599,12 @@
 <!-- MOBILE DRAWER -->
 <div class="backdrop" id="backdrop"></div>
 <nav class="mobile-drawer" id="drawer">
-  <a href="#yagya" onclick="closeMenu()">Про Яг'ю</a>
-  <a href="#formats" onclick="closeMenu()">Формати участі</a>
-  <a href="#yagyas" onclick="closeMenu()">Яг'ї</a>
-  <a href="#kailash" onclick="closeMenu()">Про Kailash Dham</a>
-  <a href="#faq" onclick="closeMenu()">FAQ</a>
+  <a href="#yagya" onclick="closeMenu()" data-i18n="nav_yagya">Про Яг'ю</a>
+  <a href="#formats" onclick="closeMenu()" data-i18n="nav_formats">Формати участі</a>
+  <a href="#yagyas" onclick="closeMenu()" data-i18n="nav_yagyas">Яг'ї</a>
+  <a href="#kailash" onclick="closeMenu()" data-i18n="nav_kailash">Про Kailash Dham</a>
+  <a href="#faq" onclick="closeMenu()" data-i18n="nav_faq">FAQ</a>
+  <a href="/blog/" data-i18n="nav_blog">Блог</a>
 </nav>
 
 <!-- HERO -->
@@ -478,17 +624,16 @@
 
     <!-- heading — centered -->
     <h1 class="hero-title">
-      <span class="title-big">ЯГ'Я —</span><br>
-      <span class="gold">ДАВНІЙ ВОГНЯНИЙ РИТУАЛ</span><br>
-      ШЛЯХ ІЗ ЗАМКНЕНИХ<br>
-      ЖИТТЄВИХ КІЛ
+      <span class="title-big" data-i18n="hero_word">ЯГ'Я</span><br>
+      <span class="gold" data-i18n="hero_line2">ДАВНІЙ ВОГНЯНИЙ РИТУАЛ</span><br>
+      <span data-i18n="hero_lines34">ШЛЯХ ІЗ ЗАМКНЕНИХ<br>ЖИТТЄВИХ КІЛ</span>
     </h1>
 
     <!-- separator dot -->
     <div class="sep"><div class="sep-dot"></div></div>
 
     <!-- subtitle — centered -->
-    <p class="hero-sub">
+    <p class="hero-sub" data-i18n="hero_sub">
       Коли життя знову приводить до схожих ситуацій,<br>
       а внутрішній запит вимагає глибокого рішення.
     </p>
@@ -502,12 +647,12 @@
         <path d="M1 9c0 0 4 2 7 2 1.1 0 2-.9 2-2s-.9-2-2-2c-3 0-7 2-7 2Z" fill="#c9943a" opacity="0.85"/>
         <circle cx="9" cy="9" r="2" fill="#c9943a"/>
       </svg>
-      <p>Вогонь, мантри та санкальпа поєднують<br>ваш намір із простором священної дії.</p>
+      <p data-i18n="hero_bullet">Вогонь, мантри та санкальпа поєднують<br>ваш намір із простором священної дії.</p>
     </div>
 
     <!-- CTA — full width -->
     <a href="https://t.me/kailashdham_bot" target="_blank" class="cta-btn">
-      <span>ПРОЙТИ ПІДБІР ЯГ'Ї</span>
+      <span data-i18n="hero_cta">ПРОЙТИ ПІДБІР ЯГ'Ї</span>
       <span class="cta-arrow">→</span>
     </a>
 
@@ -520,7 +665,7 @@
         <line x1="1.5" y1="4.5" x2="12.5" y2="4.5" stroke="white" stroke-width="0.6"/>
         <line x1="1.5" y1="9.5" x2="12.5" y2="9.5" stroke="white" stroke-width="0.6"/>
       </svg>
-      <p>Особиста або дистанційна участь.<br>Підбір відбувається через чат-бот.</p>
+      <p data-i18n="hero_note">Особиста або дистанційна участь.<br>Підбір відбувається через чат-бот.</p>
     </div>
 
   </div>
@@ -532,262 +677,6 @@
     </svg>
   </div>
 </section>
-
-<!-- ═══════════════════════════════════════════ -->
-<!-- BLOCK 1.5: О ЯГЬЕ ВАЖНО ПОНИМАТЬ         -->
-<!-- ═══════════════════════════════════════════ -->
-<section class="understand-section">
-
-  <!-- fire bg right side -->
-  <div class="und-fire-bg"></div>
-  <!-- gradient overlay left -->
-  <div class="und-overlay"></div>
-  <!-- atmospheric left glow -->
-  <div class="und-glow"></div>
-
-  <div class="und-inner">
-
-    <!-- divider top -->
-    <div class="what-divider" style="margin-bottom:36px">
-      <div class="wd-line"></div>
-      <div class="wd-diamond"></div>
-      <div class="wd-line"></div>
-    </div>
-
-    <!-- title -->
-    <h2 class="und-title">О ЯГЬЕ<br>ВАЖНО ПОНИМАТЬ</h2>
-
-    <!-- items -->
-    <ul class="und-list">
-
-      <li class="und-item">
-        <div class="und-icon">
-          <!-- flame -->
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-            <path d="M12 2c0 0-1 3.5-1 6.5 0 1.5.9 2.5 1 2.5.1 0 1-1 1-2.5C13 5.5 12 2 12 2Z" fill="#c9943a"/>
-            <path d="M12 24c-4.4 0-8-3.6-8-8 0-2.5 1.1-5.6 3-7.5-.2 1 .1 2.5.1 2.5C9 9 10.8 7 12 5c1.2 2 3 4 4.9 6 0 0 .3-1.5.1-2.5 1.9 1.9 3 5 3 7.5 0 4.4-3.6 8-8 8Z" fill="#c9943a" opacity="0.85"/>
-            <path d="M12 19c-1.7 0-3-1.3-3-3 0-.8.3-1.6.8-2.2 0 .5.5 1.2.5 1.2C11 14 11.5 13 12 12c.5 1 1 2 1.7 3 0 0 .5-.7.5-1.2.5.6.8 1.4.8 2.2 0 1.7-1.3 3-3 3Z" fill="#0a0806" opacity="0.6"/>
-          </svg>
-        </div>
-        <p class="und-text">Ягья — духовная практика, которая действует через огонь, мантры, внимание и намерение.</p>
-      </li>
-
-      <li class="und-item">
-        <div class="und-icon">
-          <!-- person/lotus silhouette -->
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-            <circle cx="12" cy="7" r="3" fill="#c9943a" opacity="0.9"/>
-            <path d="M12 11c-3.9 0-7 2.2-7 5v1h14v-1c0-2.8-3.1-5-7-5Z" fill="#c9943a" opacity="0.85"/>
-            <path d="M8 20c0-1.5 1.8-2.5 4-2.5s4 1 4 2.5" stroke="#c9943a" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
-          </svg>
-        </div>
-        <p class="und-text">Она помогает человеку выстроить внутреннюю опору, яснее увидеть ситуацию и почувствовать направление следующего шага.</p>
-      </li>
-
-      <li class="und-item">
-        <div class="und-icon">
-          <!-- ritual bowl / lotus -->
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-            <path d="M5 11c0 3.9 3.1 7 7 7s7-3.1 7-7H5Z" fill="#c9943a" opacity="0.85"/>
-            <path d="M3 11h18" stroke="#c9943a" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M10 11c0-2 .8-4 2-5.5C13.2 7 14 9 14 11" stroke="#c9943a" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.6"/>
-            <line x1="12" y1="18" x2="12" y2="21" stroke="#c9943a" stroke-width="1.5" stroke-linecap="round"/>
-            <line x1="9" y1="21" x2="15" y2="21" stroke="#c9943a" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <p class="und-text">Ритуал проводится в ведической традиции и направлен на очищение, благословение, защиту, поддержку и гармонизацию.</p>
-      </li>
-
-      <li class="und-item">
-        <div class="und-icon">
-          <!-- lotus / hands -->
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-            <path d="M12 3c0 0-2 4-2 7.5 0 1.4.9 2.5 2 2.5s2-1.1 2-2.5C14 7 12 3 12 3Z" fill="#c9943a" opacity="0.9"/>
-            <path d="M6 9c0 0 2.5 2 4 5" stroke="#c9943a" stroke-width="1.3" stroke-linecap="round" fill="none" opacity="0.7"/>
-            <path d="M18 9c0 0-2.5 2-4 5" stroke="#c9943a" stroke-width="1.3" stroke-linecap="round" fill="none" opacity="0.7"/>
-            <path d="M8 7c0 0 1 2.5 1 5.5" stroke="#c9943a" stroke-width="1.1" stroke-linecap="round" fill="none" opacity="0.5"/>
-            <path d="M16 7c0 0-1 2.5-1 5.5" stroke="#c9943a" stroke-width="1.1" stroke-linecap="round" fill="none" opacity="0.5"/>
-            <path d="M6 16c2-1 8-1.5 12 0" stroke="#c9943a" stroke-width="1.3" stroke-linecap="round" fill="none" opacity="0.5"/>
-            <path d="M4 19c2.5-1.5 11-2 16 0" stroke="#c9943a" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.4"/>
-          </svg>
-        </div>
-        <p class="und-text">Здесь важны чистое намерение, уважение к священному действию и готовность человека быть участником процесса.</p>
-      </li>
-
-    </ul>
-
-    <!-- closing quote -->
-    <p class="und-quote">Ягья — это встреча человека,<br>огня и намерения в пространстве традиции.</p>
-
-    <!-- CTA -->
-    <a href="https://t.me/kailashdham_bot" target="_blank" class="cta-btn und-btn">
-      <svg width="18" height="18" viewBox="0 0 42 42" fill="none" style="flex-shrink:0">
-        <path d="M21 3c0 0-3.5 7-3.5 13 0 2.5 1.6 4 3.5 4s3.5-1.5 3.5-4c0-6-3.5-13-3.5-13Z" fill="#0a0806"/>
-        <path d="M39 21c0 0-7-3.5-13-3.5-2.5 0-4 1.6-4 3.5s1.5 3.5 4 3.5c6 0 13-3.5 13-3.5Z" fill="#0a0806"/>
-        <path d="M21 39c0 0 3.5-7 3.5-13 0-2.5-1.6-4-3.5-4s-3.5 1.5-3.5 4c0 6 3.5 13 3.5 13Z" fill="#0a0806"/>
-        <path d="M3 21c0 0 7 3.5 13 3.5 2.5 0 4-1.6 4-3.5s-1.5-3.5-4-3.5C10 17.5 3 21 3 21Z" fill="#0a0806"/>
-        <circle cx="21" cy="21" r="4.5" fill="#0a0806"/>
-      </svg>
-      ПРОЙТИ ПОДБОР ЯГЬИ &nbsp;→
-    </a>
-
-    <!-- privacy -->
-    <p class="und-privacy">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" style="vertical-align:middle;margin-right:5px">
-        <rect x="5" y="11" width="14" height="10" rx="2" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
-        <path d="M8 11V8a4 4 0 0 1 8 0v3" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" stroke-linecap="round"/>
-      </svg>
-      Ваш запрос остаётся конфиденциальным.
-    </p>
-
-  </div>
-
-</section>
-
-<style>
-  /* ── BLOCK 1.5: О ЯГЬЕ ВАЖНО ПОНИМАТЬ ────── */
-  .understand-section {
-    position: relative;
-    min-height: 100dvh;
-    display: flex;
-    align-items: center;
-    padding: 120px 0 80px;
-    overflow: hidden;
-    background: var(--dark);
-  }
-
-  .und-fire-bg {
-    position: absolute;
-    inset: 0;
-    background-image: url('images/hero.png');
-    background-size: cover;
-    background-position: center center;
-    opacity: 0.45;
-    pointer-events: none;
-  }
-
-  .und-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-      to right,
-      var(--dark) 0%,
-      var(--dark) 35%,
-      rgba(10,8,6,0.7) 60%,
-      rgba(10,8,6,0.15) 100%
-    );
-    pointer-events: none;
-    z-index: 1;
-  }
-
-  .und-glow {
-    position: absolute;
-    left: -180px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 500px;
-    height: 600px;
-    background: radial-gradient(ellipse at center, rgba(201,148,58,0.08) 0%, transparent 70%);
-    pointer-events: none;
-    z-index: 1;
-  }
-
-  .und-inner {
-    position: relative;
-    z-index: 2;
-    max-width: 580px;
-    margin: 0 auto 0 max(60px, calc((100vw - 1200px)/2 + 60px));
-    padding: 0 20px;
-  }
-
-  .und-title {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(38px, 5.5vw, 72px);
-    font-weight: 700;
-    line-height: 1.05;
-    color: var(--gold);
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    margin-bottom: 44px;
-  }
-
-  .und-list {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
-    margin-bottom: 44px;
-  }
-
-  .und-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-  }
-
-  .und-icon {
-    flex-shrink: 0;
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
-    border: 1.5px solid rgba(201,148,58,0.5);
-    background: rgba(201,148,58,0.06);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .und-text {
-    font-size: 17px;
-    line-height: 1.7;
-    color: var(--w70);
-    padding-top: 14px;
-  }
-
-  .und-quote {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(20px, 2.2vw, 27px);
-    font-style: italic;
-    color: var(--gold-lt);
-    line-height: 1.5;
-    margin-bottom: 40px;
-    border-left: 2px solid rgba(201,148,58,0.4);
-    padding-left: 20px;
-  }
-
-  .und-btn {
-    margin-bottom: 20px;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .und-privacy {
-    font-size: 12px;
-    color: rgba(255,255,255,0.35);
-    letter-spacing: 0.03em;
-  }
-
-  @media (max-width: 768px) {
-    .understand-section { padding: 90px 20px 60px; align-items: flex-start; }
-    .und-inner { margin: 0; max-width: 100%; padding: 0; }
-    .und-fire-bg { background-position: 70% center; opacity: 0.3; }
-    .und-overlay {
-      background: linear-gradient(
-        to bottom,
-        rgba(10,8,6,0.85) 0%,
-        rgba(10,8,6,0.6) 60%,
-        rgba(10,8,6,0.85) 100%
-      );
-    }
-    .und-title { text-align: center; margin-bottom: 32px; }
-    .und-icon { width: 46px; height: 46px; }
-    .und-text { font-size: 17px; padding-top: 12px; }
-    .und-quote { font-size: 19px; text-align: center; border-left: none; padding-left: 0; border-top: 1px solid rgba(201,148,58,0.3); padding-top: 20px; }
-    .und-btn { width: 100%; justify-content: center; }
-    .und-privacy { text-align: center; }
-  }
-</style>
 
 <!-- ═══════════════════════════════════════════ -->
 <!-- BLOCK 2: ЧТО ТАКОЕ ЯГЬЯ                  -->
@@ -816,7 +705,7 @@
     </div>
 
     <!-- title -->
-    <h2 class="what-title">ЧТО ТАКОЕ ЯГЬЯ</h2>
+    <h2 class="what-title" data-i18n="what_title">ЧТО ТАКОЕ ЯГЬЯ</h2>
 
     <!-- divider -->
     <div class="what-divider">
@@ -837,7 +726,7 @@
             <line x1="8" y1="11" x2="14" y2="11" stroke="#c9943a" stroke-width="1.2" stroke-linecap="round"/>
           </svg>
         </div>
-        <div class="wi-text">
+        <div class="wi-text" data-i18n="what_item1">
           <p>Ягья — один из древнейших огненных ритуалов ведической традиции.</p>
           <p>Её истоки восходят к ведической эпохе: ранние формы огненного священнодействия описаны в Ведах, древнейший слой которых, в письменной форме, относят к 1500–1200 гг. до н. э.</p>
         </div>
@@ -852,7 +741,7 @@
             <path d="M10 14c0 0-3-3-3-5.5C7 7 8.5 6 10 8c1.5-2 3-1 3 0.5C13 11 10 14 10 14Z" fill="#c9943a" opacity="0.6"/>
           </svg>
         </div>
-        <div class="wi-text">
+        <div class="wi-text" data-i18n="what_item2">
           <p>В центре Ягьи — священный огонь, Агни.</p>
           <p>Агни почитается как сила, через которую молитва, намерение и подношение обращают человека к высшему порядку.</p>
         </div>
@@ -869,7 +758,7 @@
             <path d="M9 16v5M15 16v5" stroke="#c9943a" stroke-width="1.2" stroke-linecap="round"/>
           </svg>
         </div>
-        <div class="wi-text">
+        <div class="wi-text" data-i18n="what_item3">
           <p>Во время ритуала звучат мантры и совершаются подношения: гхи, хаван-самагри, зерно, травы и другие ритуальные вещества.</p>
           <p>Так личное намерение — <em class="gold-it">санкальпа</em> — становится частью священного действия.</p>
         </div>
@@ -885,7 +774,7 @@
             <path d="M5 14c0-1 1-2 2-2h8c1 0 2 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-6Z" stroke="#c9943a" stroke-width="1.5"/>
           </svg>
         </div>
-        <div class="wi-text">
+        <div class="wi-text" data-i18n="what_item4">
           <p>На протяжении тысячелетий Ягья совершается как серьёзное священнодействие, требующее подготовки, чистого намерения и участия знающих исполнителей.</p>
           <p>К этой практике приходят тогда, когда внутренний запрос созрел и требует более глубокого уровня обращения.</p>
         </div>
@@ -903,7 +792,7 @@
             <circle cx="21" cy="21" r="4" fill="#c9943a"/>
           </svg>
         </div>
-        <div class="wi-text">
+        <div class="wi-text" data-i18n="what_item5">
           <p>Ягьи проводятся для благословения, очищения, защиты, процветания, поддержки в важных переходах и восстановления гармонии.</p>
         </div>
       </div>
@@ -916,13 +805,12 @@
       <div class="wq-corner wq-tr"></div>
       <div class="wq-corner wq-bl"></div>
       <div class="wq-corner wq-br"></div>
-      <p>Ягья — это священное действие,<br>в котором внутренний запрос соединяется<br>с огнём, молитвой и намерением.</p>
+      <p data-i18n="what_quote">Ягья — это священное действие,<br>в котором внутренний запрос соединяется<br>с огнём, молитвой и намерением.</p>
     </div>
 
   </div>
 
   <!-- fire image bottom -->
-  <div class="what-fire"></div>
 
 </section>
 
@@ -1025,14 +913,16 @@
     margin-bottom: 0;
   }
 
-  .what-quote p {
+  .what-quote p { /* quote blocks sitewide */
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(20px, 2vw, 28px);
+    font-size: clamp(22px, 2.6vw, 34px);
     font-style: italic;
     font-weight: 500;
     line-height: 1.65;
     color: var(--gold);
     text-align: center;
+    text-wrap: balance;
+    hyphens: none;
   }
 
   /* Corner decorations */
@@ -1053,7 +943,7 @@
     position: relative;
     z-index: 1;
     height: 320px;
-    background-image: url('images/hero.png');
+    background-image: url('/kailashdham/images/hero.jpg');
     background-size: cover;
     background-position: center 55%;
     -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 45%);
@@ -1064,6 +954,265 @@
     .what-section { padding: 70px 20px 0; }
     .what-quote { padding: 24px 24px; }
     .wi-icon { width: 46px; height: 46px; }
+  }
+</style>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- BLOCK 3: О ЯГЬЕ ВАЖНО ПОНИМАТЬ           -->
+<!-- ═══════════════════════════════════════════ -->
+<section class="understand-section">
+
+  <!-- fire bg right side -->
+  <div class="und-fire-bg"></div>
+  <!-- gradient overlay left -->
+  <div class="und-overlay"></div>
+  <!-- atmospheric left glow -->
+  <div class="und-glow"></div>
+
+  <div class="und-inner">
+
+    <!-- divider top -->
+    <div class="what-divider" style="margin-bottom:36px">
+      <div class="wd-line"></div>
+      <div class="wd-diamond"></div>
+      <div class="wd-line"></div>
+    </div>
+
+    <!-- title -->
+    <h2 class="und-title" data-i18n="und_title">О ЯГЬЕ<br>ВАЖНО ПОНИМАТЬ</h2>
+
+    <!-- items -->
+    <ul class="und-list">
+
+      <li class="und-item">
+        <div class="und-icon">
+          <!-- flame -->
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2c0 0-1 3.5-1 6.5 0 1.5.9 2.5 1 2.5.1 0 1-1 1-2.5C13 5.5 12 2 12 2Z" fill="#c9943a"/>
+            <path d="M12 24c-4.4 0-8-3.6-8-8 0-2.5 1.1-5.6 3-7.5-.2 1 .1 2.5.1 2.5C9 9 10.8 7 12 5c1.2 2 3 4 4.9 6 0 0 .3-1.5.1-2.5 1.9 1.9 3 5 3 7.5 0 4.4-3.6 8-8 8Z" fill="#c9943a" opacity="0.85"/>
+            <path d="M12 19c-1.7 0-3-1.3-3-3 0-.8.3-1.6.8-2.2 0 .5.5 1.2.5 1.2C11 14 11.5 13 12 12c.5 1 1 2 1.7 3 0 0 .5-.7.5-1.2.5.6.8 1.4.8 2.2 0 1.7-1.3 3-3 3Z" fill="#0a0806" opacity="0.6"/>
+          </svg>
+        </div>
+        <p class="und-text" data-i18n="und_item1">Ягья — духовная практика, которая действует через огонь, мантры, внимание и намерение.</p>
+      </li>
+
+      <li class="und-item">
+        <div class="und-icon">
+          <!-- person/lotus silhouette -->
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="7" r="3" fill="#c9943a" opacity="0.9"/>
+            <path d="M12 11c-3.9 0-7 2.2-7 5v1h14v-1c0-2.8-3.1-5-7-5Z" fill="#c9943a" opacity="0.85"/>
+            <path d="M8 20c0-1.5 1.8-2.5 4-2.5s4 1 4 2.5" stroke="#c9943a" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+          </svg>
+        </div>
+        <p class="und-text" data-i18n="und_item2">Она помогает человеку выстроить внутреннюю опору, яснее увидеть ситуацию и почувствовать направление следующего шага.</p>
+      </li>
+
+      <li class="und-item">
+        <div class="und-icon">
+          <!-- ritual bowl / lotus -->
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <path d="M5 11c0 3.9 3.1 7 7 7s7-3.1 7-7H5Z" fill="#c9943a" opacity="0.85"/>
+            <path d="M3 11h18" stroke="#c9943a" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M10 11c0-2 .8-4 2-5.5C13.2 7 14 9 14 11" stroke="#c9943a" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.6"/>
+            <line x1="12" y1="18" x2="12" y2="21" stroke="#c9943a" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="9" y1="21" x2="15" y2="21" stroke="#c9943a" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <p class="und-text" data-i18n="und_item3">Ритуал проводится в ведической традиции и направлен на очищение, благословение, защиту, поддержку и гармонизацию.</p>
+      </li>
+
+      <li class="und-item">
+        <div class="und-icon">
+          <!-- lotus / hands -->
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+            <path d="M12 3c0 0-2 4-2 7.5 0 1.4.9 2.5 2 2.5s2-1.1 2-2.5C14 7 12 3 12 3Z" fill="#c9943a" opacity="0.9"/>
+            <path d="M6 9c0 0 2.5 2 4 5" stroke="#c9943a" stroke-width="1.3" stroke-linecap="round" fill="none" opacity="0.7"/>
+            <path d="M18 9c0 0-2.5 2-4 5" stroke="#c9943a" stroke-width="1.3" stroke-linecap="round" fill="none" opacity="0.7"/>
+            <path d="M8 7c0 0 1 2.5 1 5.5" stroke="#c9943a" stroke-width="1.1" stroke-linecap="round" fill="none" opacity="0.5"/>
+            <path d="M16 7c0 0-1 2.5-1 5.5" stroke="#c9943a" stroke-width="1.1" stroke-linecap="round" fill="none" opacity="0.5"/>
+            <path d="M6 16c2-1 8-1.5 12 0" stroke="#c9943a" stroke-width="1.3" stroke-linecap="round" fill="none" opacity="0.5"/>
+            <path d="M4 19c2.5-1.5 11-2 16 0" stroke="#c9943a" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.4"/>
+          </svg>
+        </div>
+        <p class="und-text" data-i18n="und_item4">Здесь важны чистое намерение, уважение к священному действию и готовность человека быть участником процесса.</p>
+      </li>
+
+    </ul>
+
+    <!-- closing quote -->
+    <p class="und-quote" data-i18n="und_quote">Ягья — это встреча человека,<br>огня и намерения в пространстве традиции.</p>
+
+    <!-- CTA -->
+    <a href="https://t.me/kailashdham_bot" target="_blank" class="cta-btn und-btn">
+      <svg width="18" height="18" viewBox="0 0 42 42" fill="none" style="flex-shrink:0">
+        <path d="M21 3c0 0-3.5 7-3.5 13 0 2.5 1.6 4 3.5 4s3.5-1.5 3.5-4c0-6-3.5-13-3.5-13Z" fill="#0a0806"/>
+        <path d="M39 21c0 0-7-3.5-13-3.5-2.5 0-4 1.6-4 3.5s1.5 3.5 4 3.5c6 0 13-3.5 13-3.5Z" fill="#0a0806"/>
+        <path d="M21 39c0 0 3.5-7 3.5-13 0-2.5-1.6-4-3.5-4s-3.5 1.5-3.5 4c0 6 3.5 13 3.5 13Z" fill="#0a0806"/>
+        <path d="M3 21c0 0 7 3.5 13 3.5 2.5 0 4-1.6 4-3.5s-1.5-3.5-4-3.5C10 17.5 3 21 3 21Z" fill="#0a0806"/>
+        <circle cx="21" cy="21" r="4.5" fill="#0a0806"/>
+      </svg>
+      <span data-i18n="cta_select">ПРОЙТИ ПОДБОР ЯГЬИ</span> &nbsp;→
+    </a>
+
+    <!-- privacy -->
+    <p class="und-privacy">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" style="vertical-align:middle;margin-right:5px">
+        <rect x="5" y="11" width="14" height="10" rx="2" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+        <path d="M8 11V8a4 4 0 0 1 8 0v3" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <span data-i18n="und_privacy">Ваш запрос остаётся конфиденциальным.</span>
+    </p>
+
+  </div>
+
+</section>
+
+<style>
+  /* ── BLOCK 1.5: О ЯГЬЕ ВАЖНО ПОНИМАТЬ ────── */
+  .understand-section {
+    position: relative;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    padding: 120px 0 80px;
+    overflow: hidden;
+    background: var(--dark);
+  }
+
+  .und-fire-bg {
+    position: absolute;
+    inset: 0;
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.45;
+    pointer-events: none;
+  }
+
+  .und-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to right,
+      var(--dark) 0%,
+      var(--dark) 35%,
+      rgba(10,8,6,0.7) 60%,
+      rgba(10,8,6,0.15) 100%
+    );
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .und-glow {
+    position: absolute;
+    left: -180px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 500px;
+    height: 600px;
+    background: radial-gradient(ellipse at center, rgba(201,148,58,0.08) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .und-inner {
+    position: relative;
+    z-index: 2;
+    max-width: 580px;
+    margin: 0 auto 0 max(60px, calc((100vw - 1200px)/2 + 60px));
+    padding: 0 20px;
+  }
+
+  .und-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(38px, 5.5vw, 72px);
+    font-weight: 700;
+    line-height: 1.05;
+    color: var(--gold);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 44px;
+    text-align: center;
+  }
+
+  .und-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-bottom: 44px;
+  }
+
+  .und-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .und-icon {
+    flex-shrink: 0;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(201,148,58,0.5);
+    background: rgba(201,148,58,0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .und-text {
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--w70);
+    padding-top: 14px;
+  }
+
+  .und-quote {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(24px, 2.7vw, 33px);
+    font-style: italic;
+    color: var(--gold-lt);
+    line-height: 1.5;
+    margin-bottom: 40px;
+    border-left: 2px solid rgba(201,148,58,0.4);
+    padding-left: 20px;
+    text-wrap: balance;
+    hyphens: none;
+  }
+
+  .und-btn {
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .und-privacy {
+    font-size: 14px;
+    color: rgba(255,255,255,0.35);
+    letter-spacing: 0.03em;
+  }
+
+  @media (max-width: 768px) {
+    .understand-section { padding: 90px 20px 60px; align-items: flex-start; }
+    .und-inner { margin: 0; max-width: 100%; padding: 0; }
+    .und-fire-bg { background-position: 70% center; opacity: 0.3; }
+    .und-overlay {
+      background: linear-gradient(
+        to bottom,
+        rgba(10,8,6,0.85) 0%,
+        rgba(10,8,6,0.6) 60%,
+        rgba(10,8,6,0.85) 100%
+      );
+    }
+    .und-title { text-align: center; margin-bottom: 32px; }
+    .und-icon { width: 46px; height: 46px; }
+    .und-text { font-size: 17px; padding-top: 12px; }
+    .und-quote { font-size: 21px; text-align: center; border-left: none; padding-left: 0; border-top: 1px solid rgba(201,148,58,0.3); padding-top: 20px; }
+    .und-btn { width: 100%; justify-content: center; }
+    .und-privacy { text-align: center; }
   }
 </style>
 
@@ -1094,8 +1243,8 @@
 
     <!-- title -->
     <div class="why-title-wrap">
-      <h2 class="why-title-big">ПОЧЕМУ ЯГЬЯ</h2>
-      <p class="why-title-sub">ИМЕЕТ ОСОБУЮ СИЛУ В НАШЕ ВРЕМЯ</p>
+      <h2 class="why-title-big" data-i18n="why_title_big">ПОЧЕМУ ЯГЬЯ</h2>
+      <p class="why-title-sub" data-i18n="why_title_sub">ИМЕЕТ ОСОБУЮ СИЛУ В НАШЕ ВРЕМЯ</p>
     </div>
 
     <!-- divider -->
@@ -1117,7 +1266,7 @@
             <path d="M12 3 Q20 7 19 12 Q18 17 12 19 Q6 21 4 16" stroke="#c9943a" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.75"/>
           </svg>
         </div>
-        <div class="wi-text">
+        <div class="wi-text" data-i18n="why_item1">
           <p>В ведической традиции говорится о <strong class="gold-bold">циклах времени — югах</strong>, в которых меняются условия жизни и способы духовного действия.</p>
         </div>
       </div>
@@ -1133,7 +1282,7 @@
             <ellipse cx="9" cy="16.5" rx="2" ry="1.2" fill="#c9943a" opacity="0.55"/>
           </svg>
         </div>
-        <div class="wi-text">
+        <div class="wi-text" data-i18n="why_item2">
           <p>Современный период описывается как <strong class="gold-bold">Кали-юга</strong> — время усложнённых процессов, внутреннего напряжения и повторяющихся жизненных ситуаций.</p>
         </div>
       </div>
@@ -1147,7 +1296,7 @@
             <path d="M10 10C10 10 7 13 7 15.5a3 3 0 0 0 6 0C13 13 10 10 10 10Z" fill="#c9943a" opacity="0.55"/>
           </svg>
         </div>
-        <div class="wi-text">
+        <div class="wi-text" data-i18n="why_item3">
           <p>В такие периоды особую силу приобретают практики, <strong class="gold-bold">связанные с огнём, мантрами и намерением.</strong></p>
         </div>
       </div>
@@ -1164,7 +1313,7 @@
             <circle cx="21" cy="21" r="4" fill="#c9943a"/>
           </svg>
         </div>
-        <div class="wi-text">
+        <div class="wi-text" data-i18n="why_item4">
           <p>Ягья становится одной из <strong class="gold-bold">ключевых форм обращения</strong>, через которую человек может направить свой запрос в священное пространство действия.</p>
         </div>
       </div>
@@ -1190,13 +1339,12 @@
       <div class="wq-corner wq-tr"></div>
       <div class="wq-corner wq-bl"></div>
       <div class="wq-corner wq-br"></div>
-      <p>Именно в это время Ягья становится способом<br><strong>внести ясность, силу и направление в свою жизнь.</strong></p>
+      <p data-i18n="why_quote">Именно в это время Ягья становится способом<br><strong>внести ясность, силу и направление в свою жизнь.</strong></p>
     </div>
 
   </div>
 
   <!-- fire image bottom -->
-  <div class="why-fire"></div>
 
 </section>
 
@@ -1241,7 +1389,7 @@
 
   .why-title-sub {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(14px, 1.75vw, 22px);
+    font-size: clamp(16px, 2vw, 25px);
     font-weight: 500;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -1265,7 +1413,7 @@
     position: relative;
     z-index: 1;
     height: 360px;
-    background-image: url('images/hero.png');
+    background-image: url('images/hero.jpg');
     background-size: cover;
     background-position: center 30%;
     -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 40%);
@@ -1303,7 +1451,7 @@
     </div>
 
     <!-- title -->
-    <h2 class="when-title">КОГДА ОБРАЩАЮТСЯ<br>К ЯГЬЕ</h2>
+    <h2 class="when-title" data-i18n="when_title">КОГДА ОБРАЩАЮТСЯ<br>К ЯГЬЕ</h2>
 
     <!-- divider -->
     <div class="what-divider">
@@ -1313,7 +1461,7 @@
     </div>
 
     <!-- intro -->
-    <p class="when-intro">К Ягье приходят, когда внутренний вопрос становится сильнее привычных ответов.</p>
+    <p class="when-intro" data-i18n="when_intro">К Ягье приходят, когда внутренний вопрос становится сильнее привычных ответов.</p>
 
     <!-- 3x2 grid -->
     <div class="when-grid">
@@ -1327,7 +1475,7 @@
             <path d="M12 3 Q20 7 19 12 Q18 17 12 19 Q6 21 4 16" stroke="#c9943a" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.8"/>
           </svg>
         </div>
-        <p class="wc-text">Когда жизнь снова приводит к похожим ситуациям.</p>
+        <p class="wc-text" data-i18n="wc1">Когда жизнь снова приводит к похожим ситуациям.</p>
       </div>
 
       <div class="when-card">
@@ -1336,7 +1484,7 @@
             <path d="M15 10 C12 4 4 4 4 10 C4 16 12 16 15 10 C18 4 26 4 26 10 C26 16 18 16 15 10Z" stroke="#c9943a" stroke-width="1.5" fill="none"/>
           </svg>
         </div>
-        <p class="wc-text">Когда усилия есть, а результат возвращает в тот же круг.</p>
+        <p class="wc-text" data-i18n="wc2">Когда усилия есть, а результат возвращает в тот же круг.</p>
       </div>
 
       <div class="when-card">
@@ -1347,7 +1495,7 @@
             <path d="M6 17 Q11 21 16 17" stroke="#c9943a" stroke-width="1.2" stroke-linecap="round" fill="none"/>
           </svg>
         </div>
-        <p class="wc-text">Когда внутри накапливается усталость и напряжение.</p>
+        <p class="wc-text" data-i18n="wc3">Когда внутри накапливается усталость и напряжение.</p>
       </div>
 
       <div class="when-card">
@@ -1359,7 +1507,7 @@
             <path d="M7 13 L11 10 L15 13" stroke="#c9943a" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
           </svg>
         </div>
-        <p class="wc-text">Когда впереди важный выбор или переход.</p>
+        <p class="wc-text" data-i18n="wc4">Когда впереди важный выбор или переход.</p>
       </div>
 
       <div class="when-card">
@@ -1372,7 +1520,7 @@
             <circle cx="21" cy="21" r="4" fill="#c9943a"/>
           </svg>
         </div>
-        <p class="wc-text">Когда требуется ясность, опора и внутреннее выравнивание.</p>
+        <p class="wc-text" data-i18n="wc5">Когда требуется ясность, опора и внутреннее выравнивание.</p>
       </div>
 
       <div class="when-card">
@@ -1382,7 +1530,7 @@
             <path d="M10 10C10 10 7 13 7 15.5a3 3 0 0 0 6 0C13 13 10 10 10 10Z" fill="#c9943a" opacity="0.55"/>
           </svg>
         </div>
-        <p class="wc-text">Когда есть запрос, который требует обращения глубже, чем уровень размышлений.</p>
+        <p class="wc-text" data-i18n="wc6">Когда есть запрос, который требует обращения глубже, чем уровень размышлений.</p>
       </div>
 
     </div>
@@ -1393,7 +1541,7 @@
       <div class="wq-corner wq-tr"></div>
       <div class="wq-corner wq-bl"></div>
       <div class="wq-corner wq-br"></div>
-      <p class="ws-title">Ягья может быть уместна, если:</p>
+      <p class="ws-title" data-i18n="ws_title">Ягья может поддержать вас, если:</p>
       <div class="ws-grid">
         <div class="ws-item">
           <svg class="ws-icon" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -1402,14 +1550,14 @@
             <path d="M9 16 A7 7 0 0 1 2 9" stroke="#c9943a" stroke-width="1.3" stroke-linecap="round"/>
             <path d="M4 11 L2 9 L4 7" stroke="#c9943a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          <p>повторяются ситуации в отношениях, семье, деньгах или работе;</p>
+          <p data-i18n="ws1">повторяются ситуации в отношениях, семье, деньгах или работе;</p>
         </div>
         <div class="ws-item">
           <svg class="ws-icon" width="18" height="18" viewBox="0 0 18 18" fill="none">
             <path d="M5 5 L13 5 L13 9 L9 9 L9 13 L5 13 Z" stroke="#c9943a" stroke-width="1.2" stroke-linejoin="round" fill="none"/>
             <path d="M9 9 L13 13" stroke="#c9943a" stroke-width="1.2" stroke-linecap="round"/>
           </svg>
-          <p>впереди новый этап, требующий поддержки;</p>
+          <p data-i18n="ws2">впереди новый этап, требующий поддержки;</p>
         </div>
         <div class="ws-item">
           <svg class="ws-icon" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -1417,21 +1565,21 @@
             <path d="M6.5 7C6.5 5.6 7.6 4.5 9 4.5S11.5 5.6 11.5 7C11.5 8.5 9 9.5 9 11" stroke="#c9943a" stroke-width="1.3" stroke-linecap="round"/>
             <circle cx="9" cy="13" r="0.8" fill="#c9943a"/>
           </svg>
-          <p>есть ощущение внутреннего тупика;</p>
+          <p data-i18n="ws3">есть ощущение внутреннего тупика;</p>
         </div>
         <div class="ws-item">
           <svg class="ws-icon" width="18" height="20" viewBox="0 0 18 20" fill="none">
             <path d="M9 1 L16 4 L16 10 C16 14 13 17 9 19 C5 17 2 14 2 10 L2 4 Z" stroke="#c9943a" stroke-width="1.3" fill="rgba(201,148,58,0.06)"/>
             <path d="M6 10 L8 12 L12 8" stroke="#c9943a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          <p>есть потребность в очищении, защите и благословении;</p>
+          <p data-i18n="ws4">есть потребность в очищении, защите и благословении;</p>
         </div>
         <div class="ws-item">
           <svg class="ws-icon" width="18" height="18" viewBox="0 0 18 18" fill="none">
             <path d="M4 5 L8 9 L4 13" stroke="#c9943a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M9 5 L13 9 L9 13" stroke="#c9943a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          <p>решения принимаются, а состояние остаётся прежним;</p>
+          <p data-i18n="ws5">решения принимаются, а состояние остаётся прежним;</p>
         </div>
         <div class="ws-item">
           <svg class="ws-icon" width="22" height="22" viewBox="0 0 42 42" fill="none">
@@ -1441,7 +1589,7 @@
             <path d="M5 21c0 0 6 3 11 3 2 0 3.5-1.3 3.5-3s-1.5-3-3.5-3c-5 0-11 3-11 3Z" fill="#c9943a" opacity="0.85"/>
             <circle cx="21" cy="21" r="4" fill="#c9943a"/>
           </svg>
-          <p>внутренний запрос созрел и требует действия.</p>
+          <p data-i18n="ws6">внутренний запрос созрел и требует действия.</p>
         </div>
       </div>
     </div>
@@ -1465,7 +1613,7 @@
       <div class="wq-corner wq-tr"></div>
       <div class="wq-corner wq-bl"></div>
       <div class="wq-corner wq-br"></div>
-      <p>Ягья помогает войти в состояние,<br>из которого решение становится яснее,<br><strong>а следующий шаг — точнее.</strong></p>
+      <p data-i18n="when_quote">Ягья помогает войти в состояние,<br>из которого решение становится яснее,<br><strong>а следующий шаг — точнее.</strong></p>
     </div>
 
     <!-- CTA -->
@@ -1474,7 +1622,7 @@
         <path d="M7 1C7 1 3 5 3 9a4 4 0 0 0 8 0C11 5 7 1 7 1Z" fill="#0a0806" opacity="0.7"/>
         <path d="M7 6C7 6 5 9 5 10.5a2 2 0 0 0 4 0C9 9 7 6 7 6Z" fill="#0a0806" opacity="0.45"/>
       </svg>
-      <span>ПОДОБРАТЬ ЯГЬЮ</span>
+      <span data-i18n="cta_select">ПОДОБРАТЬ ЯГЬЮ</span>
       <svg width="14" height="16" viewBox="0 0 14 16" fill="none">
         <path d="M7 1C7 1 3 5 3 9a4 4 0 0 0 8 0C11 5 7 1 7 1Z" fill="#0a0806" opacity="0.7"/>
         <path d="M7 6C7 6 5 9 5 10.5a2 2 0 0 0 4 0C9 9 7 6 7 6Z" fill="#0a0806" opacity="0.45"/>
@@ -1484,7 +1632,6 @@
   </div>
 
   <!-- fire image bottom -->
-  <div class="when-fire"></div>
 
 </section>
 
@@ -1527,7 +1674,7 @@
 
   .when-intro {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(16px, 1.8vw, 22px);
+    font-size: clamp(20px, 2.2vw, 26px);
     font-style: italic;
     font-weight: 500;
     color: var(--w70);
@@ -1563,7 +1710,7 @@
   }
 
   .wc-text {
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 300;
     line-height: 1.75;
     color: var(--w70);
@@ -1581,7 +1728,7 @@
 
   .ws-title {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(15px, 1.6vw, 20px);
+    font-size: clamp(19px, 2vw, 24px);
     font-style: italic;
     color: var(--gold);
     text-align: center;
@@ -1603,7 +1750,7 @@
   .ws-icon { flex-shrink: 0; margin-top: 2px; }
 
   .ws-item p {
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 300;
     line-height: 1.7;
     color: var(--w70);
@@ -1613,7 +1760,7 @@
     position: relative;
     z-index: 1;
     height: 360px;
-    background-image: url('images/hero.png');
+    background-image: url('images/hero.jpg');
     background-size: cover;
     background-position: center 45%;
     -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 40%);
@@ -1624,7 +1771,7 @@
     .when-section { padding: 70px 20px 0; }
     .when-grid { grid-template-columns: repeat(3, 1fr); gap: 20px 12px; }
     .wc-icon { width: 56px; height: 56px; }
-    .wc-text { font-size: 11.5px; }
+    .wc-text { font-size: 13px; }
     .ws-grid { grid-template-columns: 1fr; }
     .when-states { padding: 22px 20px 18px; }
   }
@@ -1638,9 +1785,6 @@
 <!-- BLOCK 5: ЯГЬЯ ДЛЯ ЖЕНЩИНЫ                 -->
 <!-- ═══════════════════════════════════════════ -->
 <section class="woman-section">
-
-  <div class="woman-bg"></div>
-  <div class="woman-overlay"></div>
 
   <div class="woman-inner">
 
@@ -1662,8 +1806,8 @@
 
     <!-- title -->
     <h2 class="woman-title">
-      <span class="wt-big">ЯГЬЯ</span><br>
-      <span class="wt-sub">ДЛЯ ЖЕНЩИНЫ</span>
+      <span class="wt-big" data-i18n="woman_title_big">ЯГЬЯ</span><br>
+      <span class="wt-sub" data-i18n="woman_title_sub">ДЛЯ ЖЕНЩИНЫ</span>
     </h2>
 
     <!-- divider -->
@@ -1674,7 +1818,7 @@
     </div>
 
     <!-- subtitle -->
-    <p class="woman-subtitle">Когда внутреннее состояние<br>требует возвращения к себе.</p>
+    <p class="woman-subtitle" data-i18n="woman_subtitle">Когда внутреннее состояние<br>требует возвращения к себе.</p>
 
     <!-- dot separator -->
     <div class="sep" style="margin: 20px 0;"><div class="sep-dot"></div></div>
@@ -1684,45 +1828,45 @@
     <div class="woman-col-left">
 
     <!-- "Иногда это проявляется так:" -->
-    <p class="woman-symptoms-title">Иногда это проявляется так:</p>
+    <p class="woman-symptoms-title" data-i18n="woman_symptoms_title">Иногда это проявляется так:</p>
     <ul class="woman-symptoms">
       <li>
         <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M10 2l1.5 4.5H16l-3.7 2.7 1.4 4.4L10 11.2l-3.7 2.4 1.4-4.4L4 6.5h4.5Z" fill="#c9943a" opacity="0.8"/></svg>
-        вы делаете многое, но не чувствуете отклика
+        <span data-i18n="wsym1">вы делаете многое, но не чувствуете отклика</span>
       </li>
       <li>
         <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M10 2l1.5 4.5H16l-3.7 2.7 1.4 4.4L10 11.2l-3.7 2.4 1.4-4.4L4 6.5h4.5Z" fill="#c9943a" opacity="0.8"/></svg>
-        в отношениях отдаёте больше, чем получаете
+        <span data-i18n="wsym2">в отношениях отдаёте больше, чем получаете</span>
       </li>
       <li>
         <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M10 2l1.5 4.5H16l-3.7 2.7 1.4 4.4L10 11.2l-3.7 2.4 1.4-4.4L4 6.5h4.5Z" fill="#c9943a" opacity="0.8"/></svg>
-        внутри накапливается усталость от постоянной силы
+        <span data-i18n="wsym3">внутри накапливается усталость от постоянной силы</span>
       </li>
       <li>
         <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M10 2l1.5 4.5H16l-3.7 2.7 1.4 4.4L10 11.2l-3.7 2.4 1.4-4.4L4 6.5h4.5Z" fill="#c9943a" opacity="0.8"/></svg>
-        теряется уверенность, лоск и любовь к себе
+        <span data-i18n="wsym4">теряется уверенность, лоск и любовь к себе</span>
       </li>
       <li>
         <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M10 2l1.5 4.5H16l-3.7 2.7 1.4 4.4L10 11.2l-3.7 2.4 1.4-4.4L4 6.5h4.5Z" fill="#c9943a" opacity="0.8"/></svg>
-        появляется страх, что вы недостаточно хороши, чтобы быть выбранной
+        <span data-i18n="wsym5">появляется страх, что вы недостаточно хороши, чтобы быть выбранной</span>
       </li>
       <li>
         <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M10 2l1.5 4.5H16l-3.7 2.7 1.4 4.4L10 11.2l-3.7 2.4 1.4-4.4L4 6.5h4.5Z" fill="#c9943a" opacity="0.8"/></svg>
-        возникают мысли, что вы не видимы, не желанны, не востребованы
+        <span data-i18n="wsym6">возникают мысли, что вы не видимы, не желанны, не востребованы</span>
       </li>
       <li>
         <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M10 2l1.5 4.5H16l-3.7 2.7 1.4 4.4L10 11.2l-3.7 2.4 1.4-4.4L4 6.5h4.5Z" fill="#c9943a" opacity="0.8"/></svg>
-        внутренние иллюзии начинают гасить ваш свет
+        <span data-i18n="wsym7">внутренние иллюзии начинают гасить ваш свет</span>
       </li>
     </ul>
 
     <!-- body paragraphs -->
     <div class="woman-body">
-      <p>Мы проводим Ягьи, посвящённые женскому состоянию, внутренней силе и восстановлению связи с собой.</p>
-      <p>Бывают периоды, когда роли, ответственность, отношения и внешние задачи постепенно забирают ясность, мягкость и опору. Вместе с этим уходит ощущение собственной привлекательности, ценности и живого внутреннего сияния.</p>
-      <p>Женщина начинает смотреть на себя глазами боли: «я уже не та», «меня не выберут», «я не нужна». Так рождаются иллюзии, которые разрушают внутри и отдаляют от собственной природы.</p>
-      <p>Но это не правда о женщине. Это состояние, которое требует очищения, восстановления и возвращения.</p>
-      <p>Ягья становится пространством, где женщина снова соединяется с собой: со своей красотой, силой, достоинством и внутренним центром.</p>
+      <p data-i18n="wb1">Мы проводим Ягьи, посвящённые женскому состоянию, внутренней силе и восстановлению связи с собой.</p>
+      <p data-i18n="wb2">Бывают периоды, когда роли, ответственность, отношения и внешние задачи постепенно забирают ясность, мягкость и опору. Вместе с этим уходит ощущение собственной привлекательности, ценности и живого внутреннего сияния.</p>
+      <p data-i18n="wb3">Женщина начинает смотреть на себя глазами боли: «я уже не та», «меня не выберут», «я не нужна», «я не интересна мужчине». Так рождаются иллюзии, которые разрушают изнутри и отдаляют от собственной природы.</p>
+      <p data-i18n="wb4">Но это не правда о женщине. Это состояние, которое требует очищения, восстановления и возвращения к внутренней ценности.</p>
+      <p data-i18n="wb5">Ягья становится пространством, где женщина снова соединяется с собой: со своей красотой, силой, достоинством и внутренним центром.</p>
     </div>
 
     </div><!-- /woman-col-left -->
@@ -1734,7 +1878,7 @@
       <div class="wq-corner wq-tr"></div>
       <div class="wq-corner wq-bl"></div>
       <div class="wq-corner wq-br"></div>
-      <p class="ws-title" style="margin-bottom: 20px;">Ягья может быть особенно уместна, когда:</p>
+      <p class="ws-title" style="margin-bottom: 20px;" data-i18n="wos_title">Ягья может поддержать вас, если:</p>
       <div class="wos-list">
 
         <div class="wos-item">
@@ -1746,7 +1890,7 @@
               <path d="M12 3 Q20 7 19 12 Q18 17 12 19 Q6 21 4 16" stroke="#c9943a" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.8"/>
             </svg>
           </div>
-          <p>накапливается усталость и внутреннее напряжение</p>
+          <p data-i18n="wos1">накапливается усталость и внутреннее напряжение</p>
         </div>
 
         <div class="wos-item">
@@ -1759,7 +1903,7 @@
               <circle cx="21" cy="21" r="4" fill="#c9943a"/>
             </svg>
           </div>
-          <p>появляется ощущение потери себя</p>
+          <p data-i18n="wos2">появляется ощущение потери себя</p>
         </div>
 
         <div class="wos-item">
@@ -1769,7 +1913,7 @@
               <path d="M16 2C14 2 12 3.5 12 6C12 9 16 13 16 13C16 13 20 9 20 6C20 3.5 18 2 16 2Z" stroke="#c9943a" stroke-width="1.3" fill="rgba(201,148,58,0.1)"/>
             </svg>
           </div>
-          <p>отношения требуют гармонизации</p>
+          <p data-i18n="wos3">отношения требуют гармонизации</p>
         </div>
 
         <div class="wos-item">
@@ -1782,7 +1926,7 @@
               <path d="M2 15 L20 15" stroke="#c9943a" stroke-width="1.3" stroke-linecap="round"/>
             </svg>
           </div>
-          <p>требуется восстановление после сложного периода</p>
+          <p data-i18n="wos4">требуется восстановление после сложного периода</p>
         </div>
 
         <div class="wos-item">
@@ -1794,7 +1938,7 @@
               <path d="M5 11c0 0 2-1.5 4-1.5.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5C7 12.5 5 11 5 11Z" fill="#c9943a" opacity="0.7"/>
             </svg>
           </div>
-          <p>есть потребность в защите и внутренней опоре</p>
+          <p data-i18n="wos5">есть потребность в защите и внутренней опоре</p>
         </div>
 
         <div class="wos-item">
@@ -1806,7 +1950,7 @@
               <path d="M4 11 L2 9 L4 7" stroke="#c9943a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <p>возникает желание вернуться к своему естественному состоянию</p>
+          <p data-i18n="wos6">возникает желание вернуться к своему естественному состоянию</p>
         </div>
 
       </div>
@@ -1834,11 +1978,11 @@
       <div class="wq-corner wq-tr"></div>
       <div class="wq-corner wq-bl"></div>
       <div class="wq-corner wq-br"></div>
-      <p>Ягья становится пространством очищения, защиты и восстановления, где женщина возвращается к своей естественной красоте, внутренней ценности, силе и сиянию.</p>
+      <p data-i18n="woman_quote">Ягья становится пространством очищения, защиты и восстановления, где женщина возвращается к своей естественной красоте, внутренней ценности, силе и сиянию.</p>
     </div>
 
     <!-- closing text -->
-    <p class="woman-closing">Ягья помогает вернуться к жизни из другого состояния — яснее, тише, собраннее и глубже.</p>
+    <p class="woman-closing" data-i18n="woman_closing">Ягья помогает вернуться к жизни из другого состояния — яснее, тише, собраннее и глубже.</p>
 
     <!-- CTA -->
     <a href="https://t.me/kailashdham_bot" target="_blank" class="cta-btn">
@@ -1846,7 +1990,7 @@
         <path d="M7 1C7 1 3 5 3 9a4 4 0 0 0 8 0C11 5 7 1 7 1Z" fill="#0a0806" opacity="0.7"/>
         <path d="M7 6C7 6 5 9 5 10.5a2 2 0 0 0 4 0C9 9 7 6 7 6Z" fill="#0a0806" opacity="0.45"/>
       </svg>
-      <span>ПОДОБРАТЬ ЯГЬЮ</span>
+      <span data-i18n="cta_select">ПОДОБРАТЬ ЯГЬЮ</span>
       <svg width="14" height="16" viewBox="0 0 14 16" fill="none">
         <path d="M7 1C7 1 3 5 3 9a4 4 0 0 0 8 0C11 5 7 1 7 1Z" fill="#0a0806" opacity="0.7"/>
         <path d="M7 6C7 6 5 9 5 10.5a2 2 0 0 0 4 0C9 9 7 6 7 6Z" fill="#0a0806" opacity="0.45"/>
@@ -1860,28 +2004,11 @@
 <style>
   .woman-section {
     position: relative;
-    background: var(--dark);
+    background:
+      linear-gradient(rgba(10,8,6,0.52), rgba(10,8,6,0.52)),
+      url('images/woman-bg.jpg') center 30% / cover no-repeat;
     padding: 90px 24px 80px;
     overflow: hidden;
-  }
-
-  .woman-bg {
-    position: absolute;
-    inset: 0;
-    background-image: url('images/woman-bg.jpg');
-    background-size: cover;
-    background-position: center top;
-    opacity: 0.55;
-    z-index: 0;
-  }
-
-  .woman-overlay {
-    position: absolute;
-    inset: 0;
-    background:
-      linear-gradient(to bottom, rgba(10,8,6,0.75) 0%, rgba(10,8,6,0.45) 35%, rgba(10,8,6,0.80) 70%, rgba(10,8,6,0.98) 100%),
-      radial-gradient(ellipse 60% 80% at 50% 20%, rgba(180,100,20,0.12) 0%, transparent 100%);
-    z-index: 1;
   }
 
   .woman-inner {
@@ -1908,14 +2035,14 @@
   }
 
   .wt-sub {
-    font-size: clamp(28px, 4vw, 54px);
+    font-size: clamp(32px, 4.5vw, 60px);
     letter-spacing: 4px;
     display: block;
   }
 
   .woman-subtitle {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(17px, 2vw, 24px);
+    font-size: clamp(21px, 2.5vw, 29px);
     font-style: italic;
     font-weight: 500;
     color: var(--gold);
@@ -1928,7 +2055,7 @@
   }
 
   .woman-body p {
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 300;
     line-height: 1.85;
     color: var(--w70);
@@ -1971,7 +2098,7 @@
   }
 
   .wos-item p {
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 300;
     line-height: 1.65;
     color: var(--w70);
@@ -1993,7 +2120,7 @@
   /* symptoms list */
   .woman-symptoms-title {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(17px, 1.8vw, 22px);
+    font-size: clamp(19px, 2vw, 24px);
     font-style: italic;
     color: var(--gold-lt);
     margin-bottom: 14px;
@@ -2010,7 +2137,7 @@
     display: flex;
     align-items: flex-start;
     gap: 10px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 300;
     line-height: 1.6;
     color: var(--w70);
@@ -2021,7 +2148,7 @@
   /* closing text */
   .woman-closing {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(18px, 2vw, 24px);
+    font-size: clamp(20px, 2.2vw, 26px);
     font-style: italic;
     color: var(--w70);
     text-align: center;
@@ -2030,7 +2157,12 @@
   }
 
   @media (max-width: 900px) {
-    .woman-section { padding: 70px 20px 60px; }
+    .woman-section {
+      padding: 70px 20px 60px;
+      background:
+        linear-gradient(rgba(10,8,6,0.52), rgba(10,8,6,0.52)),
+        url('images/woman-bg.jpg') center 30% / cover no-repeat;
+    }
     .woman-states { padding: 22px 20px 18px; }
     .woman-cols { grid-template-columns: 1fr; gap: 24px; }
     .woman-inner { text-align: left; }
@@ -2039,6 +2171,286 @@
     .what-lotus { display: flex; justify-content: center; }
     .what-divider { justify-content: center; }
     .sep { display: flex; justify-content: center; }
+  }
+</style>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- BLOCK 5.5: СВЯЩЕННЫЙ ПУТЬ РЕБЁНКА         -->
+<!-- ═══════════════════════════════════════════ -->
+<section class="mother-path-section">
+
+  <div class="mp-inner">
+
+    <!-- lotus top -->
+    <div class="mp-lotus">
+      <svg width="28" height="28" viewBox="0 0 42 42" fill="none">
+        <path d="M21 3c0 0-3.5 7-3.5 13 0 2.5 1.6 4 3.5 4s3.5-1.5 3.5-4c0-6-3.5-13-3.5-13Z" fill="#c9943a" opacity="0.9"/>
+        <path d="M39 21c0 0-7-3.5-13-3.5-2.5 0-4 1.6-4 3.5s1.5 3.5 4 3.5c6 0 13-3.5 13-3.5Z" fill="#c9943a" opacity="0.9"/>
+        <path d="M21 39c0 0 3.5-7 3.5-13 0-2.5-1.6-4-3.5-4s-3.5 1.5-3.5 4c0 6 3.5 13 3.5 13Z" fill="#c9943a" opacity="0.9"/>
+        <path d="M3 21c0 0 7 3.5 13 3.5 2.5 0 4-1.6 4-3.5s-1.5-3.5-4-3.5C10 17.5 3 21 3 21Z" fill="#c9943a" opacity="0.9"/>
+        <circle cx="21" cy="21" r="4.5" fill="#c9943a"/>
+        <circle cx="21" cy="21" r="2.5" fill="#0a0806"/>
+      </svg>
+    </div>
+
+    <!-- title -->
+    <h2 class="mp-title" data-i18n="mp_title">СВЯЩЕННЫЙ ПУТЬ РЕБЁНКА</h2>
+
+    <!-- intro -->
+    <p class="mp-intro" data-i18n="mp_intro">Рождение ребёнка — это путь, который начинается раньше первого вдоха.</p>
+    <p class="mp-text" data-i18n="mp_text1">Сначала в сердце родителей появляется зов. Потом созревает намерение. Затем женщина становится пространством, через которое новая душа входит в мир.</p>
+
+    <!-- callout box -->
+    <div class="mp-callout">
+      <div class="mp-callout-icon">
+        <svg width="20" height="20" viewBox="0 0 42 42" fill="none">
+          <path d="M21 3c0 0-3.5 7-3.5 13 0 2.5 1.6 4 3.5 4s3.5-1.5 3.5-4c0-6-3.5-13-3.5-13Z" fill="#c9943a"/>
+          <path d="M39 21c0 0-7-3.5-13-3.5-2.5 0-4 1.6-4 3.5s1.5 3.5 4 3.5c6 0 13-3.5 13-3.5Z" fill="#c9943a"/>
+          <path d="M21 39c0 0 3.5-7 3.5-13 0-2.5-1.6-4-3.5-4s-3.5 1.5-3.5 4c0 6 3.5 13 3.5 13Z" fill="#c9943a"/>
+          <path d="M3 21c0 0 7 3.5 13 3.5 2.5 0 4-1.6 4-3.5s-1.5-3.5-4-3.5C10 17.5 3 21 3 21Z" fill="#c9943a"/>
+          <circle cx="21" cy="21" r="3.5" fill="#c9943a"/>
+        </svg>
+      </div>
+      <p data-i18n="mp_callout">Ведическая традиция бережно относится к каждому этапу этого пути: подготовке к зачатию, беременности, родам, рождению, имени и первому году жизни ребёнка.</p>
+    </div>
+
+    <p class="mp-italic" data-i18n="mp_italic">Ягья помогает пройти этот путь в поле молитвы, света, благодарности и внутреннего спокойствия.</p>
+
+    <!-- stage selector label -->
+    <div class="mp-stage-label">
+      <div class="mp-stage-line"></div>
+      <span data-i18n="mp_stage_lbl">В ЧАТ-БОТЕ ВЫ МОЖЕТЕ ВЫБРАТЬ ВАШ ЭТАП</span>
+      <div class="mp-stage-line"></div>
+    </div>
+
+    <!-- 6 stages -->
+    <div class="mp-stages">
+      <div class="mp-stage">
+        <div class="mp-stage-icon">🤰</div>
+        <span data-i18n="mps1">ПЛАНИРУЕМ РЕБЁНКА</span>
+      </div>
+      <div class="mp-stage">
+        <div class="mp-stage-icon">🌿</div>
+        <span data-i18n="mps2">БЕРЕМЕННОСТЬ</span>
+      </div>
+      <div class="mp-stage">
+        <div class="mp-stage-icon">⭐</div>
+        <span data-i18n="mps3">СКОРО РОДЫ</span>
+      </div>
+      <div class="mp-stage">
+        <div class="mp-stage-icon">🌸</div>
+        <span data-i18n="mps4">РЕБЁНОК УЖЕ РОДИЛСЯ</span>
+      </div>
+      <div class="mp-stage">
+        <div class="mp-stage-icon">✨</div>
+        <span data-i18n="mps5">ИМЯ И СУДЬБА РЕБЁНКА</span>
+      </div>
+      <div class="mp-stage">
+        <div class="mp-stage-icon">🌱</div>
+        <span data-i18n="mps6">ПЕРВЫЙ ГОД ЖИЗНИ</span>
+      </div>
+    </div>
+
+    <!-- description -->
+    <p class="mp-text" data-i18n="mp_text2">Для каждого этапа собраны подходящие Ягьи: для благословения зачатия, поддержки матери, защиты материнского поля, мягкого перехода в родах, благодарности за рождение, имени ребёнка и первых шагов новой души в мире.</p>
+
+    <!-- disclaimer -->
+    <p class="mp-disclaimer" data-i18n="mp_disclaimer">Это не обещание чуда. Это священный способ войти в важный жизненный переход с большей чистотой, любовью и опорой.</p>
+
+    <!-- poetic closing -->
+    <div class="mp-poem">
+      <p data-i18n="mp_poem1">Пусть ребёнок приходит в мир через любовь.</p>
+      <p data-i18n="mp_poem2">Пусть мать чувствует поддержку.</p>
+      <p data-i18n="mp_poem3">Пусть семья встречает новую душу</p>
+      <p data-i18n="mp_poem4">с благодарностью и светом.</p>
+    </div>
+
+    <!-- CTA -->
+    <a class="mp-cta cta-btn" href="https://t.me/kailashdham_bot" target="_blank">
+      <span data-i18n="mp_cta">ВЫБРАТЬ ЯГ'Ю ДЛЯ МАТЕРИ И РЕБЁНКА</span>
+    </a>
+
+  </div>
+
+</section>
+
+<style>
+  /* ── BLOCK 5.5: СВЯЩЕННЫЙ ПУТЬ РЕБЁНКА ─────── */
+  .mother-path-section {
+    position: relative;
+    background:
+      linear-gradient(to right,
+        rgba(10,8,6,0.97)  0%,
+        rgba(10,8,6,0.93) 40%,
+        rgba(10,8,6,0.55) 65%,
+        rgba(10,8,6,0.10) 100%
+      ),
+      url('images/mother-bg.jpg') right center / cover no-repeat;
+    padding: 100px 24px 90px;
+    overflow: hidden;
+  }
+
+  .mp-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 580px;
+    margin: 0 auto 0 max(60px, calc((100vw - 1200px) / 2 + 60px));
+    padding: 0 20px;
+  }
+
+  .mp-lotus { margin-bottom: 24px; text-align: center; }
+
+  .mp-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(36px, 5vw, 68px);
+    font-weight: 700;
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    line-height: 1.05;
+    margin-bottom: 28px;
+    text-align: center;
+  }
+
+  .mp-intro {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(20px, 2.2vw, 26px);
+    color: var(--gold-lt);
+    font-style: italic;
+    margin-bottom: 18px;
+    line-height: 1.5;
+  }
+
+  .mp-text {
+    font-size: 17px;
+    color: rgba(255,255,255,0.78);
+    line-height: 1.75;
+    margin-bottom: 24px;
+  }
+
+  .mp-callout {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    border-left: 2px solid rgba(201,148,58,0.5);
+    padding: 16px 20px;
+    background: rgba(201,148,58,0.05);
+    border-radius: 0 6px 6px 0;
+    margin-bottom: 24px;
+  }
+
+  .mp-callout-icon { flex-shrink: 0; margin-top: 2px; }
+
+  .mp-callout p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.82);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .mp-italic {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(19px, 2vw, 24px);
+    color: var(--gold-lt);
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 36px;
+  }
+
+  .mp-stage-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  .mp-stage-line {
+    flex: 1;
+    height: 1px;
+    background: rgba(201,148,58,0.35);
+  }
+
+  .mp-stage-label span {
+    font-size: 13px;
+    letter-spacing: 0.14em;
+    color: var(--gold);
+    white-space: nowrap;
+  }
+
+  .mp-stages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px 16px;
+    margin-bottom: 32px;
+  }
+
+  .mp-stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 8px;
+    background: rgba(201,148,58,0.06);
+    border: 1px solid rgba(201,148,58,0.18);
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .mp-stage-icon { font-size: 22px; line-height: 1; }
+
+  .mp-stage span {
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: rgba(255,255,255,0.75);
+    text-transform: uppercase;
+    line-height: 1.3;
+  }
+
+  .mp-disclaimer {
+    font-size: 16px;
+    color: rgba(255,255,255,0.55);
+    font-style: italic;
+    line-height: 1.65;
+    margin-bottom: 32px;
+    border-top: 1px solid rgba(201,148,58,0.15);
+    padding-top: 24px;
+  }
+
+  .mp-poem {
+    margin-bottom: 44px;
+    border-left: 2px solid rgba(201,148,58,0.4);
+    padding-left: 20px;
+  }
+
+  .mp-poem p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(20px, 2vw, 24px);
+    font-style: italic;
+    color: var(--gold-lt);
+    line-height: 1.8;
+    margin: 0;
+  }
+
+  .mp-cta {
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 0.12em;
+    padding: 16px 36px;
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    .mp-inner {
+      margin: 0 auto;
+      max-width: 100%;
+      text-align: center;
+    }
+    .mp-stages { grid-template-columns: repeat(2, 1fr); }
+    .mother-path-section {
+      background:
+        linear-gradient(rgba(10,8,6,0.88), rgba(10,8,6,0.88)),
+        url('images/mother-bg.jpg') center 20% / cover no-repeat;
+    }
   }
 </style>
 
@@ -2069,8 +2481,8 @@
 
     <!-- title -->
     <div class="how-title-wrap">
-      <p class="ht-pre">КАК ПРОХОДИТ</p>
-      <h2 class="ht-main">ЯГЬЯ</h2>
+      <p class="ht-pre" data-i18n="how_pre">КАК ПРОХОДИТ</p>
+      <h2 class="ht-main" data-i18n="how_title">ЯГЬЯ</h2>
     </div>
 
     <!-- divider -->
@@ -2081,7 +2493,7 @@
     </div>
 
     <!-- intro -->
-    <p class="how-intro">Каждый этап Ягьи связан с вашим намерением<br>и проходит в соответствии с ведической традицией.</p>
+    <p class="how-intro" data-i18n="how_intro">Каждый этап Ягьи связан с вашим намерением<br>и проходит в соответствии с ведической традицией.</p>
 
     <!-- steps timeline -->
     <div class="how-steps">
@@ -2097,8 +2509,8 @@
           </div>
         </div>
         <div class="hs-card">
-          <h3 class="hs-title">1. ВЫБОР ЯГЬИ</h3>
-          <p class="hs-text">Вы выбираете ритуал по своему запросу или через подбор.</p>
+          <h3 class="hs-title" data-i18n="hs1_title">1. ВЫБОР ЯГЬИ</h3>
+          <p class="hs-text" data-i18n="hs1_text">Вы выбираете ритуал по своему запросу или через подбор.</p>
         </div>
       </div>
 
@@ -2114,8 +2526,8 @@
           </div>
         </div>
         <div class="hs-card">
-          <h3 class="hs-title">2. САНКАЛЬПА</h3>
-          <p class="hs-text">Формируется намерение, с которым проводится Ягья.</p>
+          <h3 class="hs-title" data-i18n="hs2_title">2. САНКАЛЬПА</h3>
+          <p class="hs-text" data-i18n="hs2_text">Формируется намерение, с которым проводится Ягья.</p>
         </div>
       </div>
 
@@ -2131,8 +2543,8 @@
           </div>
         </div>
         <div class="hs-card">
-          <h3 class="hs-title">3. ПОДГОТОВКА РИТУАЛА</h3>
-          <p class="hs-text">Используются гхи, хаван-самагри, зерно, травы и ритуальные вещества, соответствующие выбранной Ягье.</p>
+          <h3 class="hs-title" data-i18n="hs3_title">3. ПОДГОТОВКА РИТУАЛА</h3>
+          <p class="hs-text" data-i18n="hs3_text">Используются гхи, хаван-самагри, зерно, травы и ритуальные вещества, соответствующие выбранной Ягье.</p>
         </div>
       </div>
 
@@ -2148,8 +2560,8 @@
           </div>
         </div>
         <div class="hs-card">
-          <h3 class="hs-title">4. ПРОВЕДЕНИЕ ЯГЬИ</h3>
-          <p class="hs-text">Во время ритуала звучат мантры, совершаются подношения в огонь и выполняются действия согласно традиции.</p>
+          <h3 class="hs-title" data-i18n="hs4_title">4. ПРОВЕДЕНИЕ ЯГЬИ</h3>
+          <p class="hs-text" data-i18n="hs4_text">Во время ритуала звучат мантры, совершаются подношения в огонь и выполняются действия согласно традиции.</p>
         </div>
       </div>
 
@@ -2164,8 +2576,8 @@
           </div>
         </div>
         <div class="hs-card">
-          <h3 class="hs-title">5. УЧАСТИЕ</h3>
-          <p class="hs-text">Вы можете участвовать лично или на расстоянии, удерживая своё намерение в момент проведения.</p>
+          <h3 class="hs-title" data-i18n="hs5_title">5. УЧАСТИЕ</h3>
+          <p class="hs-text" data-i18n="hs5_text">Вы можете участвовать лично или на расстоянии, удерживая своё намерение в момент проведения.</p>
         </div>
       </div>
 
@@ -2182,8 +2594,8 @@
           </div>
         </div>
         <div class="hs-card">
-          <h3 class="hs-title">6. ПОДТВЕРЖДЕНИЕ</h3>
-          <p class="hs-text">В зависимости от формата вы получаете фото- или видео-подтверждение после проведения Ягьи.</p>
+          <h3 class="hs-title" data-i18n="hs6_title">6. ПОДТВЕРЖДЕНИЕ</h3>
+          <p class="hs-text" data-i18n="hs6_text">В зависимости от формата вы получаете фото- или видео-подтверждение после проведения Ягьи.</p>
         </div>
       </div>
 
@@ -2203,11 +2615,7 @@
     </div>
 
     <!-- accent -->
-    <p class="how-accent">
-      <em>Ягья — это последовательный процесс,</em><br>
-      в котором каждый этап<br>
-      имеет значение.
-    </p>
+    <p class="how-accent" data-i18n="how_accent"><em>Ягья — это последовательный процесс,</em><br>в котором каждый этап<br>имеет значение.</p>
 
     <!-- divider -->
     <div class="what-divider" style="margin: 28px 0 32px;">
@@ -2225,7 +2633,7 @@
         <path d="M5 21c0 0 6 3 11 3 2 0 3.5-1.3 3.5-3s-1.5-3-3.5-3c-5 0-11 3-11 3Z" fill="#0a0806" opacity="0.7"/>
         <circle cx="21" cy="21" r="4" fill="#0a0806" opacity="0.6"/>
       </svg>
-      <span>ПОДОБРАТЬ ЯГЬЮ</span>
+      <span data-i18n="cta_select">ПОДОБРАТЬ ЯГЬЮ</span>
       <svg width="20" height="20" viewBox="0 0 42 42" fill="none">
         <path d="M21 5c0 0-3 6-3 11 0 2 1.3 3.5 3 3.5s3-1.5 3-3.5c0-5-3-11-3-11Z" fill="#0a0806" opacity="0.7"/>
         <path d="M37 21c0 0-6-3-11-3-2 0-3.5 1.3-3.5 3s1.5 3 3.5 3c5 0 11-3 11-3Z" fill="#0a0806" opacity="0.7"/>
@@ -2237,7 +2645,6 @@
 
   </div>
 
-  <div class="how-fire"></div>
 
 </section>
 
@@ -2290,7 +2697,7 @@
   }
 
   .how-intro {
-    font-size: clamp(13px, 1.4vw, 16px);
+    font-size: clamp(16px, 1.6vw, 19px);
     font-weight: 300;
     line-height: 1.8;
     color: var(--w70);
@@ -2370,8 +2777,10 @@
 
   .how-accent {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(18px, 2.2vw, 28px);
+    font-size: clamp(20px, 2.4vw, 30px);
     line-height: 1.6;
+    text-wrap: balance;
+    hyphens: none;
     color: var(--w70);
     text-align: center;
   }
@@ -2385,7 +2794,7 @@
     position: relative;
     z-index: 1;
     height: 300px;
-    background-image: url('images/hero.png');
+    background-image: url('images/hero.jpg');
     background-size: cover;
     background-position: center 35%;
     -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 45%);
@@ -2426,7 +2835,7 @@
     </div>
 
     <!-- title -->
-    <h2 class="formats-title">ФОРМАТЫ УЧАСТИЯ<br>В ЯГЬЕ</h2>
+    <h2 class="formats-title" data-i18n="formats_title">ФОРМАТЫ УЧАСТИЯ<br>В ЯГЬЕ</h2>
 
     <!-- divider -->
     <div class="what-divider" style="margin-bottom: 22px;">
@@ -2436,7 +2845,7 @@
     </div>
 
     <!-- intro -->
-    <p class="formats-intro">Ягья проводится в разных форматах —<br>в зависимости от вашего запроса, глубины участия<br>и степени личного внимания.</p>
+    <p class="formats-intro" data-i18n="formats_intro">Ягья проводится в разных форматах —<br>в зависимости от вашего запроса, глубины участия<br>и степени личного внимания.</p>
 
     <!-- 2x2 grid -->
     <div class="formats-grid">
@@ -2454,11 +2863,21 @@
             <path d="M14 2 C14 2 12 3.5 12 4.5 a2 2 0 0 0 4 0 C16 3.5 14 2 14 2Z" fill="#c9943a" opacity="0.75"/>
           </svg>
         </div>
-        <h3 class="fgc-title">ГРУППОВАЯ ЯГЬЯ</h3>
+        <h3 class="fgc-title" data-i18n="fgc1_title">ГРУППОВАЯ ЯГЬЯ</h3>
         <div class="fgc-divider"><div class="wd-diamond"></div></div>
-        <div class="fgc-text">
-          <p>Общий ритуал с единым направлением.</p>
-          <p>Подходит для мягкого входа, очищения и включения в коллективное действие.</p>
+        <div class="fgc-text" data-i18n="fgc1_text">
+          <p>Общий ритуал, в который можно войти со своим личным намерением.</p>
+          <p>Подходит для первого участия и для регулярной практики на постоянной основе.</p>
+        </div>
+        <div class="fgc-deco">
+          <svg width="40" height="40" viewBox="0 0 42 42" fill="none">
+            <path d="M21 3c0 0-3.5 7-3.5 13 0 2.5 1.6 4 3.5 4s3.5-1.5 3.5-4c0-6-3.5-13-3.5-13Z" fill="#c9943a" opacity="0.5"/>
+            <path d="M39 21c0 0-7-3.5-13-3.5-2.5 0-4 1.6-4 3.5s1.5 3.5 4 3.5c6 0 13-3.5 13-3.5Z" fill="#c9943a" opacity="0.5"/>
+            <path d="M21 39c0 0 3.5-7 3.5-13 0-2.5-1.6-4-3.5-4s-3.5 1.5-3.5 4c0 6 3.5 13 3.5 13Z" fill="#c9943a" opacity="0.5"/>
+            <path d="M3 21c0 0 7 3.5 13 3.5 2.5 0 4-1.6 4-3.5s-1.5-3.5-4-3.5C10 17.5 3 21 3 21Z" fill="#c9943a" opacity="0.5"/>
+            <circle cx="21" cy="21" r="4.5" fill="#c9943a" opacity="0.5"/>
+            <circle cx="21" cy="21" r="2.5" fill="#0a0806"/>
+          </svg>
         </div>
       </div>
 
@@ -2471,11 +2890,12 @@
             <path d="M9 2 C9 2 7 3.5 7 5 a2 2 0 0 0 4 0 C11 3.5 9 2 9 2Z" fill="#c9943a" opacity="0.75"/>
           </svg>
         </div>
-        <h3 class="fgc-title">ИНДИВИДУАЛЬНАЯ ЯГЬЯ</h3>
+        <h3 class="fgc-title" data-i18n="fgc2_title">ИНДИВИДУАЛЬНАЯ ЯГЬЯ</h3>
         <div class="fgc-divider"><div class="wd-diamond"></div></div>
-        <div class="fgc-text">
-          <p>Ритуал проводится под ваш личный запрос и сформированную санкальпу.</p>
-          <p>Подходит для работы с конкретной ситуацией.</p>
+        <div class="fgc-text" data-i18n="fgc2_text">
+          <p>Персональный ритуал, который проводится в соответствии с вашим запросом и сформированной санкальпой.</p>
+          <p>Формат, в котором внимание полностью направлено на вашу ситуацию, ваше состояние и ваше намерение.</p>
+          <p>Подходит, когда важна точность, глубина и личное сопровождение в процессе ритуала.</p>
         </div>
       </div>
 
@@ -2490,11 +2910,21 @@
             <path d="M5.5 5.5 L7 7 M19 19 L20.5 20.5 M5.5 20.5 L7 19 M19 7 L20.5 5.5" stroke="#c9943a" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
           </svg>
         </div>
-        <h3 class="fgc-title">ИНДИВИДУАЛЬНАЯ ЯГЬЯ<br>С УЧЁТОМ ГОРОСКОПА</h3>
+        <h3 class="fgc-title" data-i18n="fgc3_title">ИНДИВИДУАЛЬНАЯ ЯГЬЯ<br>С УЧЁТОМ ГОРОСКОПА</h3>
         <div class="fgc-divider"><div class="wd-diamond"></div></div>
-        <div class="fgc-text">
-          <p>Формат с более точной настройкой с учётом вашей астрологической ситуации.</p>
-          <p>Подходит для глубокой и направленной работы.</p>
+        <div class="fgc-text" data-i18n="fgc3_text">
+          <p>Персональный ритуал с более точной настройкой через ваш запрос, санкальпу и астрологические данные.</p>
+          <p>Формат для тех, кому важно пройти Ягью осознанно, с пониманием своего периода, намерения и направления ритуала.</p>
+        </div>
+        <div class="fgc-deco">
+          <svg width="40" height="40" viewBox="0 0 42 42" fill="none">
+            <path d="M21 3c0 0-3.5 7-3.5 13 0 2.5 1.6 4 3.5 4s3.5-1.5 3.5-4c0-6-3.5-13-3.5-13Z" fill="#c9943a" opacity="0.5"/>
+            <path d="M39 21c0 0-7-3.5-13-3.5-2.5 0-4 1.6-4 3.5s1.5 3.5 4 3.5c6 0 13-3.5 13-3.5Z" fill="#c9943a" opacity="0.5"/>
+            <path d="M21 39c0 0 3.5-7 3.5-13 0-2.5-1.6-4-3.5-4s-3.5 1.5-3.5 4c0 6 3.5 13 3.5 13Z" fill="#c9943a" opacity="0.5"/>
+            <path d="M3 21c0 0 7 3.5 13 3.5 2.5 0 4-1.6 4-3.5s-1.5-3.5-4-3.5C10 17.5 3 21 3 21Z" fill="#c9943a" opacity="0.5"/>
+            <circle cx="21" cy="21" r="4.5" fill="#c9943a" opacity="0.5"/>
+            <circle cx="21" cy="21" r="2.5" fill="#0a0806"/>
+          </svg>
         </div>
       </div>
 
@@ -2508,11 +2938,13 @@
             <path d="M13 9 L13 22" stroke="#c9943a" stroke-width="0.8" opacity="0.35"/>
           </svg>
         </div>
-        <h3 class="fgc-title">VIP-ЯГЬЯ</h3>
+        <h3 class="fgc-title" data-i18n="fgc4_title">VIP-ЯГЬЯ</h3>
         <div class="fgc-divider"><div class="wd-diamond"></div></div>
-        <div class="fgc-text">
-          <p>Индивидуальный формат с максимальным вниманием к деталям и подготовке.</p>
-          <p>Подходит для значимых запросов и важных жизненных периодов.</p>
+        <div class="fgc-text" data-i18n="fgc4_text">
+          <p>Расширенный индивидуальный формат, состоящий из серии священных действий.</p>
+          <p>Ритуалы проводятся на центральной большой кунде.</p>
+          <p>С глубоким вниманием к вашему запросу, санкальпе и астрологическим данным.</p>
+          <p>Подходит для значимых жизненных периодов, важных переходов и запросов, которые требуют особого уровня подготовки.</p>
         </div>
       </div>
 
@@ -2527,7 +2959,7 @@
           <path d="M12 13 C14 12 16 11 16 9 C16 6 14 4 12 4" stroke="#c9943a" stroke-width="1" opacity="0.5" stroke-linecap="round"/>
         </svg>
       </div>
-      <p>Вы можете участвовать лично<br>или на расстоянии.</p>
+      <p data-i18n="fmt_micro">Вы можете участвовать лично<br>или на расстоянии.</p>
       <div class="fm-icon">
         <svg width="22" height="22" viewBox="0 0 42 42" fill="none">
           <path d="M21 5c0 0-3 6-3 11 0 2 1.3 3.5 3 3.5s3-1.5 3-3.5c0-5-3-11-3-11Z" fill="#c9943a" opacity="0.85"/>
@@ -2548,7 +2980,7 @@
         <path d="M5 21c0 0 6 3 11 3 2 0 3.5-1.3 3.5-3s-1.5-3-3.5-3c-5 0-11 3-11 3Z" fill="#c9943a"/>
         <circle cx="21" cy="21" r="4" fill="#c9943a"/>
       </svg>
-      <p>Если формат пока не очевиден, <span class="gold-bold">подбор</span> поможет определить подходящий вариант.</p>
+      <p data-i18n="fmt_note">Если формат пока не очевиден, <span class="gold-bold">подбор</span> поможет определить подходящий вариант.</p>
       <svg width="22" height="22" viewBox="0 0 42 42" fill="none" opacity="0.55">
         <path d="M21 5c0 0-3 6-3 11 0 2 1.3 3.5 3 3.5s3-1.5 3-3.5c0-5-3-11-3-11Z" fill="#c9943a"/>
         <path d="M37 21c0 0-6-3-11-3-2 0-3.5 1.3-3.5 3s1.5 3 3.5 3c5 0 11-3 11-3Z" fill="#c9943a"/>
@@ -2567,7 +2999,7 @@
         <path d="M5 21c0 0 6 3 11 3 2 0 3.5-1.3 3.5-3s-1.5-3-3.5-3c-5 0-11 3-11 3Z" fill="#0a0806" opacity="0.7"/>
         <circle cx="21" cy="21" r="4" fill="#0a0806" opacity="0.6"/>
       </svg>
-      <span>ПРОЙТИ ПОДБОР ЯГЬИ</span>
+      <span data-i18n="final_cta">ПРОЙТИ ПОДБОР ЯГЬИ</span>
       <svg width="20" height="20" viewBox="0 0 42 42" fill="none">
         <path d="M21 5c0 0-3 6-3 11 0 2 1.3 3.5 3 3.5s3-1.5 3-3.5c0-5-3-11-3-11Z" fill="#0a0806" opacity="0.7"/>
         <path d="M37 21c0 0-6-3-11-3-2 0-3.5 1.3-3.5 3s1.5 3 3.5 3c5 0 11-3 11-3Z" fill="#0a0806" opacity="0.7"/>
@@ -2579,7 +3011,6 @@
 
   </div>
 
-  <div class="formats-fire"></div>
 
 </section>
 
@@ -2621,7 +3052,7 @@
   }
 
   .formats-intro {
-    font-size: clamp(13px, 1.4vw, 16px);
+    font-size: clamp(16px, 1.6vw, 19px);
     font-weight: 300;
     line-height: 1.85;
     color: var(--w70);
@@ -2642,6 +3073,8 @@
     border: 1px solid rgba(201,148,58,0.18);
     border-radius: 8px;
     padding: 26px 18px 22px;
+    display: flex;
+    flex-direction: column;
   }
 
   .fgc-icon {
@@ -2658,7 +3091,7 @@
 
   .fgc-title {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(13px, 1.45vw, 17px);
+    font-size: clamp(15px, 1.6vw, 18px);
     font-weight: 700;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -2683,6 +3116,35 @@
   }
 
   .fgc-text p:last-child { margin-bottom: 0; }
+
+  .fgc-deco {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+  }
+
+  .fgc-pay-btn {
+    display: block;
+    margin-top: 18px;
+    padding: 11px 20px;
+    border: 1px solid rgba(201,148,58,0.6);
+    border-radius: 6px;
+    color: var(--gold);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.2s, color 0.2s;
+  }
+  .fgc-pay-btn:hover {
+    background: rgba(201,148,58,0.12);
+    color: var(--gold-lt);
+  }
 
   /* micro block */
   .formats-micro {
@@ -2728,7 +3190,7 @@
     position: relative;
     z-index: 1;
     height: 300px;
-    background-image: url('images/hero.png');
+    background-image: url('images/hero.jpg');
     background-size: cover;
     background-position: center 40%;
     -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 45%);
@@ -2743,6 +3205,7 @@
   @media (max-width: 480px) {
     .formats-grid { grid-template-columns: 1fr; }
     .formats-micro { flex-direction: column; gap: 12px; }
+    .fgc-deco { display: none; }
   }
 </style>
 
@@ -2770,13 +3233,13 @@
       </svg>
     </div>
 
-    <h2 class="yagyas-title">ВЫБЕРИТЕ ЯГЬЮ<br>ПО СВОЕМУ ЗАПРОСУ</h2>
+    <h2 class="yagyas-title" data-i18n="yagyas_title">ВЫБЕРИТЕ ЯГЬЮ<br>ПО СВОЕМУ ЗАПРОСУ</h2>
 
     <div class="what-divider" style="margin-bottom: 20px;">
       <div class="wd-line"></div><div class="wd-diamond"></div><div class="wd-line"></div>
     </div>
 
-    <p class="yagyas-intro">Каждая Ягья связана с определённой сферой жизни<br>и направлением внутренней работы.</p>
+    <p class="yagyas-intro" data-i18n="yagyas_intro">Каждая Ягья связана с определённой сферой жизни<br>и направлением внутренней работы.</p>
 
     <div class="yagyas-grid">
 
@@ -2790,8 +3253,8 @@
           </svg>
         </div>
         <div class="yc-content">
-          <h3 class="yc-title">ОЧИЩЕНИЕ И ЗАЩИТА</h3>
-          <p class="yc-text">Для освобождения от тяжёлых состояний и выравнивания внутреннего пространства.</p>
+          <h3 class="yc-title" data-i18n="yc1_title">ОЧИЩЕНИЕ И ЗАЩИТА</h3>
+          <p class="yc-text" data-i18n="yc1_text">Для освобождения от тяжёлых состояний и выравнивания внутреннего пространства.</p>
         </div>
       </div>
 
@@ -2805,8 +3268,8 @@
           </svg>
         </div>
         <div class="yc-content">
-          <h3 class="yc-title">ПРОЦВЕТАНИЕ И ДЕНЬГИ</h3>
-          <p class="yc-text">Для поддержки в делах, работе и материальном потоке.</p>
+          <h3 class="yc-title" data-i18n="yc2_title">ПРОЦВЕТАНИЕ И ДЕНЬГИ</h3>
+          <p class="yc-text" data-i18n="yc2_text">Для поддержки в делах, работе и материальном потоке.</p>
         </div>
       </div>
 
@@ -2819,8 +3282,8 @@
           </svg>
         </div>
         <div class="yc-content">
-          <h3 class="yc-title">ОТНОШЕНИЯ И СЕМЬЯ</h3>
-          <p class="yc-text">Для гармонизации связей, любви и семейного пространства.</p>
+          <h3 class="yc-title" data-i18n="yc3_title">ОТНОШЕНИЯ И СЕМЬЯ</h3>
+          <p class="yc-text" data-i18n="yc3_text">Для гармонизации связей, любви и семейного пространства.</p>
         </div>
       </div>
 
@@ -2835,8 +3298,8 @@
           </svg>
         </div>
         <div class="yc-content">
-          <h3 class="yc-title">ЗДОРОВЬЕ И ВОССТАНОВЛЕНИЕ</h3>
-          <p class="yc-text">Для поддержки жизненной силы и внутреннего ресурса.</p>
+          <h3 class="yc-title" data-i18n="yc4_title">ЗДОРОВЬЕ И ВОССТАНОВЛЕНИЕ</h3>
+          <p class="yc-text" data-i18n="yc4_text">Для поддержки жизненной силы и внутреннего ресурса.</p>
         </div>
       </div>
 
@@ -2851,8 +3314,8 @@
           </svg>
         </div>
         <div class="yc-content">
-          <h3 class="yc-title">РОД И ГЛУБИННЫЕ ПРОЦЕССЫ</h3>
-          <p class="yc-text">Для работы с родовыми сценариями и внутренними узлами.</p>
+          <h3 class="yc-title" data-i18n="yc5_title">РОД И ГЛУБИННЫЕ ПРОЦЕССЫ</h3>
+          <p class="yc-text" data-i18n="yc5_text">Для работы с родовыми сценариями и внутренними узлами.</p>
         </div>
       </div>
 
@@ -2866,8 +3329,8 @@
           </svg>
         </div>
         <div class="yc-content">
-          <h3 class="yc-title">УСТРАНЕНИЕ ПРЕПЯТСТВИЙ</h3>
-          <p class="yc-text">Для ситуаций, где путь требует дополнительной поддержки.</p>
+          <h3 class="yc-title" data-i18n="yc6_title">УСТРАНЕНИЕ ПРЕПЯТСТВИЙ</h3>
+          <p class="yc-text" data-i18n="yc6_text">Для ситуаций, где путь требует дополнительной поддержки.</p>
         </div>
       </div>
 
@@ -2883,8 +3346,8 @@
           </svg>
         </div>
         <div class="yc-content">
-          <h3 class="yc-title">ДУХОВНЫЙ ПУТЬ</h3>
-          <p class="yc-text">Для практики, ясности и внутреннего роста.</p>
+          <h3 class="yc-title" data-i18n="yc7_title">ДУХОВНЫЙ ПУТЬ</h3>
+          <p class="yc-text" data-i18n="yc7_text">Для практики, ясности и внутреннего роста.</p>
         </div>
       </div>
 
@@ -2904,7 +3367,7 @@
     </div>
 
     <!-- accent -->
-    <p class="yagyas-accent">Если направление пока не очевидно,<br><span class="gold-bold">подбор</span> поможет определить нужную Ягью.</p>
+    <p class="yagyas-accent" data-i18n="yagyas_accent">Если направление пока не очевидно,<br><span class="gold-bold">подбор</span> поможет определить нужную Ягью.</p>
 
     <div class="what-divider" style="margin: 24px 0 32px;">
       <div class="wd-line"></div><div class="wd-diamond"></div><div class="wd-line"></div>
@@ -2918,7 +3381,7 @@
         <path d="M5 21c0 0 6 3 11 3 2 0 3.5-1.3 3.5-3s-1.5-3-3.5-3c-5 0-11 3-11 3Z" fill="#0a0806" opacity="0.7"/>
         <circle cx="21" cy="21" r="4" fill="#0a0806" opacity="0.6"/>
       </svg>
-      <span>ПРОЙТИ ПОДБОР ЯГЬИ</span>
+      <span data-i18n="cta_select">ПРОЙТИ ПОДБОР ЯГЬИ</span>
       <svg width="20" height="20" viewBox="0 0 42 42" fill="none">
         <path d="M21 5c0 0-3 6-3 11 0 2 1.3 3.5 3 3.5s3-1.5 3-3.5c0-5-3-11-3-11Z" fill="#0a0806" opacity="0.7"/>
         <path d="M37 21c0 0-6-3-11-3-2 0-3.5 1.3-3.5 3s1.5 3 3.5 3c5 0 11-3 11-3Z" fill="#0a0806" opacity="0.7"/>
@@ -2930,7 +3393,6 @@
 
   </div>
 
-  <div class="yagyas-fire"></div>
 
 </section>
 
@@ -2972,7 +3434,7 @@
   }
 
   .yagyas-intro {
-    font-size: clamp(13px, 1.4vw, 16px);
+    font-size: clamp(16px, 1.6vw, 19px);
     font-weight: 300;
     line-height: 1.85;
     color: var(--w70);
@@ -3015,7 +3477,7 @@
 
   .yc-title {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(12px, 1.35vw, 15.5px);
+    font-size: clamp(15px, 1.5vw, 18px);
     font-weight: 700;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -3032,7 +3494,7 @@
   }
 
   .yagyas-accent {
-    font-size: clamp(14px, 1.5vw, 17px);
+    font-size: clamp(16px, 1.6vw, 19px);
     font-weight: 300;
     line-height: 1.75;
     color: var(--w70);
@@ -3042,7 +3504,7 @@
     position: relative;
     z-index: 1;
     height: 280px;
-    background-image: url('images/hero.png');
+    background-image: url('images/hero.jpg');
     background-size: cover;
     background-position: center 40%;
     -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 45%);
@@ -3083,7 +3545,7 @@
       </svg>
     </div>
 
-    <h2 class="start-title">С ЧЕГО НАЧАТЬ</h2>
+    <h2 class="start-title" data-i18n="start_title">С ЧЕГО НАЧАТЬ</h2>
 
     <div class="what-divider" style="margin-bottom: 36px;">
       <div class="wd-line"></div><div class="wd-diamond"></div><div class="wd-line"></div>
@@ -3091,19 +3553,19 @@
 
     <div class="start-body">
 
-      <p class="start-lead">Начать можно с участия<br>в <strong class="gold-bold">групповой Ягье.</strong></p>
+      <p class="start-lead" data-i18n="start_lead">Начать можно с участия<br>в <strong class="gold-bold">групповой Ягье.</strong></p>
 
       <div class="wi-dot" style="margin: 22px auto;"></div>
 
-      <p class="start-para">Это мягкий формат, в котором вы входите в практику через общее направление ритуала.</p>
+      <p class="start-para" data-i18n="sp1">Это мягкий формат, в котором вы входите в практику через общее направление ритуала.</p>
 
       <div class="wi-dot" style="margin: 22px auto;"></div>
 
-      <p class="start-para">Во время Ягьи вы знаете время её проведения и удерживаете своё намерение в течение всего процесса.</p>
+      <p class="start-para" data-i18n="sp2">Во время Ягьи вы знаете время её проведения и удерживаете своё намерение в течение всего процесса.</p>
 
       <div class="wi-dot" style="margin: 22px auto;"></div>
 
-      <p class="start-para">Это простой и естественный способ первого участия.</p>
+      <p class="start-para" data-i18n="sp3">Это простой и естественный способ первого участия.</p>
 
     </div>
 
@@ -3119,7 +3581,7 @@
           <rect x="14" y="14" width="3" height="3" rx="0.5" fill="#c9943a" opacity="0.4"/>
         </svg>
       </div>
-      <p>Для групповых Ягий существует расписание. Вы можете выбрать ближайшую дату и присоединиться.</p>
+      <p data-i18n="sp4">Для групповых Ягий существует расписание. Вы можете выбрать ближайшую дату и присоединиться.</p>
     </div>
 
     <!-- two buttons -->
@@ -3131,7 +3593,7 @@
           <path d="M6 1 L6 6 M16 1 L16 6" stroke="#0a0806" stroke-width="1.8" stroke-linecap="round"/>
           <rect x="5" y="14" width="3" height="3" rx="0.5" fill="#0a0806" opacity="0.7"/>
         </svg>
-        <span>ПОСМОТРЕТЬ РАСПИСАНИЕ</span>
+        <span data-i18n="cta_schedule">ПОСМОТРЕТЬ РАСПИСАНИЕ</span>
       </a>
       <a href="https://t.me/kailashdham_bot" target="_blank" class="cta-btn start-btn">
         <svg width="18" height="18" viewBox="0 0 42 42" fill="none">
@@ -3141,13 +3603,12 @@
           <path d="M5 21c0 0 6 3 11 3 2 0 3.5-1.3 3.5-3s-1.5-3-3.5-3c-5 0-11 3-11 3Z" fill="#0a0806" opacity="0.7"/>
           <circle cx="21" cy="21" r="4" fill="#0a0806" opacity="0.6"/>
         </svg>
-        <span>ПРИНЯТЬ УЧАСТИЕ</span>
+        <span data-i18n="cta_join">ПРИНЯТЬ УЧАСТИЕ</span>
       </a>
     </div>
 
   </div>
 
-  <div class="start-fire"></div>
 
 </section>
 
@@ -3196,6 +3657,7 @@
     font-weight: 600;
     line-height: 1.35;
     color: var(--w100);
+    text-align: center;
   }
 
   .start-para {
@@ -3235,7 +3697,7 @@
 
   .start-btn {
     flex: 1;
-    font-size: 13px;
+    font-size: 15px;
     padding: 14px 16px;
     letter-spacing: 1.5px;
   }
@@ -3244,7 +3706,7 @@
     position: relative;
     z-index: 1;
     height: 320px;
-    background-image: url('images/hero.png');
+    background-image: url('images/hero.jpg');
     background-size: cover;
     background-position: center 35%;
     -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 45%);
@@ -3285,25 +3747,22 @@
     </div>
 
     <!-- title -->
-    <p class="kd-pre">ПРОСТРАНСТВО</p>
+    <p class="kd-pre" data-i18n="kd_pre">ПРОСТРАНСТВО</p>
     <h2 class="kd-title">KAILASH DHAM</h2>
 
     <div class="what-divider" style="margin-bottom: 20px;">
       <div class="wd-line"></div><div class="wd-diamond"></div><div class="wd-line"></div>
     </div>
 
-    <p class="kd-subtitle">Живая линия благословений, традиции и духовной ответственности.</p>
-    <p class="kd-intro">Место, где сегодня проходят Ягьи, освящено благословениями<br>мастеров индийской и мировой духовной традиции.</p>
+    <p class="kd-subtitle" data-i18n="kd_subtitle">Живая линия благословений, традиции и духовной ответственности.</p>
+    <p class="kd-intro" data-i18n="kd_intro">Место, где сегодня проходят Ягьи, освящено благословениями<br>мастеров индийской и мировой духовной традиции.</p>
 
     <!-- 4 person cards -->
     <div class="kd-grid">
 
       <div class="kd-card">
         <div class="kd-photo">
-          <svg width="50" height="56" viewBox="0 0 50 56" fill="none">
-            <circle cx="25" cy="18" r="11" stroke="#c9943a" stroke-width="1" fill="rgba(201,148,58,0.12)"/>
-            <path d="M4 56 Q10 38 25 38 Q40 38 46 56" stroke="#c9943a" stroke-width="1" fill="rgba(201,148,58,0.08)" stroke-linecap="round"/>
-          </svg>
+          <img src="images/teacher-pilot-baba.jpg" alt="Махамандалешвар Пайлот Баба" style="width:100%;height:100%;object-fit:cover;">
         </div>
         <div class="kd-card-lotus">
           <svg width="18" height="18" viewBox="0 0 42 42" fill="none">
@@ -3314,17 +3773,14 @@
             <circle cx="21" cy="21" r="3.5" fill="#c9943a"/>
           </svg>
         </div>
-        <h3 class="kd-name">МАХАМАНДАЛЕШВАР<br>ПАЙЛОТ БАБА</h3>
-        <p class="kd-role">Свами Сомнатх Гири Джи Махарадж</p>
-        <p class="kd-desc">Дал благословение, которое стало основой для создания нашего ашрама. Во время своего пребывания он посадил здесь деревья — как живой знак благословения и связи с этим местом.</p>
+        <h3 class="kd-name" data-i18n="kd1_name">МАХАМАНДАЛЕШВАР<br>ПАЙЛОТ БАБА</h3>
+        <p class="kd-role" data-i18n="kd1_role">Свами Сомнатх Гири Джи Махарадж</p>
+        <p class="kd-desc" data-i18n="kd1_desc">Дал благословение, которое стало основой для создания нашего ашрама. Во время своего пребывания он посадил здесь деревья — как живой знак благословения и связи с этим местом.</p>
       </div>
 
       <div class="kd-card">
         <div class="kd-photo">
-          <svg width="50" height="56" viewBox="0 0 50 56" fill="none">
-            <circle cx="25" cy="18" r="11" stroke="#c9943a" stroke-width="1" fill="rgba(201,148,58,0.12)"/>
-            <path d="M4 56 Q10 38 25 38 Q40 38 46 56" stroke="#c9943a" stroke-width="1" fill="rgba(201,148,58,0.08)" stroke-linecap="round"/>
-          </svg>
+          <img src="images/teacher-yogmata.jpg" alt="Махамандалешвар Йогмата Кейко Айкава" style="width:100%;height:100%;object-fit:cover;">
         </div>
         <div class="kd-card-lotus">
           <svg width="18" height="18" viewBox="0 0 42 42" fill="none">
@@ -3335,17 +3791,15 @@
             <circle cx="21" cy="21" r="3.5" fill="#c9943a"/>
           </svg>
         </div>
-        <h3 class="kd-name">МАХАМАНДАЛЕШВАР<br>ЙОГМАТА КЕЙКО АЙКАВА</h3>
-        <p class="kd-role">Духовная учительница из Японии</p>
-        <p class="kd-desc">Первая неиндийская женщина, получившая титул Махамандалешвар в Джуна Акхара. Лично посещала это пространство, передала благословение и посадила здесь деревья.</p>
+        <h3 class="kd-name" data-i18n="kd2_name">МАХАМАНДАЛЕШВАР<br>ЙОГМАТА КЕЙКО АЙКАВА</h3>
+        <p class="kd-role" data-i18n="kd2_role">Духовная учительница из Японии</p>
+        <p class="kd-desc" data-i18n="kd2_desc">Первая неиндийская женщина, получившая титул Махамандалешвар в Джуна Акхара. Лично посещала это пространство, передала благословение и посадила здесь деревья.</p>
       </div>
 
       <div class="kd-card">
         <div class="kd-photo">
-          <svg width="50" height="56" viewBox="0 0 50 56" fill="none">
-            <circle cx="25" cy="18" r="11" stroke="#c9943a" stroke-width="1" fill="rgba(201,148,58,0.12)"/>
-            <path d="M4 56 Q10 38 25 38 Q40 38 46 56" stroke="#c9943a" stroke-width="1" fill="rgba(201,148,58,0.08)" stroke-linecap="round"/>
-          </svg>
+          <img src="images/teacher-acharya.jpg" alt="Ачарья Кумара Свами" style="position:absolute;width:200%;height:200%;object-fit:cover;top:-80%;left:-30%;">
+
         </div>
         <div class="kd-card-lotus">
           <svg width="18" height="18" viewBox="0 0 42 42" fill="none">
@@ -3356,17 +3810,14 @@
             <circle cx="21" cy="21" r="3.5" fill="#c9943a"/>
           </svg>
         </div>
-        <h3 class="kd-name">АЧАРЬЯ<br>КУМАРА СВАМИ</h3>
-        <p class="kd-role">Ведический астролог из Индии</p>
-        <p class="kd-desc">Поддерживает соединение знания Джйотиша с практикой Ягьи. Его наставления помогают сохранить чистоту ритуала и точность в работе с временем и намерением.</p>
+        <h3 class="kd-name" data-i18n="kd3_name">АЧАРЬЯ<br>КУМАРА СВАМИ</h3>
+        <p class="kd-role" data-i18n="kd3_role">Ведический астролог из Индии</p>
+        <p class="kd-desc" data-i18n="kd3_desc">Поддерживает соединение знания Джйотиша с практикой Ягьи. Его наставления помогают сохранить чистоту ритуала и точность в работе с временем и намерением.</p>
       </div>
 
       <div class="kd-card">
         <div class="kd-photo">
-          <svg width="50" height="56" viewBox="0 0 50 56" fill="none">
-            <circle cx="25" cy="18" r="11" stroke="#c9943a" stroke-width="1" fill="rgba(201,148,58,0.12)"/>
-            <path d="M4 56 Q10 38 25 38 Q40 38 46 56" stroke="#c9943a" stroke-width="1" fill="rgba(201,148,58,0.08)" stroke-linecap="round"/>
-          </svg>
+          <img src="images/teacher-pujari.jpg" alt="Даянанда Свами" style="width:100%;height:100%;object-fit:cover;">
         </div>
         <div class="kd-card-lotus">
           <svg width="18" height="18" viewBox="0 0 42 42" fill="none">
@@ -3377,9 +3828,9 @@
             <circle cx="21" cy="21" r="3.5" fill="#c9943a"/>
           </svg>
         </div>
-        <h3 class="kd-name">ДАЯНАНДА СВАМИ</h3>
-        <p class="kd-role">Проводящий Ягьи</p>
-        <p class="kd-desc">Практик и наставник, имеющий монашеское посвящение в ордене Джуна Акхара. Проводит Ягьи с соблюдением ведической традиции и внутренней ответственностью.</p>
+        <h3 class="kd-name" data-i18n="kd4_name">ДАЯНАНДА СВАМИ</h3>
+        <p class="kd-role" data-i18n="kd4_role">Пуджари</p>
+        <p class="kd-desc" data-i18n="kd4_desc">Практик и наставник, имеющий монашеское посвящение в ордене Джуна Акхара. Проводит Ягьи с соблюдением ведической традиции и внутренней ответственностью.</p>
       </div>
 
     </div>
@@ -3395,7 +3846,7 @@
           <path d="M5 21c0 0 6 3 11 3 2 0 3.5-1.3 3.5-3s-1.5-3-3.5-3c-5 0-11 3-11 3Z" fill="#c9943a" opacity="0.8"/>
           <circle cx="21" cy="21" r="3.5" fill="#c9943a"/>
         </svg>
-        <p>Для нас Ягья — это священнодействие, где важны чистое намерение, точность проведения, уважение к традиции и внутренняя ответственность перед человеком, который приходит с запросом.</p>
+        <p data-i18n="kd_quote">Для нас Ягья — это священнодействие, где важны чистое намерение, точность проведения, уважение к традиции и внутренняя ответственность перед человеком, который приходит с запросом.</p>
       </div>
 
       <a href="https://t.me/kailashdham_bot" target="_blank" class="cta-btn" style="margin-top:32px;">
@@ -3406,7 +3857,7 @@
           <path d="M5 21c0 0 6 3 11 3 2 0 3.5-1.3 3.5-3s-1.5-3-3.5-3c-5 0-11 3-11 3Z" fill="#0a0806" opacity="0.7"/>
           <circle cx="21" cy="21" r="4" fill="#0a0806" opacity="0.6"/>
         </svg>
-        <span>ПРОЙТИ ПОДБОР ЯГЬИ</span>
+        <span data-i18n="cta_select">ПРОЙТИ ПОДБОР ЯГЬИ</span>
         <span style="font-size:18px;letter-spacing:0;">→</span>
       </a>
 
@@ -3453,7 +3904,7 @@
 
   .kd-pre {
     font-family: 'Montserrat', sans-serif;
-    font-size: clamp(12px, 1.4vw, 16px);
+    font-size: clamp(15px, 1.6vw, 18px);
     font-weight: 400;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -3474,7 +3925,7 @@
 
   .kd-subtitle {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(17px, 1.9vw, 24px);
+    font-size: clamp(19px, 2.1vw, 26px);
     font-style: italic;
     font-weight: 500;
     color: var(--gold);
@@ -3482,7 +3933,7 @@
   }
 
   .kd-intro {
-    font-size: clamp(13px, 1.3vw, 15px);
+    font-size: clamp(16px, 1.5vw, 19px);
     font-weight: 300;
     line-height: 1.8;
     color: var(--w70);
@@ -3516,13 +3967,14 @@
     justify-content: center;
     margin: 0 auto 10px;
     overflow: hidden;
+    position: relative;
   }
 
   .kd-card-lotus { margin-bottom: 10px; }
 
   .kd-name {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(12px, 1.2vw, 14px);
+    font-size: clamp(14px, 1.4vw, 17px);
     font-weight: 700;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -3532,7 +3984,7 @@
   }
 
   .kd-role {
-    font-size: 11.5px;
+    font-size: 16px;
     font-style: italic;
     color: rgba(201,148,58,0.7);
     margin-bottom: 10px;
@@ -3540,7 +3992,7 @@
   }
 
   .kd-desc {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 1.75;
     color: var(--w70);
@@ -3563,7 +4015,7 @@
   }
 
   .kd-quote p {
-    font-size: clamp(14px, 1.5vw, 17px);
+    font-size: clamp(16px, 1.6vw, 19px);
     font-weight: 300;
     line-height: 1.85;
     color: var(--w70);
@@ -3575,7 +4027,7 @@
     .kd-inner { max-width: 100%; }
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 600px) {
     .kd-grid { grid-template-columns: 1fr; }
   }
 </style>
@@ -3605,8 +4057,8 @@
     </div>
 
     <div class="faq-title-wrap">
-      <h2 class="faq-title-big">ВОПРОСЫ,</h2>
-      <p class="faq-title-rest">КОТОРЫЕ ВОЗНИКАЮТ<br>ПЕРЕД УЧАСТИЕМ</p>
+      <h2 class="faq-title-big" data-i18n="faq_title_big">ВОПРОСЫ,</h2>
+      <p class="faq-title-rest" data-i18n="faq_title_rest">КОТОРЫЕ ВОЗНИКАЮТ<br>ПЕРЕД УЧАСТИЕМ</p>
     </div>
 
     <div class="what-divider" style="margin-bottom: 36px;">
@@ -3624,13 +4076,13 @@
               <path d="M5 20 Q11 23 17 20" stroke="#c9943a" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.5"/>
             </svg>
           </div>
-          <p class="faq-q">Нужно ли присутствовать лично?</p>
+          <p class="faq-q" data-i18n="fq1">Нужно ли присутствовать лично?</p>
           <svg class="faq-chevron" width="14" height="9" viewBox="0 0 14 9" fill="none">
             <path d="M1 1l6 6 6-6" stroke="#c9943a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
         <div class="faq-answer">
-          <p>Вы можете участвовать лично или на расстоянии. В момент проведения Ягьи важно удерживать своё намерение.</p>
+          <p data-i18n="fa1">Вы можете участвовать лично или на расстоянии. В момент проведения Ягьи важно удерживать своё намерение.</p>
         </div>
       </div>
 
@@ -3645,13 +4097,13 @@
               <circle cx="21" cy="21" r="4" fill="#c9943a"/>
             </svg>
           </div>
-          <p class="faq-q">Как понять, какая Ягья подходит?</p>
+          <p class="faq-q" data-i18n="fq2">Как понять, какая Ягья подходит?</p>
           <svg class="faq-chevron" width="14" height="9" viewBox="0 0 14 9" fill="none">
             <path d="M1 1l6 6 6-6" stroke="#c9943a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
         <div class="faq-answer">
-          <p>Подбор помогает определить направление ритуала в соответствии с вашим запросом.</p>
+          <p data-i18n="fa2">Подбор помогает определить направление ритуала в соответствии с вашим запросом.</p>
         </div>
       </div>
 
@@ -3667,13 +4119,13 @@
               <path d="M26 23 Q24 19 22 19" stroke="#c9943a" stroke-width="1" fill="none" opacity="0.6" stroke-linecap="round"/>
             </svg>
           </div>
-          <p class="faq-q">С чего начать, если я участвую впервые?</p>
+          <p class="faq-q" data-i18n="fq3">С чего начать, если я участвую впервые?</p>
           <svg class="faq-chevron" width="14" height="9" viewBox="0 0 14 9" fill="none">
             <path d="M1 1l6 6 6-6" stroke="#c9943a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
         <div class="faq-answer">
-          <p>Начать можно с групповой Ягьи. Это мягкий формат первого участия: вы присоединяетесь к общему направлению ритуала и удерживаете своё намерение во время проведения.</p>
+          <p data-i18n="fa3">Начать можно с групповой Ягьи. Это мягкий формат первого участия: вы присоединяетесь к общему направлению ритуала и удерживаете своё намерение во время проведения.</p>
         </div>
       </div>
 
@@ -3685,13 +4137,13 @@
               <path d="M10 9C10 9 7.5 12 7.5 14a2.5 2.5 0 0 0 5 0C12.5 12 10 9 10 9Z" fill="#c9943a" opacity="0.55"/>
             </svg>
           </div>
-          <p class="faq-q">Что такое санкальпа?</p>
+          <p class="faq-q" data-i18n="fq4">Что такое санкальпа?</p>
           <svg class="faq-chevron" width="14" height="9" viewBox="0 0 14 9" fill="none">
             <path d="M1 1l6 6 6-6" stroke="#c9943a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
         <div class="faq-answer">
-          <p>Санкальпа — это кратко и ясно сформулированное намерение, ради которого проводится Ягья.</p>
+          <p data-i18n="fa4">Санкальпа — это кратко и ясно сформулированное намерение, ради которого проводится Ягья.</p>
         </div>
       </div>
 
@@ -3704,13 +4156,13 @@
               <circle cx="12" cy="12" r="1.8" stroke="#c9943a" stroke-width="1" opacity="0.7"/>
             </svg>
           </div>
-          <p class="faq-q">Что используется во время Ягьи?</p>
+          <p class="faq-q" data-i18n="fq5">Что используется во время Ягьи?</p>
           <svg class="faq-chevron" width="14" height="9" viewBox="0 0 14 9" fill="none">
             <path d="M1 1l6 6 6-6" stroke="#c9943a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
         <div class="faq-answer">
-          <p>Во время ритуала используются гхи, хаван-самагри, зерно, травы, сладости и другие ритуальные вещества.</p>
+          <p data-i18n="fa5">Во время ритуала используются гхи, хаван-самагри, зерно, травы, сладости и другие ритуальные вещества.</p>
         </div>
       </div>
 
@@ -3723,13 +4175,13 @@
               <path d="M12 13 C14 12 16 11 16 9 C16 6 14 4 12 4" stroke="#c9943a" stroke-width="1" opacity="0.45" stroke-linecap="round"/>
             </svg>
           </div>
-          <p class="faq-q">Можно ли заказать Ягью за близкого человека?</p>
+          <p class="faq-q" data-i18n="fq6">Можно ли заказать Ягью за близкого человека?</p>
           <svg class="faq-chevron" width="14" height="9" viewBox="0 0 14 9" fill="none">
             <path d="M1 1l6 6 6-6" stroke="#c9943a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
         <div class="faq-answer">
-          <p>Да. Ягья может проводиться с намерением о благополучии, защите, очищении или поддержке близкого человека.</p>
+          <p data-i18n="fa6">Да. Ягья может проводиться с намерением о благополучии, защите, очищении или поддержке близкого человека.</p>
         </div>
       </div>
 
@@ -3743,13 +4195,13 @@
               <path d="M4 7 Q12 9 20 7 M4 17 Q12 15 20 17" stroke="#c9943a" stroke-width="0.8" opacity="0.4" stroke-linecap="round"/>
             </svg>
           </div>
-          <p class="faq-q">Как проходит дистанционное участие?</p>
+          <p class="faq-q" data-i18n="fq7">Как проходит дистанционное участие?</p>
           <svg class="faq-chevron" width="14" height="9" viewBox="0 0 14 9" fill="none">
             <path d="M1 1l6 6 6-6" stroke="#c9943a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
         <div class="faq-answer">
-          <p>Вы заранее знаете время проведения, формулируете санкальпу и удерживаете своё намерение в момент ритуала. Во время Ягьи ваша санкальпа вносится в огонь, а подношения совершаются от вашего имени. После проведения, в зависимости от формата, вы можете получить фото- или видеоотчёт.</p>
+          <p data-i18n="fa7">Вы заранее знаете время проведения, формулируете санкальпу и удерживаете своё намерение в момент ритуала. Во время Ягьи ваша санкальпа вносится в огонь, а подношения совершаются от вашего имени. После проведения, в зависимости от формата, вы можете получить фото- или видеоотчёт.</p>
         </div>
       </div>
 
@@ -3765,13 +4217,13 @@
               <rect x="14" y="14" width="2.5" height="2.5" rx="0.4" fill="#c9943a" opacity="0.4"/>
             </svg>
           </div>
-          <p class="faq-q">Есть ли расписание групповых Ягий?</p>
+          <p class="faq-q" data-i18n="fq8">Есть ли расписание групповых Ягий?</p>
           <svg class="faq-chevron" width="14" height="9" viewBox="0 0 14 9" fill="none">
             <path d="M1 1l6 6 6-6" stroke="#c9943a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
         <div class="faq-answer">
-          <p>Да. Для групповых Ягий есть расписание ближайших ритуалов, к которым можно присоединиться.</p>
+          <p data-i18n="fa8">Да. Для групповых Ягий есть расписание ближайших ритуалов, к которым можно присоединиться.</p>
         </div>
       </div>
 
@@ -3786,7 +4238,7 @@
         <path d="M5 21c0 0 6 3 11 3 2 0 3.5-1.3 3.5-3s-1.5-3-3.5-3c-5 0-11 3-11 3Z" fill="#c9943a" opacity="0.8"/>
         <circle cx="21" cy="21" r="3.5" fill="#c9943a"/>
       </svg>
-      <p>Если внутри уже есть запрос, <span class="gold-bold">подбор</span> поможет выбрать подходящую Ягью и формат участия.</p>
+      <p data-i18n="faq_accent">Если внутри уже есть запрос, <span class="gold-bold">подбор</span> поможет выбрать подходящую Ягью и формат участия.</p>
     </div>
 
     <div class="what-divider" style="margin: 24px 0 30px;">
@@ -3801,7 +4253,7 @@
         <path d="M5 21c0 0 6 3 11 3 2 0 3.5-1.3 3.5-3s-1.5-3-3.5-3c-5 0-11 3-11 3Z" fill="#0a0806" opacity="0.7"/>
         <circle cx="21" cy="21" r="4" fill="#0a0806" opacity="0.6"/>
       </svg>
-      <span>ПРОЙТИ ПОДБОР ЯГЬИ</span>
+      <span data-i18n="cta_select">ПРОЙТИ ПОДБОР ЯГЬИ</span>
       <span style="font-size:18px;letter-spacing:0;">→</span>
     </a>
 
@@ -3811,12 +4263,11 @@
         <path d="M3 5.5 L3 4 A3 3 0 0 1 9 4 L9 5.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
         <circle cx="6" cy="9.5" r="1" fill="currentColor"/>
       </svg>
-      Ваш запрос конфиденциален
+      <span data-i18n="faq_note">Ваш запрос конфиденциален</span>
     </p>
 
   </div>
 
-  <div class="faq-fire"></div>
 
 </section>
 
@@ -3841,6 +4292,8 @@
     position: relative;
     z-index: 2;
     max-width: 680px;
+    width: 100%;
+    box-sizing: border-box;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 60px;
@@ -3909,7 +4362,7 @@
   .faq-q {
     flex: 1;
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(15px, 1.7vw, 19px);
+    font-size: clamp(16px, 1.8vw, 20px);
     font-weight: 600;
     color: var(--gold);
     line-height: 1.3;
@@ -3931,7 +4384,7 @@
   }
 
   .faq-item.faq-open .faq-answer {
-    max-height: 200px;
+    max-height: 600px;
     padding: 0 16px 16px 74px;
   }
 
@@ -3940,6 +4393,8 @@
     font-weight: 300;
     line-height: 1.8;
     color: var(--w70);
+    word-break: break-word;
+    overflow-wrap: break-word;
   }
 
   /* accent */
@@ -3952,7 +4407,7 @@
   }
 
   .faq-accent p {
-    font-size: clamp(14px, 1.5vw, 17px);
+    font-size: clamp(16px, 1.6vw, 19px);
     font-weight: 300;
     line-height: 1.75;
     color: var(--w70);
@@ -3975,7 +4430,7 @@
     position: relative;
     z-index: 1;
     height: 300px;
-    background-image: url('images/hero.png');
+    background-image: url('images/hero.jpg');
     background-size: cover;
     background-position: center 40%;
     -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 45%);
@@ -3987,6 +4442,86 @@
     .faq-answer { padding-left: 16px; }
     .faq-item.faq-open .faq-answer { padding-left: 16px; }
   }
+</style>
+
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- BLOCK: ПАМ'ЯТКА УЧАСНИКІВ ЯГ'Ї           -->
+<!-- ═══════════════════════════════════════════ -->
+<section class="pamyatka-section" id="pamyatka">
+
+  <div class="pamyatka-bg"></div>
+
+  <div class="pamyatka-inner">
+
+    <div class="what-lotus">
+      <svg width="32" height="32" viewBox="0 0 42 42" fill="none">
+        <path d="M21 3c0 0-3.5 7-3.5 13 0 2.5 1.6 4 3.5 4s3.5-1.5 3.5-4c0-6-3.5-13-3.5-13Z" fill="#c9943a" opacity="0.9"/>
+        <path d="M39 21c0 0-7-3.5-13-3.5-2.5 0-4 1.6-4 3.5s1.5 3.5 4 3.5c6 0 13-3.5 13-3.5Z" fill="#c9943a" opacity="0.9"/>
+        <path d="M21 39c0 0 3.5-7 3.5-13 0-2.5-1.6-4-3.5-4s-3.5 1.5-3.5 4c0 6 3.5 13 3.5 13Z" fill="#c9943a" opacity="0.9"/>
+        <path d="M3 21c0 0 7 3.5 13 3.5 2.5 0 4-1.6 4-3.5s-1.5-3.5-4-3.5C10 17.5 3 21 3 21Z" fill="#c9943a" opacity="0.9"/>
+        <path d="M33.2 8.8c0 0-6.2 4.7-8.4 9.7-.9 1.9-.1 4.1 1.8 5s4.1.1 5-1.8c2.2-5 1.6-12.9 1.6-12.9Z" fill="#c9943a" opacity="0.5"/>
+        <path d="M33.2 33.2c0 0-4.7-6.2-9.7-8.4-1.9-.9-4.1-.1-5 1.8s-.1 4.1 1.8 5c5 2.2 12.9 1.6 12.9 1.6Z" fill="#c9943a" opacity="0.5"/>
+        <path d="M8.8 33.2c0 0 6.2-4.7 8.4-9.7.9-1.9.1-4.1-1.8-5s-4.1-.1-5 1.8c-2.2 5-1.6 12.9-1.6 12.9Z" fill="#c9943a" opacity="0.5"/>
+        <path d="M8.8 8.8c0 0 4.7 6.2 9.7 8.4 1.9.9 4.1.1 5-1.8s.1-4.1-1.8-5C16.7 8.2 8.8 8.8 8.8 8.8Z" fill="#c9943a" opacity="0.5"/>
+        <circle cx="21" cy="21" r="4.5" fill="#c9943a"/>
+        <circle cx="21" cy="21" r="2.5" fill="#0a0806"/>
+      </svg>
+    </div>
+
+    <div class="pamyatka-title-wrap">
+      <h2 class="pamyatka-title" data-i18n="pm_title">ПАМ'ЯТКА</h2>
+      <p class="pamyatka-subtitle" data-i18n="pm_subtitle">УЧАСНИКІВ ЯГ'Ї</p>
+    </div>
+
+    <div class="what-divider" style="margin-bottom:32px;">
+      <div class="wd-line"></div><div class="wd-diamond"></div><div class="wd-line"></div>
+    </div>
+
+    <p class="pamyatka-intro" data-i18n="pm_intro">Яг'я — священний ведичний ритуал, що потребує поваги, чистоти та правильного наміру. Дотримуйтесь цих правил, щоб ваша участь була повною і гармонійною.</p>
+
+    <div class="pm-rules-grid">
+      <div class="pm-rule"><div class="pm-num">1</div><div class="pm-rule-body"><h3 class="pm-rule-h" data-i18n="pm_r1_h">Повага та тиша</h3><p class="pm-rule-p" data-i18n="pm_r1">Телефони — в беззвучний режим. Фото і відео — лише до або після яг'ї.</p></div></div>
+      <div class="pm-rule"><div class="pm-num">2</div><div class="pm-rule-body"><h3 class="pm-rule-h" data-i18n="pm_r2_h">Чистота</h3><p class="pm-rule-p" data-i18n="pm_r2">Приходьте після душу в чистому одязі. Уникайте шкіряних речей. Перед входом — омийте руки та ноги.</p></div></div>
+      <div class="pm-rule"><div class="pm-num">3</div><div class="pm-rule-body"><h3 class="pm-rule-h" data-i18n="pm_r3_h">Взуття</h3><p class="pm-rule-p" data-i18n="pm_r3">Знімайте взуття перед входом до яг'я-шали.</p></div></div>
+      <div class="pm-rule"><div class="pm-num">4</div><div class="pm-rule-body"><h3 class="pm-rule-h" data-i18n="pm_r4_h">Кунда</h3><p class="pm-rule-p" data-i18n="pm_r4">Сидіть так, щоб ноги не торкалися кунди. Це священний вівтар.</p></div></div>
+      <div class="pm-rule"><div class="pm-num">5</div><div class="pm-rule-body"><h3 class="pm-rule-h" data-i18n="pm_r5_h">Підношення</h3><p class="pm-rule-p" data-i18n="pm_r5">Квіти не нюхайте, їжу не куштуйте до підношення. Після благословення — приймайте як прасад.</p></div></div>
+      <div class="pm-rule"><div class="pm-num">6</div><div class="pm-rule-body"><h3 class="pm-rule-h" data-i18n="pm_r6_h">Чистота розуму</h3><p class="pm-rule-p" data-i18n="pm_r6">Слухайте мантри та молитви з вірою, увагою і повагою.</p></div></div>
+      <div class="pm-rule"><div class="pm-num">7</div><div class="pm-rule-body"><h3 class="pm-rule-h" data-i18n="pm_r7_h">Чисте серце</h3><p class="pm-rule-p" data-i18n="pm_r7">Підношення робіть щиро. Важливий не предмет, а внутрішній стан.</p></div></div>
+      <div class="pm-rule"><div class="pm-num">8</div><div class="pm-rule-body"><h3 class="pm-rule-h" data-i18n="pm_r8_h">Слідування пуджарі</h3><p class="pm-rule-p" data-i18n="pm_r8">Уважно слухайте і виконуйте наставлення пуджарі — це забезпечує гармонію ритуалу.</p></div></div>
+      <div class="pm-rule"><div class="pm-num">9</div><div class="pm-rule-body"><h3 class="pm-rule-h" data-i18n="pm_r9_h">Вдячність</h3><p class="pm-rule-p" data-i18n="pm_r9">Дякуйте богам під час і після яг'ї. Вдячність — одна із головних основ ритуалу.</p></div></div>
+    </div>
+
+    <div class="pm-notes-grid">
+      <div class="pm-note"><h4 class="pm-note-h" data-i18n="pm_punct_h">Пунктуальність</h4><p class="pm-note-p" data-i18n="pm_punct">Приїжджайте заздалегідь. Ритуали проводяться у чітко визначений час з астрологічних міркувань.</p></div>
+      <div class="pm-note"><h4 class="pm-note-h" data-i18n="pm_intent_h">Намір (санкальпа)</h4><p class="pm-note-p" data-i18n="pm_intent">Сформулюйте свій намір чітко і стисло до початку ритуалу.</p></div>
+      <div class="pm-note"><h4 class="pm-note-h" data-i18n="pm_cost_h">Вартість</h4><p class="pm-note-p" data-i18n="pm_cost">Актуальна вартість участі вказана у Telegram-боті Kailash Dham.</p></div>
+      <div class="pm-note"><h4 class="pm-note-h" data-i18n="pm_report_h">Звіт</h4><p class="pm-note-p" data-i18n="pm_report">Звіт про яг'ю та супровідна інформація — у Telegram-каналі Kailash Dham.</p></div>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .pamyatka-section { position:relative; background:var(--dark); padding:90px 24px 80px; overflow:hidden; }
+  .pamyatka-bg { position:absolute; inset:0; background: radial-gradient(ellipse 55% 40% at 50% 0%,rgba(140,65,10,.16) 0%,transparent 70%), radial-gradient(ellipse 40% 30% at 0% 100%,rgba(120,55,8,.1) 0%,transparent 100%); pointer-events:none; }
+  .pamyatka-inner { position:relative; max-width:960px; margin:0 auto; display:flex; flex-direction:column; align-items:center; }
+  .pamyatka-title-wrap { text-align:center; margin-bottom:8px; }
+  .pamyatka-title { font-family:'Cinzel',serif; font-size:clamp(1.4rem,3.5vw,2rem); font-weight:700; color:var(--gold); letter-spacing:.18em; text-transform:uppercase; line-height:1.15; }
+  .pamyatka-subtitle { font-family:'Cinzel',serif; font-size:clamp(.72rem,1.6vw,.88rem); color:rgba(201,148,58,.5); letter-spacing:.22em; text-transform:uppercase; margin-top:6px; }
+  .pamyatka-intro { color:rgba(255,255,255,.5); font-size:.88rem; line-height:1.75; text-align:center; max-width:580px; margin-bottom:48px; }
+  .pm-rules-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; width:100%; margin-bottom:32px; }
+  .pm-rule { background:rgba(255,255,255,.03); border:1px solid rgba(201,148,58,.16); border-radius:3px; padding:20px 16px; display:flex; gap:12px; align-items:flex-start; transition:border-color .25s; }
+  .pm-rule:hover { border-color:rgba(201,148,58,.35); }
+  .pm-num { font-family:'Cinzel',serif; font-size:1.3rem; color:rgba(201,148,58,.3); font-weight:700; line-height:1; min-width:22px; flex-shrink:0; margin-top:2px; }
+  .pm-rule-h { font-family:'Cinzel',serif; font-size:.7rem; font-weight:600; color:var(--gold); letter-spacing:.08em; text-transform:uppercase; margin-bottom:5px; }
+  .pm-rule-p { color:rgba(255,255,255,.5); font-size:.8rem; line-height:1.65; }
+  .pm-notes-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; width:100%; border-top:1px solid rgba(201,148,58,.1); padding-top:28px; }
+  .pm-note { text-align:center; padding:18px 10px; }
+  .pm-note-h { font-family:'Cinzel',serif; font-size:.68rem; font-weight:600; color:var(--gold); letter-spacing:.08em; text-transform:uppercase; margin-bottom:8px; }
+  .pm-note-p { color:rgba(255,255,255,.4); font-size:.76rem; line-height:1.6; }
+  @media(max-width:900px){ .pm-rules-grid{ grid-template-columns:repeat(2,1fr); } .pm-notes-grid{ grid-template-columns:repeat(2,1fr); } }
+  @media(max-width:540px){ .pm-rules-grid{ grid-template-columns:1fr; } }
 </style>
 
 <!-- ═══════════════════════════════════════════ -->
@@ -4023,7 +4558,7 @@
     </div>
 
     <!-- title -->
-    <h2 class="final-title">ЕСЛИ ЗАПРОС<br>УЖЕ СОЗРЕЛ</h2>
+    <h2 class="final-title" data-i18n="final_title">ЕСЛИ ЗАПРОС<br>УЖЕ СОЗРЕЛ</h2>
 
     <!-- divider + small lotus -->
     <div class="final-sep">
@@ -4040,12 +4575,12 @@
     </div>
 
     <!-- body -->
-    <p class="final-para">Вы можете пройти подбор Ягьи и определить формат участия<br>в соответствии с вашим состоянием и запросом.</p>
+    <p class="final-para" data-i18n="fp1">Вы можете пройти подбор Ягьи и определить формат участия<br>в соответствии с вашим состоянием и запросом.</p>
 
-    <p class="final-para" style="margin-bottom: 28px;">Каждая Ягья проводится с вниманием, точностью<br>и уважением к традиции.</p>
+    <p class="final-para" data-i18n="fp2" style="margin-bottom: 28px;">Каждая Ягья проводится с вниманием, точностью<br>и уважением к традиции.</p>
 
     <!-- accent line -->
-    <p class="final-accent">Вы уже чувствуете,<br>с чем вы пришли.</p>
+    <p class="final-accent" data-i18n="final_accent">Вы уже чувствуете,<br>с чем вы пришли.</p>
 
     <!-- CTA -->
     <a href="https://t.me/kailashdham_bot" target="_blank" class="final-btn">
@@ -4056,7 +4591,7 @@
         <path d="M5 21c0 0 6 3 11 3 2 0 3.5-1.3 3.5-3s-1.5-3-3.5-3c-5 0-11 3-11 3Z" fill="#0a0806" opacity="0.75"/>
         <circle cx="21" cy="21" r="4" fill="#0a0806" opacity="0.65"/>
       </svg>
-      <span>ПРОЙТИ ПОДБОР ЯГЬИ</span>
+      <span data-i18n="cta_select">ПРОЙТИ ПОДБОР ЯГЬИ</span>
       <span class="final-arrow">→</span>
     </a>
 
@@ -4067,7 +4602,7 @@
         <path d="M3 5.5 L3 4 A3 3 0 0 1 9 4 L9 5.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
         <circle cx="6" cy="9.5" r="1" fill="currentColor"/>
       </svg>
-      Ваш запрос остаётся конфиденциальным.
+      <span data-i18n="final_note">Ваш запрос остаётся конфиденциальным.</span>
     </p>
 
     <!-- bottom diamond -->
@@ -4091,18 +4626,24 @@
   .final-bg {
     position: absolute;
     inset: 0;
-    background-image: url('images/hero.png');
+    background-image: url('images/hero.jpg');
     background-size: cover;
     background-position: 65% center;
+    transform: scaleX(-1);
     z-index: 0;
   }
 
   .final-overlay {
     position: absolute;
     inset: 0;
-    background:
-      radial-gradient(ellipse 70% 80% at 50% 50%, rgba(10,8,6,0.55) 0%, rgba(10,8,6,0.82) 100%),
-      linear-gradient(to bottom, rgba(10,8,6,0.60) 0%, rgba(10,8,6,0.30) 40%, rgba(10,8,6,0.75) 100%);
+    background: linear-gradient(
+      to left,
+      rgba(10,8,6,1.00)  0%,
+      rgba(10,8,6,0.95) 28%,
+      rgba(10,8,6,0.75) 48%,
+      rgba(10,8,6,0.35) 65%,
+      rgba(10,8,6,0.00) 85%
+    );
     z-index: 1;
   }
 
@@ -4110,8 +4651,8 @@
     position: relative;
     z-index: 2;
     width: 100%;
-    max-width: 720px;
-    margin: 0 auto;
+    max-width: 620px;
+    margin: 0 max(50px, calc((100vw - 1200px) / 2 + 50px)) 0 auto;
     padding: 100px 24px 80px;
     text-align: center;
     display: flex;
@@ -4143,20 +4684,20 @@
 
   .final-title {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(44px, 7vw, 92px);
+    font-size: clamp(26px, 3.4vw, 46px);
     font-weight: 700;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: var(--gold);
-    line-height: 1.05;
+    line-height: 1.18;
     margin-bottom: 16px;
     text-shadow: 0 2px 30px rgba(201,148,58,0.25);
   }
 
   .final-para {
-    font-size: clamp(14px, 1.5vw, 17px);
-    font-weight: 300;
-    line-height: 1.85;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.8;
     color: var(--w70);
     margin-bottom: 18px;
   }
@@ -4213,7 +4754,7 @@
     display: flex;
     align-items: center;
     gap: 7px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     color: var(--w45);
     letter-spacing: 0.5px;
@@ -4228,7 +4769,7 @@
   }
 
   @media (max-width: 900px) {
-    .final-btn { padding: 16px 36px; font-size: 14px; }
+    .final-btn { padding: 16px 36px; font-size: 16px; }
     .final-title { letter-spacing: 2px; }
   }
 </style>
@@ -4250,5 +4791,704 @@
     });
   });
 </script>
+
+<script>
+const i18n = {
+  uk: {
+    logo_sub: 'Space of Rituals',
+    nav_yagya: "Про Яг'ю",
+    nav_formats: 'Формати участі',
+    nav_yagyas: "Яг'ї",
+    nav_kailash: 'Про Kailash Dham',
+    nav_faq: 'FAQ',
+    nav_blog: 'Блог',
+    hero_word: "ЯГ'Я",
+    hero_line2: 'ДАВНІЙ ВОГНЯНИЙ РИТУАЛ',
+    hero_lines34: 'ШЛЯХ ІЗ ЗАМКНЕНИХ<br>ЖИТТЄВИХ КІЛ',
+    hero_sub: 'Коли життя знову приводить до схожих ситуацій,<br>а внутрішній запит вимагає глибокого рішення.',
+    hero_bullet: 'Вогонь, мантри та санкальпа поєднують<br>ваш намір із простором священної дії.',
+    hero_cta: "ПРОЙТИ ПІДБІР ЯГ'Ї",
+    hero_note: 'Особиста або дистанційна участь.<br>Підбір відбувається через чат-бот.',
+    what_title: "ЩО ТАКЕ ЯГ'Я",
+    what_item1: "<p>Ягья — один із найдавніших вогняних ритуалів ведичної традиції.</p><p>Її витоки сягають ведичної епохи: ранні форми вогняного священнодійства описані у Ведах, найдавніший пласт яких, у письмовій формі, відносять до 1500–1200 рр. до н. е.</p>",
+    what_item2: "<p>У центрі Яг'ї — священний вогонь, Агні.</p><p>Агні шанується як сила, через яку молитва, намір і підношення звертають людину до вищого порядку.</p>",
+    what_item3: '<p>Під час ритуалу звучать мантри і здійснюються підношення: гхі, хаван-самагрі, зерно, трави та інші ритуальні речовини.</p><p>Так особистий намір — <em class="gold-it">санкальпа</em> — стає частиною священного дійства.</p>',
+    what_item4: "<p>Протягом тисячоліть Яг'я здійснюється як серйозне священнодійство, що вимагає підготовки, чистого наміру та участі знаючих виконавців.</p><p>До цієї практики приходять тоді, коли внутрішній запит дозрів і вимагає більш глибокого рівня звернення.</p>",
+    what_item5: "<p>Яг'ї проводяться для благословення, очищення, захисту, процвітання, підтримки у важливих переходах і відновлення гармонії.</p>",
+    what_quote: "Яг'я — це священне дійство,<br>в якому внутрішній запит поєднується<br>з вогнем, молитвою і наміром.",
+    und_title: "ПРО ЯГ'Ю<br>ВАЖЛИВО ЗНАТИ",
+    und_item1: 'Яг\'я — духовна практика, яка діє через вогонь, мантри, увагу і намір.',
+    und_item2: 'Вона допомагає людині побудувати внутрішню опору, ясніше побачити ситуацію і відчути напрям наступного кроку.',
+    und_item3: 'Ритуал проводиться у ведичній традиції і спрямований на очищення, благословення, захист, підтримку і гармонізацію.',
+    und_item4: 'Тут важливі чистий намір, повага до священного дійства і готовність людини бути учасником процесу.',
+    und_quote: "Яг'я — це зустріч людини, вогню та наміру в просторі традиції.",
+    und_privacy: 'Ваш запит залишається конфіденційним.',
+    why_title_big: "ЧОМУ ЯГ'Я",
+    why_title_sub: 'МАЄ ОСОБЛИВУ СИЛУ В НАШ ЧАС',
+    why_item1: '<p>У ведичній традиції говориться про <strong class="gold-bold">цикли часу — юги</strong>, в яких змінюються умови життя і способи духовної дії.</p>',
+    why_item2: '<p>Сучасний період описується як <strong class="gold-bold">Калі-юга</strong> — час ускладнених процесів, внутрішньої напруги і повторюваних життєвих ситуацій.</p>',
+    why_item3: '<p>У такі періоди особливу силу набувають практики, <strong class="gold-bold">пов\'язані з вогнем, мантрами і наміром.</strong></p>',
+    why_item4: '<p>Яг\'я стає однією з <strong class="gold-bold">ключових форм звернення</strong>, через яку людина може спрямувати свій запит у священний простір дії.</p>',
+    why_quote: 'Саме в цей час Яг\'я стає способом<br><strong>внести ясність, силу і напрям у своє життя.</strong>',
+    when_title: "КОЛИ ЗВЕРТАЮТЬСЯ ДО ЯГ'Ї",
+    when_intro: "До Яг'ї приходять, коли внутрішнє питання стає сильнішим за звичні відповіді.",
+    wc1: 'Коли життя знову і знову приводить до схожих ситуацій.',
+    wc2: 'Коли зусилля є, а результат повертає в те саме коло.',
+    wc3: 'Коли всередині накопичується втома і напруга.',
+    wc4: 'Коли попереду важливий вибір або перехід.',
+    wc5: 'Коли потрібна ясність, опора і внутрішнє вирівнювання.',
+    wc6: 'Коли є запит, який вимагає звернення глибше, ніж рівень роздумів.',
+    ws_title: "Яг'я може підтримати вас, якщо:",
+    ws1: "повторюються ситуації у стосунках, сім'ї, грошах або роботі;",
+    ws2: 'попереду новий етап, що потребує підтримки;',
+    ws3: 'є відчуття внутрішнього глухого кута;',
+    ws4: 'є потреба в очищенні, захисті і благословенні;',
+    ws5: 'рішення приймаються, а стан залишається колишнім;',
+    ws6: 'внутрішній запит дозрів і вимагає дії.',
+    woman_title_big: "ЯГ'Я",
+    woman_title_sub: 'ДЛЯ ЖІНКИ',
+    woman_subtitle: 'Коли внутрішній стан потребує повернення до себе.',
+    woman_symptoms_title: 'Іноді це проявляється так:',
+    wsym1: 'ви робите багато, але не відчуваєте відгуку',
+    wsym2: 'у стосунках віддаєте більше, ніж отримуєте',
+    wsym3: 'всередині накопичується втома від постійної сили',
+    wsym4: 'втрачається впевненість, лиск і любов до себе',
+    wsym5: "з'являється страх, що ви недостатньо хороші, щоб бути обраною",
+    wsym6: 'виникають думки, що ви невидимі, небажані, незатребувані',
+    wsym7: 'внутрішні ілюзії починають гасити ваше світло',
+    wb1: "Ми проводимо Яг'ї, присвячені жіночому стану, внутрішній силі та відновленню зв'язку з собою.",
+    wb2: "Бувають періоди, коли ролі, відповідальність, стосунки і зовнішні завдання поступово забирають ясність, м'якість і опору. Разом із цим іде відчуття власної привабливості, цінності і живого внутрішнього сяяння.",
+    wb3: "Жінка починає дивитися на себе очима болю: «я вже не та», «мене не оберуть», «я нікому не потрібна», «я нецікава чоловікові». Так народжуються ілюзії, які руйнують зсередини і відтягують від власної природи.",
+    wb4: 'Але це не правда про жінку. Це стан, який вимагає очищення, відновлення і повернення до внутрішньої цінності.',
+    wb5: "Яг'я стає простором, де жінка знову з'єднується з собою: зі своєю красою, силою, гідністю і внутрішнім центром.",
+    wos_title: "Яг'я може підтримати вас, якщо:",
+    wos1: 'накопичується втома і внутрішня напруга',
+    wos2: "з'являється відчуття втрати себе",
+    wos3: 'стосунки потребують гармонізації',
+    wos4: 'потрібне відновлення після складного періоду',
+    wos5: 'є потреба в захисті і внутрішній опорі',
+    wos6: 'виникає бажання повернутися до свого природного стану',
+    woman_quote: "Яг'я стає простором очищення, захисту і відновлення, де жінка повертається до своєї природної краси, внутрішньої цінності, сили і сяяння.",
+    woman_closing: "Яг'я допомагає повернутися до життя з іншого стану — ясніше, тихіше, зосередженіше і глибше.",
+    mp_title: 'СВЯЩЕННИЙ ШЛЯХ ДИТИНИ',
+    mp_intro: 'Народження дитини — це шлях, який починається раніше першого подиху.',
+    mp_text1: "Спочатку в серці батьків з'являється поклик. Потім дозріває намір. Далі жінка стає простором, через який нова душа входить у світ.",
+    mp_callout: "Ведична традиція дбайливо ставиться до кожного етапу цього шляху: підготовки до зачаття, вагітності, пологів, народження, імені та першого року життя дитини.",
+    mp_italic: "Яг'я допомагає пройти цей шлях у полі молитви, світла, вдячності та внутрішнього спокою.",
+    mp_stage_lbl: 'У ЧАТ-БОТІ ВИ МОЖЕТЕ ОБРАТИ ВАШ ЕТАП',
+    mps1: 'ПЛАНУЄМО ДИТИНУ',
+    mps2: 'ВАГІТНІСТЬ',
+    mps3: 'СКОРО ПОЛОГИ',
+    mps4: 'ДИТИНА ВЖЕ НАРОДИЛАСЯ',
+    mps5: "ІМ'Я І ДОЛЯ ДИТИНИ",
+    mps6: 'ПЕРШИЙ РІК ЖИТТЯ',
+    mp_text2: "Для кожного етапу зібрані підходящі Яг'ї: для благословення зачаття, підтримки матері, захисту материнського поля, м'якого переходу у пологах, вдячності за народження, імені дитини та перших кроків нової душі у світі.",
+    mp_disclaimer: "Це не обіцянка дива. Це священний спосіб увійти у важливий життєвий перехід з більшою чистотою, любов'ю та опорою.",
+    mp_poem1: 'Нехай дитина приходить у світ через любов.',
+    mp_poem2: 'Нехай мати відчуває підтримку.',
+    mp_poem3: 'Нехай сім\'я зустрічає нову душу',
+    mp_poem4: 'з вдячністю і світлом.',
+    mp_cta: "ОБРАТИ ЯГ'Ю ДЛЯ МАТЕРІ І ДИТИНИ",
+    how_pre: 'ЯК ПРОХОДИТЬ',
+    how_title: "ЯГ'Я",
+    how_intro: "Кожен етап Яг'ї пов'язаний з вашим наміром і проходить відповідно до ведичної традиції.",
+    hs1_title: "1. ВИБІР ЯГ'Ї",
+    hs1_text: 'Ви обираєте ритуал за своїм запитом або через підбір.',
+    hs2_title: '2. САНКАЛЬПА',
+    hs2_text: "Формується намір, з яким проводиться Яг'я.",
+    hs3_title: '3. ПІДГОТОВКА РИТУАЛУ',
+    hs3_text: "Використовуються гхі, хаван-самагрі, зерно, трави і ритуальні речовини, що відповідають обраній Яг'ї.",
+    hs4_title: "4. ПРОВЕДЕННЯ ЯГ'Ї",
+    hs4_text: 'Під час ритуалу звучать мантри, здійснюються підношення у вогонь і виконуються дії відповідно до традиції.',
+    hs5_title: '5. УЧАСТЬ',
+    hs5_text: 'Ви можете брати участь особисто або на відстані, утримуючи свій намір у момент проведення.',
+    hs6_title: '6. ПІДТВЕРДЖЕННЯ',
+    hs6_text: "Залежно від формату ви отримуєте фото- або відеопідтвердження після проведення Яг'ї.",
+    formats_title: "ФОРМАТИ УЧАСТІ В ЯГ'Ї",
+    formats_intro: "Яг'я проводиться в різних форматах — залежно від вашого запиту, глибини участі та ступеня особистої уваги.",
+    fgc1_title: "ГРУПОВА ЯГ'Я",
+    fgc1_text: '<p>Загальний ритуал, до якого можна увійти зі своїм особистим наміром.</p><p>Підходить для першої участі та для регулярної практики на постійній основі.</p>',
+    fgc2_title: "ІНДИВІДУАЛЬНА ЯГ'Я",
+    fgc2_text: "<p>Персональний ритуал, який проводиться відповідно до вашого запиту і сформованої санкальпи.</p><p>Формат, в якому увага повністю спрямована на вашу ситуацію, ваш стан і ваш намір.</p><p>Підходить, коли важлива точність, глибина і особистий супровід у процесі ритуалу.</p>",
+    fgc3_title: "ІНДИВІДУАЛЬНА ЯГ'Я<br>З УРАХУВАННЯМ ГОРОСКОПУ",
+    fgc3_text: "<p>Персональний ритуал з більш точним налаштуванням через ваш запит, санкальпу та астрологічні дані.</p><p>Формат для тих, кому важливо пройти Яг'ю усвідомлено, з розумінням свого періоду, наміру і напрямку ритуалу.</p>",
+    fgc4_title: 'VIP-ЯГЬЯ',
+    fgc4_text: "<p>Розширений індивідуальний формат, що складається з серії священних дій.</p><p>Ритуали проводяться на центральній великій кунді.</p><p>З глибокою увагою до вашого запиту, санкальпи та астрологічних даних.</p><p>Підходить для значущих життєвих періодів, важливих переходів і запитів, що вимагають особливого рівня підготовки.</p>",
+    fmt_micro: 'Ви можете брати участь особисто<br>або на відстані.',
+    fmt_note: 'Якщо формат поки не очевидний, <span class="gold-bold">підбір</span> допоможе визначити підходящий варіант.',
+    final_cta: "ПРОЙТИ ПІДБІР ЯГ'Ї",
+    yagyas_title: "ОБЕРІТЬ ЯГ'Ю ЗА СВОЇМ ЗАПИТОМ",
+    yagyas_intro: "Кожна Яг'я пов'язана з певною сферою життя та напрямком внутрішньої роботи.",
+    yc1_title: 'ОЧИЩЕННЯ І ЗАХИСТ',
+    yc1_text: 'Для звільнення від важких станів і вирівнювання внутрішнього простору.',
+    yc2_title: 'ПРОЦВІТАННЯ І ГРОШІ',
+    yc2_text: 'Для підтримки в справах, роботі та матеріальному потоці.',
+    yc3_title: "СТОСУНКИ І СІМ'Я",
+    yc3_text: "Для гармонізації зв'язків, любові та сімейного простору.",
+    yc4_title: "ЗДОРОВ'Я І ВІДНОВЛЕННЯ",
+    yc4_text: 'Для підтримки життєвої сили і внутрішнього ресурсу.',
+    yc5_title: 'РІД І ГЛИБИННІ ПРОЦЕСИ',
+    yc5_text: 'Для роботи з родовими сценаріями і внутрішніми вузлами.',
+    yc6_title: 'УСУНЕННЯ ПЕРЕШКОД',
+    yc6_text: 'Для ситуацій, де шлях потребує додаткової підтримки.',
+    yc7_title: 'ДУХОВНИЙ ШЛЯХ',
+    yc7_text: 'Для практики, ясності і внутрішнього зростання.',
+    start_title: 'З ЧОГО ПОЧАТИ',
+    start_lead: 'Почати можна з участі<br>в <strong class="gold-bold">груповій Яг\'ї.</strong>',
+    sp1: "Це м'який формат, у якому ви входите в практику через загальний напрямок ритуалу.",
+    sp2: "Під час Яг'ї ви знаєте час її проведення і утримуєте свій намір протягом усього процесу.",
+    sp3: 'Це простий і природний спосіб першої участі.',
+    sp4: "Для групових Яг'їв існує розклад. Ви можете обрати найближчу дату і приєднатися.",
+    kd_pre: 'ПРОСТІР',
+    kd_subtitle: 'Жива лінія благословень, традиції та духовної відповідальності.',
+    kd_intro: "Місце, де сьогодні проходять Яг'ї, освячено благословеннями майстрів індійської та світової духовної традиції.",
+    kd1_name: 'МАХАМАНДАЛЕШВАР<br>ПАЙЛОТ БАБА',
+    kd1_role: 'Свамі Сомнатх Гірі Джі Махарадж',
+    kd1_desc: "Дав благословення, яке стало основою для створення нашого ашраму. Під час свого перебування він посадив тут дерева — як живий знак благословення і зв'язку з цим місцем.",
+    kd2_name: 'МАХАМАНДАЛЕШВАР<br>ЙОГМАТА КЕЙКО АЙКАВА',
+    kd2_role: 'Духовна вчителька з Японії',
+    kd2_desc: 'Перша неіндійська жінка, яка отримала титул Махамандалешвар у Джуна Акхара. Особисто відвідувала цей простір, передала благословення і посадила тут дерева.',
+    kd3_name: "АЧАР'Я<br>КУМАРА СВАМІ",
+    kd3_role: 'Ведичний астролог з Індії',
+    kd3_desc: "Підтримує поєднання знання Джйотіша з практикою Яг'ї. Його настанови допомагають зберегти чистоту ритуалу і точність у роботі з часом і наміром.",
+    kd4_name: 'ДАЯНАНДА СВАМІ',
+    kd4_role: 'Пуджарі',
+    kd4_desc: "Практик і наставник, що має чернече посвячення в ордені Джуна Акхара. Проводить Яг'ї з дотриманням ведичної традиції і внутрішньою відповідальністю.",
+    kd_quote: "Для нас Яг'я — це священнодійство, де важливі чистий намір, точність проведення, повага до традиції і внутрішня відповідальність перед людиною, яка приходить із запитом.",
+    faq_title_big: 'ПИТАННЯ,',
+    faq_title_rest: 'ЯКІ ВИНИКАЮТЬ ПЕРЕД УЧАСТЮ',
+    fq1: 'Чи потрібно бути присутнім особисто?',
+    fq2: "Як зрозуміти, яка Яг'я підходить?",
+    fq3: 'З чого почати, якщо я беру участь вперше?',
+    fq4: 'Що таке санкальпа?',
+    fq5: "Що використовується під час Яг'ї?",
+    fq6: 'Чи можна замовити Яг\'ю за близьку людину?',
+    fq7: 'Як проходить дистанційна участь?',
+    fq8: "Чи є розклад групових Яг'їв?",
+    fa1: "Ви можете брати участь особисто або на відстані. У момент проведення Яг'ї важливо утримувати свій намір.",
+    fa2: 'Підбір допомагає визначити напрямок ритуалу відповідно до вашого запиту.',
+    fa3: "Почати можна з групової Яг'ї. Це м'який формат першої участі: ви приєднуєтеся до загального напрямку ритуалу і утримуєте свій намір під час проведення.",
+    fa4: "Санкальпа — це коротко і ясно сформульований намір, заради якого проводиться Яг'я.",
+    fa5: 'Під час ритуалу використовуються гхі, хаван-самагрі, зерно, трави, солодощі та інші ритуальні речовини.',
+    fa6: "Так. Яг'я може проводитися з наміром про благополуччя, захист, очищення або підтримку близької людини.",
+    fa7: "Ви заздалегідь знаєте час проведення, формулюєте санкальпу і утримуєте свій намір у момент ритуалу. Під час Яг'ї ваша санкальпа вноситься у вогонь, а підношення здійснюються від вашого імені. Після проведення, залежно від формату, ви можете отримати фото- або відеозвіт.",
+    fa8: "Так. Для групових Яг'їв є розклад найближчих ритуалів, до яких можна приєднатися.",
+    faq_note: 'Ваш запит конфіденційний',
+    final_title: 'ЯКЩО ЗАПИТ УЖЕ ДОЗРІВ',
+    fp1: "Ви можете пройти підбір Яг'ї і визначити формат участі<br>відповідно до вашого стану і запиту.",
+    fp2: "Кожна Яг'я проводиться з увагою, точністю<br>та повагою до традиції.",
+    final_accent: 'Ви вже відчуваєте, з чим ви прийшли.',
+    final_note: 'Ваш запит залишається конфіденційним.',
+    when_quote: "Яг'я допомагає увійти у стан,<br>з якого рішення стає яснішим,<br><strong>а наступний крок — точнішим.</strong>",
+    how_accent: "<em>Яг'я — це послідовний процес,</em><br>в якому кожен етап<br>має значення.",
+    yagyas_accent: 'Якщо напрямок поки не очевидний,<br><span class="gold-bold">підбір</span> допоможе визначити потрібну Яг\'ю.',
+    faq_accent: 'Якщо всередині вже є запит, <span class="gold-bold">підбір</span> допоможе вибрати підходящу Яг\'ю і формат участі.',
+    cta_select: "ПІДІБРАТИ ЯГ'Ю",
+    cta_schedule: 'ПЕРЕГЛЯНУТИ РОЗКЛАД',
+    cta_join: 'ВЗЯТИ УЧАСТЬ',
+    pm_title: "ПАМ'ЯТКА",
+    pm_subtitle: "УЧАСНИКІВ ЯГ'Ї",
+    pm_intro: "Яг'я — священний ведичний ритуал, що потребує поваги, чистоти та правильного наміру. Дотримуйтесь цих правил, щоб ваша участь була повною і гармонійною.",
+    pm_r1_h: 'Повага та тиша', pm_r1: "Телефони — в беззвучний режим. Фото і відео — лише до або після яг'ї.",
+    pm_r2_h: 'Чистота', pm_r2: 'Приходьте після душу в чистому одязі. Уникайте шкіряних речей. Перед входом — омийте руки та ноги.',
+    pm_r3_h: 'Взуття', pm_r3: "Знімайте взуття перед входом до яг'я-шали.",
+    pm_r4_h: 'Кунда', pm_r4: 'Сидіть так, щоб ноги не торкалися кунди. Це священний вівтар.',
+    pm_r5_h: 'Підношення', pm_r5: 'Квіти не нюхайте, їжу не куштуйте до підношення. Після благословення — приймайте як прасад.',
+    pm_r6_h: 'Чистота розуму', pm_r6: 'Слухайте мантри та молитви з вірою, увагою і повагою.',
+    pm_r7_h: 'Чисте серце', pm_r7: 'Підношення робіть щиро. Важливий не предмет, а внутрішній стан.',
+    pm_r8_h: 'Слідування пуджарі', pm_r8: 'Уважно слухайте і виконуйте наставлення пуджарі — це забезпечує гармонію ритуалу.',
+    pm_r9_h: 'Вдячність', pm_r9: "Дякуйте богам під час і після яг'ї. Вдячність — одна із головних основ ритуалу.",
+    pm_punct_h: 'Пунктуальність', pm_punct: 'Приїжджайте заздалегідь. Ритуали проводяться у чітко визначений час з астрологічних міркувань.',
+    pm_intent_h: 'Намір (санкальпа)', pm_intent: 'Сформулюйте свій намір чітко і стисло до початку ритуалу.',
+    pm_cost_h: 'Вартість', pm_cost: 'Актуальна вартість участі вказана у Telegram-боті Kailash Dham.',
+    pm_report_h: 'Звіт', pm_report: "Звіт про яг'ю та супровідна інформація — у Telegram-каналі Kailash Dham.",
+  },
+  ru: {
+    logo_sub: 'Space of Rituals',
+    nav_yagya: 'Про Ягью',
+    nav_formats: 'Форматы участия',
+    nav_yagyas: 'Ягьи',
+    nav_kailash: 'Про Kailash Dham',
+    nav_faq: 'FAQ',
+    nav_blog: 'Блог',
+    hero_word: 'ЯГЬЯ',
+    hero_line2: 'ДРЕВНИЙ ОГНЕННЫЙ РИТУАЛ',
+    hero_lines34: 'ПУТЬ ИЗ ЗАМКНУТЫХ<br>ЖИЗНЕННЫХ КРУГОВ',
+    hero_sub: 'Когда жизнь снова приводит к похожим ситуациям,<br>а внутренний запрос требует глубокого решения.',
+    hero_bullet: 'Огонь, мантры и санкальпа соединяют<br>ваше намерение с пространством священного действия.',
+    hero_cta: 'ПРОЙТИ ПОДБОР ЯГЬИ',
+    hero_note: 'Личное или дистанционное участие.<br>Подбор происходит через чат-бот.',
+    what_title: 'ЧТО ТАКОЕ ЯГЬЯ',
+    what_item1: '<p>Ягья — один из древнейших огненных ритуалов ведической традиции.</p><p>Её истоки восходят к ведической эпохе: ранние формы огненного священнодействия описаны в Ведах, древнейший слой которых, в письменной форме, относят к 1500–1200 гг. до н. э.</p>',
+    what_item2: '<p>В центре Ягьи — священный огонь, Агни.</p><p>Агни почитается как сила, через которую молитва, намерение и подношение обращают человека к высшему порядку.</p>',
+    what_item3: '<p>Во время ритуала звучат мантры и совершаются подношения: гхи, хаван-самагри, зерно, травы и другие ритуальные вещества.</p><p>Так личное намерение — <em class="gold-it">санкальпа</em> — становится частью священного действия.</p>',
+    what_item4: '<p>На протяжении тысячелетий Ягья совершается как серьёзное священнодействие, требующее подготовки, чистого намерения и участия знающих исполнителей.</p><p>К этой практике приходят тогда, когда внутренний запрос созрел и требует более глубокого уровня обращения.</p>',
+    what_item5: '<p>Ягьи проводятся для благословения, очищения, защиты, процветания, поддержки в важных переходах и восстановления гармонии.</p>',
+    what_quote: 'Ягья — это священное действие,<br>в котором внутренний запрос соединяется<br>с огнём, молитвой и намерением.',
+    und_title: 'О ЯГЬЕ<br>ВАЖНО ПОНИМАТЬ',
+    und_item1: 'Ягья — духовная практика, которая действует через огонь, мантры, внимание и намерение.',
+    und_item2: 'Она помогает человеку выстроить внутреннюю опору, яснее увидеть ситуацию и почувствовать направление следующего шага.',
+    und_item3: 'Ритуал проводится в ведической традиции и направлен на очищение, благословение, защиту, поддержку и гармонизацию.',
+    und_item4: 'Здесь важны чистое намерение, уважение к священному действию и готовность человека быть участником процесса.',
+    und_quote: 'Ягья — это встреча человека, огня и намерения в пространстве традиции.',
+    und_privacy: 'Ваш запрос остаётся конфиденциальным.',
+    why_title_big: 'ПОЧЕМУ ЯГЬЯ',
+    why_title_sub: 'ИМЕЕТ ОСОБУЮ СИЛУ В НАШЕ ВРЕМЯ',
+    why_item1: '<p>В ведической традиции говорится о <strong class="gold-bold">циклах времени — югах</strong>, в которых меняются условия жизни и способы духовного действия.</p>',
+    why_item2: '<p>Современный период описывается как <strong class="gold-bold">Кали-юга</strong> — время усложнённых процессов, внутреннего напряжения и повторяющихся жизненных ситуаций.</p>',
+    why_item3: '<p>В такие периоды особую силу приобретают практики, <strong class="gold-bold">связанные с огнём, мантрами и намерением.</strong></p>',
+    why_item4: '<p>Ягья становится одной из <strong class="gold-bold">ключевых форм обращения</strong>, через которую человек может направить свой запрос в священное пространство действия.</p>',
+    why_quote: 'Именно в это время Ягья становится способом<br><strong>внести ясность, силу и направление в свою жизнь.</strong>',
+    when_title: 'КОГДА ОБРАЩАЮТСЯ К ЯГЬЕ',
+    when_intro: 'К Ягье приходят, когда внутренний вопрос становится сильнее привычных ответов.',
+    wc1: 'Когда жизнь снова приводит к похожим ситуациям.',
+    wc2: 'Когда усилия есть, а результат возвращает в тот же круг.',
+    wc3: 'Когда внутри накапливается усталость и напряжение.',
+    wc4: 'Когда впереди важный выбор или переход.',
+    wc5: 'Когда требуется ясность, опора и внутреннее выравнивание.',
+    wc6: 'Когда есть запрос, который требует обращения глубже, чем уровень размышлений.',
+    ws_title: 'Ягья может поддержать вас, если:',
+    ws1: 'повторяются ситуации в отношениях, семье, деньгах или работе;',
+    ws2: 'впереди новый этап, требующий поддержки;',
+    ws3: 'есть ощущение внутреннего тупика;',
+    ws4: 'есть потребность в очищении, защите и благословении;',
+    ws5: 'решения принимаются, а состояние остаётся прежним;',
+    ws6: 'внутренний запрос созрел и требует действия.',
+    woman_title_big: 'ЯГЬЯ',
+    woman_title_sub: 'ДЛЯ ЖЕНЩИНЫ',
+    woman_subtitle: 'Когда внутреннее состояние требует возвращения к себе.',
+    woman_symptoms_title: 'Иногда это проявляется так:',
+    wsym1: 'вы делаете многое, но не чувствуете отклика',
+    wsym2: 'в отношениях отдаёте больше, чем получаете',
+    wsym3: 'внутри накапливается усталость от постоянной силы',
+    wsym4: 'теряется уверенность, лоск и любовь к себе',
+    wsym5: 'появляется страх, что вы недостаточно хороши, чтобы быть выбранной',
+    wsym6: 'возникают мысли, что вы не видимы, не желанны, не востребованы',
+    wsym7: 'внутренние иллюзии начинают гасить ваш свет',
+    wb1: 'Мы проводим Ягьи, посвящённые женскому состоянию, внутренней силе и восстановлению связи с собой.',
+    wb2: 'Бывают периоды, когда роли, ответственность, отношения и внешние задачи постепенно забирают ясность, мягкость и опору. Вместе с этим уходит ощущение собственной привлекательности, ценности и живого внутреннего сияния.',
+    wb3: 'Женщина начинает смотреть на себя глазами боли: «я уже не та», «меня не выберут», «я не нужна», «я не интересна мужчине». Так рождаются иллюзии, которые разрушают изнутри и отдаляют от собственной природы.',
+    wb4: 'Но это не правда о женщине. Это состояние, которое требует очищения, восстановления и возвращения к внутренней ценности.',
+    wb5: 'Ягья становится пространством, где женщина снова соединяется с собой: со своей красотой, силой, достоинством и внутренним центром.',
+    wos_title: 'Ягья может поддержать вас, если:',
+    wos1: 'накапливается усталость и внутреннее напряжение',
+    wos2: 'появляется ощущение потери себя',
+    wos3: 'отношения требуют гармонизации',
+    wos4: 'требуется восстановление после сложного периода',
+    wos5: 'есть потребность в защите и внутренней опоре',
+    wos6: 'возникает желание вернуться к своему естественному состоянию',
+    woman_quote: 'Ягья становится пространством очищения, защиты и восстановления, где женщина возвращается к своей естественной красоте, внутренней ценности, силе и сиянию.',
+    woman_closing: 'Ягья помогает вернуться к жизни из другого состояния — яснее, тише, собраннее и глубже.',
+    mp_title: 'СВЯЩЕННЫЙ ПУТЬ РЕБЁНКА',
+    mp_intro: 'Рождение ребёнка — это путь, который начинается раньше первого вдоха.',
+    mp_text1: 'Сначала в сердце родителей появляется зов. Потом созревает намерение. Затем женщина становится пространством, через которое новая душа входит в мир.',
+    mp_callout: 'Ведическая традиция бережно относится к каждому этапу этого пути: подготовке к зачатию, беременности, родам, рождению, имени и первому году жизни ребёнка.',
+    mp_italic: 'Ягья помогает пройти этот путь в поле молитвы, света, благодарности и внутреннего спокойствия.',
+    mp_stage_lbl: 'В ЧАТ-БОТЕ ВЫ МОЖЕТЕ ВЫБРАТЬ ВАШ ЭТАП',
+    mps1: 'ПЛАНИРУЕМ РЕБЁНКА',
+    mps2: 'БЕРЕМЕННОСТЬ',
+    mps3: 'СКОРО РОДЫ',
+    mps4: 'РЕБЁНОК УЖЕ РОДИЛСЯ',
+    mps5: 'ИМЯ И СУДЬБА РЕБЁНКА',
+    mps6: 'ПЕРВЫЙ ГОД ЖИЗНИ',
+    mp_text2: 'Для каждого этапа собраны подходящие Ягьи: для благословения зачатия, поддержки матери, защиты материнского поля, мягкого перехода в родах, благодарности за рождение, имени ребёнка и первых шагов новой души в мире.',
+    mp_disclaimer: 'Это не обещание чуда. Это священный способ войти в важный жизненный переход с большей чистотой, любовью и опорой.',
+    mp_poem1: 'Пусть ребёнок приходит в мир через любовь.',
+    mp_poem2: 'Пусть мать чувствует поддержку.',
+    mp_poem3: 'Пусть семья встречает новую душу',
+    mp_poem4: 'с благодарностью и светом.',
+    mp_cta: 'ВЫБРАТЬ ЯГЬЮ ДЛЯ МАТЕРИ И РЕБЁНКА',
+    how_pre: 'КАК ПРОХОДИТ',
+    how_title: 'ЯГЬЯ',
+    how_intro: 'Каждый этап Ягьи связан с вашим намерением и проходит в соответствии с ведической традицией.',
+    hs1_title: '1. ВЫБОР ЯГЬИ',
+    hs1_text: 'Вы выбираете ритуал по своему запросу или через подбор.',
+    hs2_title: '2. САНКАЛЬПА',
+    hs2_text: 'Формируется намерение, с которым проводится Ягья.',
+    hs3_title: '3. ПОДГОТОВКА РИТУАЛА',
+    hs3_text: 'Используются гхи, хаван-самагри, зерно, травы и ритуальные вещества, соответствующие выбранной Ягье.',
+    hs4_title: '4. ПРОВЕДЕНИЕ ЯГЬИ',
+    hs4_text: 'Во время ритуала звучат мантры, совершаются подношения в огонь и выполняются действия согласно традиции.',
+    hs5_title: '5. УЧАСТИЕ',
+    hs5_text: 'Вы можете участвовать лично или на расстоянии, удерживая своё намерение в момент проведения.',
+    hs6_title: '6. ПОДТВЕРЖДЕНИЕ',
+    hs6_text: 'В зависимости от формата вы получаете фото- или видео-подтверждение после проведения Ягьи.',
+    formats_title: 'ФОРМАТЫ УЧАСТИЯ В ЯГЬЕ',
+    formats_intro: 'Ягья проводится в разных форматах — в зависимости от вашего запроса, глубины участия и степени личного внимания.',
+    fgc1_title: 'ГРУППОВАЯ ЯГЬЯ',
+    fgc1_text: '<p>Общий ритуал, в который можно войти со своим личным намерением.</p><p>Подходит для первого участия и для регулярной практики на постоянной основе.</p>',
+    fgc2_title: 'ИНДИВИДУАЛЬНАЯ ЯГЬЯ',
+    fgc2_text: '<p>Персональный ритуал, который проводится в соответствии с вашим запросом и сформированной санкальпой.</p><p>Формат, в котором внимание полностью направлено на вашу ситуацию, ваше состояние и ваше намерение.</p><p>Подходит, когда важна точность, глубина и личное сопровождение в процессе ритуала.</p>',
+    fgc3_title: 'ИНДИВИДУАЛЬНАЯ ЯГЬЯ<br>С УЧЁТОМ ГОРОСКОПА',
+    fgc3_text: '<p>Персональный ритуал с более точной настройкой через ваш запрос, санкальпу и астрологические данные.</p><p>Формат для тех, кому важно пройти Ягью осознанно, с пониманием своего периода, намерения и направления ритуала.</p>',
+    fgc4_title: 'VIP-ЯГЬЯ',
+    fgc4_text: '<p>Расширенный индивидуальный формат, состоящий из серии священных действий.</p><p>Ритуалы проводятся на центральной большой кунде.</p><p>С глубоким вниманием к вашему запросу, санкальпе и астрологическим данным.</p><p>Подходит для значимых жизненных периодов, важных переходов и запросов, которые требуют особого уровня подготовки.</p>',
+    fmt_micro: 'Вы можете участвовать лично<br>или на расстоянии.',
+    fmt_note: 'Если формат пока не очевиден, <span class="gold-bold">подбор</span> поможет определить подходящий вариант.',
+    final_cta: 'ПРОЙТИ ПОДБОР ЯГЬИ',
+    yagyas_title: 'ВЫБЕРИТЕ ЯГЬЮ ПО СВОЕМУ ЗАПРОСУ',
+    yagyas_intro: 'Каждая Ягья связана с определённой сферой жизни и направлением внутренней работы.',
+    yc1_title: 'ОЧИЩЕНИЕ И ЗАЩИТА',
+    yc1_text: 'Для освобождения от тяжёлых состояний и выравнивания внутреннего пространства.',
+    yc2_title: 'ПРОЦВЕТАНИЕ И ДЕНЬГИ',
+    yc2_text: 'Для поддержки в делах, работе и материальном потоке.',
+    yc3_title: 'ОТНОШЕНИЯ И СЕМЬЯ',
+    yc3_text: 'Для гармонизации связей, любви и семейного пространства.',
+    yc4_title: 'ЗДОРОВЬЕ И ВОССТАНОВЛЕНИЕ',
+    yc4_text: 'Для поддержки жизненной силы и внутреннего ресурса.',
+    yc5_title: 'РОД И ГЛУБИННЫЕ ПРОЦЕССЫ',
+    yc5_text: 'Для работы с родовыми сценариями и внутренними узлами.',
+    yc6_title: 'УСТРАНЕНИЕ ПРЕПЯТСТВИЙ',
+    yc6_text: 'Для ситуаций, где путь требует дополнительной поддержки.',
+    yc7_title: 'ДУХОВНЫЙ ПУТЬ',
+    yc7_text: 'Для практики, ясности и внутреннего роста.',
+    start_title: 'С ЧЕГО НАЧАТЬ',
+    start_lead: 'Начать можно с участия<br>в <strong class="gold-bold">групповой Ягье.</strong>',
+    sp1: 'Это мягкий формат, в котором вы входите в практику через общее направление ритуала.',
+    sp2: 'Во время Ягьи вы знаете время её проведения и удерживаете своё намерение в течение всего процесса.',
+    sp3: 'Это простой и естественный способ первого участия.',
+    sp4: 'Для групповых Ягий существует расписание. Вы можете выбрать ближайшую дату и присоединиться.',
+    kd_pre: 'ПРОСТРАНСТВО',
+    kd_subtitle: 'Живая линия благословений, традиции и духовной ответственности.',
+    kd_intro: 'Место, где сегодня проходят Ягьи, освящено благословениями мастеров индийской и мировой духовной традиции.',
+    kd1_name: 'МАХАМАНДАЛЕШВАР<br>ПАЙЛОТ БАБА',
+    kd1_role: 'Свами Сомнатх Гири Джи Махарадж',
+    kd1_desc: 'Дал благословение, которое стало основой для создания нашего ашрама. Во время своего пребывания он посадил здесь деревья — как живой знак благословения и связи с этим местом.',
+    kd2_name: 'МАХАМАНДАЛЕШВАР<br>ЙОГМАТА КЕЙКО АЙКАВА',
+    kd2_role: 'Духовная учительница из Японии',
+    kd2_desc: 'Первая неиндийская женщина, получившая титул Махамандалешвар в Джуна Акхара. Лично посещала это пространство, передала благословение и посадила здесь деревья.',
+    kd3_name: 'АЧАРЬЯ<br>КУМАРА СВАМИ',
+    kd3_role: 'Ведический астролог из Индии',
+    kd3_desc: 'Поддерживает соединение знания Джйотиша с практикой Ягьи. Его наставления помогают сохранить чистоту ритуала и точность в работе с временем и намерением.',
+    kd4_name: 'ДАЯНАНДА СВАМИ',
+    kd4_role: 'Пуджари',
+    kd4_desc: 'Практик и наставник, имеющий монашеское посвящение в ордене Джуна Акхара. Проводит Ягьи с соблюдением ведической традиции и внутренней ответственностью.',
+    kd_quote: 'Для нас Ягья — это священнодействие, где важны чистое намерение, точность проведения, уважение к традиции и внутренняя ответственность перед человеком, который приходит с запросом.',
+    faq_title_big: 'ВОПРОСЫ,',
+    faq_title_rest: 'КОТОРЫЕ ВОЗНИКАЮТ ПЕРЕД УЧАСТИЕМ',
+    fq1: 'Нужно ли присутствовать лично?',
+    fq2: 'Как понять, какая Ягья подходит?',
+    fq3: 'С чего начать, если я участвую впервые?',
+    fq4: 'Что такое санкальпа?',
+    fq5: 'Что используется во время Ягьи?',
+    fq6: 'Можно ли заказать Ягью за близкого человека?',
+    fq7: 'Как проходит дистанционное участие?',
+    fq8: 'Есть ли расписание групповых Ягий?',
+    fa1: 'Вы можете участвовать лично или на расстоянии. В момент проведения Ягьи важно удерживать своё намерение.',
+    fa2: 'Подбор помогает определить направление ритуала в соответствии с вашим запросом.',
+    fa3: 'Начать можно с групповой Ягьи. Это мягкий формат первого участия: вы присоединяетесь к общему направлению ритуала и удерживаете своё намерение во время проведения.',
+    fa4: 'Санкальпа — это кратко и ясно сформулированное намерение, ради которого проводится Ягья.',
+    fa5: 'Во время ритуала используются гхи, хаван-самагри, зерно, травы, сладости и другие ритуальные вещества.',
+    fa6: 'Да. Ягья может проводиться с намерением о благополучии, защите, очищении или поддержке близкого человека.',
+    fa7: 'Вы заранее знаете время проведения, формулируете санкальпу и удерживаете своё намерение в момент ритуала. Во время Ягьи ваша санкальпа вносится в огонь, а подношения совершаются от вашего имени. После проведения, в зависимости от формата, вы можете получить фото- или видеоотчёт.',
+    fa8: 'Да. Для групповых Ягий есть расписание ближайших ритуалов, к которым можно присоединиться.',
+    faq_note: 'Ваш запрос конфиденциален',
+    final_title: 'ЕСЛИ ЗАПРОС УЖЕ СОЗРЕЛ',
+    fp1: 'Вы можете пройти подбор Ягьи и определить формат участия<br>в соответствии с вашим состоянием и запросом.',
+    fp2: 'Каждая Ягья проводится с вниманием, точностью<br>и уважением к традиции.',
+    final_accent: 'Вы уже чувствуете, с чем вы пришли.',
+    final_note: 'Ваш запрос остаётся конфиденциальным.',
+    when_quote: 'Ягья помогает войти в состояние,<br>из которого решение становится яснее,<br><strong>а следующий шаг — точнее.</strong>',
+    how_accent: '<em>Ягья — это последовательный процесс,</em><br>в котором каждый этап<br>имеет значение.',
+    yagyas_accent: 'Если направление пока не очевидно,<br><span class="gold-bold">подбор</span> поможет определить нужную Ягью.',
+    faq_accent: 'Если внутри уже есть запрос, <span class="gold-bold">подбор</span> поможет выбрать подходящую Ягью и формат участия.',
+    cta_select: 'ПРОЙТИ ПОДБОР ЯГЬИ',
+    cta_schedule: 'ПОСМОТРЕТЬ РАСПИСАНИЕ',
+    cta_join: 'ПРИНЯТЬ УЧАСТИЕ',
+    pm_title: 'ПАМЯТКА',
+    pm_subtitle: 'УЧАСТНИКОВ ЯГЬИ',
+    pm_intro: 'Ягья — священное ведическое действие, требующее уважения, чистоты и правильного намерения. Соблюдайте эти правила, чтобы ваше участие было полным и гармоничным.',
+    pm_r1_h: 'Уважение и тишина', pm_r1: 'Телефоны — в беззвучный режим. Съёмка — только до или после ягьи.',
+    pm_r2_h: 'Чистота', pm_r2: 'Приходите после душа в чистой одежде. Избегайте кожаных вещей. Перед входом — омойте руки и ноги.',
+    pm_r3_h: 'Обувь', pm_r3: 'Снимайте обувь перед входом в яджна-шалу.',
+    pm_r4_h: 'Кунда', pm_r4: 'Сидите так, чтобы ноги не касались кунды. Это священный алтарь.',
+    pm_r5_h: 'Подношения', pm_r5: 'Не нюхайте цветы, не пробуйте еду до подношения. После благословения — принимайте как прасад.',
+    pm_r6_h: 'Чистота ума', pm_r6: 'Слушайте мантры и молитвы с верой, вниманием и уважением.',
+    pm_r7_h: 'Чистое сердце', pm_r7: 'Делайте подношения искренне. Важен не предмет, а внутреннее состояние.',
+    pm_r8_h: 'Следование пуджари', pm_r8: 'Внимательно слушайте и выполняйте наставления пуджари — это обеспечивает гармонию ритуала.',
+    pm_r9_h: 'Благодарность', pm_r9: 'Благодарите богов во время и после ягьи. Благодарность — одна из главных основ ритуала.',
+    pm_punct_h: 'Пунктуальность', pm_punct: 'Приезжайте заблаговременно. Ритуалы проводятся в точное время по астрологическим расчётам.',
+    pm_intent_h: 'Намерение (санкальпа)', pm_intent: 'Сформулируйте своё намерение ясно и кратко до начала ритуала.',
+    pm_cost_h: 'Стоимость', pm_cost: 'Актуальная стоимость участия указана в Telegram-боте Kailash Dham.',
+    pm_report_h: 'Отчёт', pm_report: 'Отчёт о ягье и сопроводительная информация — в Telegram-канале Kailash Dham.',
+  },
+  en: {
+    logo_sub: 'Space of Rituals',
+    nav_yagya: 'About Yagya',
+    nav_formats: 'Formats',
+    nav_yagyas: 'Yagyas',
+    nav_kailash: 'About Kailash Dham',
+    nav_faq: 'FAQ',
+    nav_blog: 'Blog',
+    hero_word: 'YAGYA',
+    hero_line2: 'ANCIENT FIRE RITUAL',
+    hero_lines34: 'A WAY OUT OF RECURRING<br>LIFE PATTERNS',
+    hero_sub: 'When life keeps bringing you back to the same situations,<br>and the inner request calls for a deeper answer.',
+    hero_bullet: 'Fire, mantras and sankalpa unite<br>your intention with the space of sacred action.',
+    hero_cta: 'FIND YOUR YAGYA',
+    hero_note: 'In-person or remote participation.<br>Selection happens through the chat-bot.',
+    what_title: 'WHAT IS YAGYA',
+    what_item1: '<p>Yagya is one of the most ancient fire rituals of the Vedic tradition.</p><p>Its roots trace back to the Vedic era: early forms of fire ceremony are described in the Vedas, whose oldest written layer dates to 1500–1200 BC.</p>',
+    what_item2: '<p>At the heart of Yagya is the sacred fire, Agni.</p><p>Agni is revered as the force through which prayer, intention and offering turn a person toward the higher order.</p>',
+    what_item3: '<p>During the ritual, mantras are chanted and offerings are made: ghee, havan samagri, grain, herbs and other ritual substances.</p><p>In this way the personal intention — <em class="gold-it">sankalpa</em> — becomes part of the sacred act.</p>',
+    what_item4: '<p>For millennia Yagya has been performed as a serious sacred act requiring preparation, pure intention and the participation of knowledgeable practitioners.</p><p>People come to this practice when the inner request has ripened and calls for a deeper level of engagement.</p>',
+    what_item5: '<p>Yagyas are conducted for blessing, purification, protection, prosperity, support through important transitions and the restoration of harmony.</p>',
+    what_quote: 'Yagya is a sacred act<br>in which the inner request unites<br>with fire, prayer and intention.',
+    und_title: 'WHAT YOU NEED<br>TO KNOW ABOUT YAGYA',
+    und_item1: 'Yagya is a spiritual practice that operates through fire, mantras, attention and intention.',
+    und_item2: 'It helps a person build inner support, see the situation more clearly and sense the direction of the next step.',
+    und_item3: 'The ritual is conducted in the Vedic tradition and is oriented toward purification, blessing, protection, support and harmonisation.',
+    und_item4: "What matters here is pure intention, respect for the sacred act and a person's readiness to be a participant in the process.",
+    und_quote: 'Yagya is the meeting of a person, fire and intention in the space of tradition.',
+    und_privacy: 'Your request remains confidential.',
+    why_title_big: 'WHY YAGYA',
+    why_title_sub: 'HOLDS SPECIAL POWER IN OUR TIME',
+    why_item1: '<p>The Vedic tradition speaks of <strong class="gold-bold">cycles of time — yugas</strong> in which the conditions of life and the means of spiritual action change.</p>',
+    why_item2: '<p>The present period is described as <strong class="gold-bold">Kali Yuga</strong> — a time of complex processes, inner tension and recurring life situations.</p>',
+    why_item3: '<p>In such periods, practices <strong class="gold-bold">connected to fire, mantras and intention</strong> gain particular power.</p>',
+    why_item4: '<p>Yagya becomes one of the <strong class="gold-bold">key forms of sacred approach</strong> through which a person can direct their request into the sacred space of action.</p>',
+    why_quote: 'It is precisely in this time that Yagya becomes a way<br><strong>to bring clarity, strength and direction into your life.</strong>',
+    when_title: 'WHEN PEOPLE TURN TO YAGYA',
+    when_intro: 'People come to Yagya when the inner question becomes stronger than familiar answers.',
+    wc1: 'When life keeps bringing you back to the same situations.',
+    wc2: 'When effort is present but the result returns you to the same circle.',
+    wc3: 'When fatigue and tension accumulate inside.',
+    wc4: 'When an important choice or transition lies ahead.',
+    wc5: 'When clarity, grounding and inner alignment are needed.',
+    wc6: 'When there is a request that calls for engagement at a deeper level than thinking.',
+    ws_title: 'Yagya can support you if:',
+    ws1: 'situations in relationships, family, money or work keep repeating;',
+    ws2: 'a new stage requiring support lies ahead;',
+    ws3: 'there is a sense of inner deadlock;',
+    ws4: 'there is a need for purification, protection and blessing;',
+    ws5: 'decisions are made but the inner state remains the same;',
+    ws6: 'the inner request has ripened and calls for action.',
+    woman_title_big: 'YAGYA',
+    woman_title_sub: 'FOR WOMEN',
+    woman_subtitle: 'When your inner state calls for a return to yourself.',
+    woman_symptoms_title: 'Sometimes it shows up like this:',
+    wsym1: 'you do a lot but feel no response',
+    wsym2: 'in relationships you give more than you receive',
+    wsym3: 'fatigue from constant exertion accumulates inside',
+    wsym4: 'confidence, radiance and self-love fade',
+    wsym5: 'fear arises that you are not good enough to be chosen',
+    wsym6: 'thoughts arise that you are invisible, unwanted, unclaimed',
+    wsym7: 'inner illusions begin to dim your light',
+    wb1: 'We conduct Yagyas dedicated to the feminine state, inner strength and the restoration of connection with oneself.',
+    wb2: "There are periods when roles, responsibilities, relationships and external tasks gradually take away clarity, softness and groundedness. Along with this, the sense of one's own attractiveness, value and living inner radiance fades.",
+    wb3: "A woman begins to see herself through the eyes of pain: 'I am no longer who I was', 'I won't be chosen', 'I am not needed', 'I am not interesting to a man'. This is how illusions are born that destroy from within and distance one from one's own nature.",
+    wb4: 'But this is not the truth about a woman. It is a state that calls for purification, restoration and a return to inner value.',
+    wb5: 'Yagya becomes the space where a woman reconnects with herself: with her beauty, strength, dignity and inner centre.',
+    wos_title: 'Yagya can support you if:',
+    wos1: 'fatigue and inner tension are accumulating',
+    wos2: 'a sense of losing yourself is arising',
+    wos3: 'relationships need harmonisation',
+    wos4: 'restoration after a difficult period is needed',
+    wos5: 'there is a need for protection and inner support',
+    wos6: 'a desire to return to your natural state is arising',
+    woman_quote: 'Yagya becomes a space of purification, protection and restoration, where a woman returns to her natural beauty, inner value, strength and radiance.',
+    woman_closing: 'Yagya helps you return to life from a different state — clearer, quieter, more grounded and deeper.',
+    mp_title: 'THE SACRED PATH OF THE CHILD',
+    mp_intro: 'The birth of a child is a journey that begins before the first breath.',
+    mp_text1: "First a call appears in the parents' hearts. Then the intention ripens. Then the woman becomes the space through which a new soul enters the world.",
+    mp_callout: "The Vedic tradition holds each stage of this path with care: preparation for conception, pregnancy, birth, the newborn's arrival, the name and the first year of the child's life.",
+    mp_italic: 'Yagya helps walk this path in the field of prayer, light, gratitude and inner peace.',
+    mp_stage_lbl: 'IN THE CHAT-BOT YOU CAN CHOOSE YOUR STAGE',
+    mps1: 'PLANNING A CHILD',
+    mps2: 'PREGNANCY',
+    mps3: 'BIRTH IS NEAR',
+    mps4: 'THE CHILD HAS BEEN BORN',
+    mps5: "THE CHILD'S NAME AND DESTINY",
+    mps6: 'THE FIRST YEAR OF LIFE',
+    mp_text2: "For each stage, appropriate Yagyas have been gathered: for blessing conception, supporting the mother, protecting the maternal field, easing the transition of birth, gratitude for the birth, the child's name and the first steps of a new soul in the world.",
+    mp_disclaimer: 'This is not a promise of miracles. It is a sacred way to enter an important life transition with greater purity, love and support.',
+    mp_poem1: 'May the child come into the world through love.',
+    mp_poem2: 'May the mother feel supported.',
+    mp_poem3: 'May the family welcome the new soul',
+    mp_poem4: 'with gratitude and light.',
+    mp_cta: 'CHOOSE A YAGYA FOR MOTHER AND CHILD',
+    how_pre: 'HOW',
+    how_title: 'YAGYA WORKS',
+    how_intro: 'Each stage of the Yagya is connected to your intention and follows the Vedic tradition.',
+    hs1_title: '1. CHOOSING A YAGYA',
+    hs1_text: 'You choose a ritual based on your request or through the selection process.',
+    hs2_title: '2. SANKALPA',
+    hs2_text: 'The intention with which the Yagya is conducted is formed.',
+    hs3_title: '3. RITUAL PREPARATION',
+    hs3_text: 'Ghee, havan samagri, grain, herbs and ritual substances corresponding to the chosen Yagya are used.',
+    hs4_title: '4. PERFORMING THE YAGYA',
+    hs4_text: 'During the ritual, mantras are chanted, offerings are made into the fire and actions are performed in accordance with the tradition.',
+    hs5_title: '5. PARTICIPATION',
+    hs5_text: 'You may participate in person or remotely, holding your intention throughout the performance.',
+    hs6_title: '6. CONFIRMATION',
+    hs6_text: 'Depending on the format, you receive photo or video confirmation after the Yagya is performed.',
+    formats_title: 'FORMATS OF PARTICIPATION IN YAGYA',
+    formats_intro: 'Yagya is conducted in different formats — depending on your request, depth of participation and degree of personal attention.',
+    fgc1_title: 'GROUP YAGYA',
+    fgc1_text: '<p>A collective ritual you can enter with your own personal intention.</p><p>Suited to a first participation and to regular ongoing practice.</p>',
+    fgc2_title: 'INDIVIDUAL YAGYA',
+    fgc2_text: '<p>A personal ritual conducted in accordance with your request and your formed sankalpa.</p><p>A format in which attention is fully directed to your situation, your state and your intention.</p><p>Suited when precision, depth and personal accompaniment through the ritual are important.</p>',
+    fgc3_title: 'INDIVIDUAL YAGYA<br>WITH HOROSCOPE',
+    fgc3_text: '<p>A personal ritual with a more precise attunement through your request, sankalpa and astrological data.</p><p>A format for those for whom it is important to undergo Yagya consciously, with an understanding of their period, intention and direction of the ritual.</p>',
+    fgc4_title: 'VIP YAGYA',
+    fgc4_text: '<p>An extended individual format consisting of a series of sacred acts.</p><p>Rituals are conducted at the central large kund.</p><p>With deep attention to your request, sankalpa and astrological data.</p><p>Suited to significant life periods, important transitions and requests that call for a special level of preparation.</p>',
+    fmt_micro: 'You can participate in person<br>or remotely.',
+    fmt_note: 'If the format is not yet clear, <span class="gold-bold">the selection process</span> will help determine the right option.',
+    final_cta: 'FIND YOUR YAGYA',
+    yagyas_title: 'CHOOSE A YAGYA FOR YOUR REQUEST',
+    yagyas_intro: 'Each Yagya is associated with a specific area of life and direction of inner work.',
+    yc1_title: 'PURIFICATION AND PROTECTION',
+    yc1_text: 'For release from heavy states and the alignment of inner space.',
+    yc2_title: 'PROSPERITY AND MONEY',
+    yc2_text: 'For support in business, work and material flow.',
+    yc3_title: 'RELATIONSHIPS AND FAMILY',
+    yc3_text: 'For the harmonisation of connections, love and family space.',
+    yc4_title: 'HEALTH AND RESTORATION',
+    yc4_text: 'For support of vital energy and inner resources.',
+    yc5_title: 'LINEAGE AND DEEP PROCESSES',
+    yc5_text: 'For working with ancestral patterns and inner knots.',
+    yc6_title: 'REMOVAL OF OBSTACLES',
+    yc6_text: 'For situations where the path calls for additional support.',
+    yc7_title: 'SPIRITUAL PATH',
+    yc7_text: 'For practice, clarity and inner growth.',
+    start_title: 'WHERE TO BEGIN',
+    start_lead: 'You can begin with participation<br>in a <strong class="gold-bold">Group Yagya.</strong>',
+    sp1: 'This is a gentle format in which you enter the practice through the general direction of the ritual.',
+    sp2: 'During the Yagya you know when it is being performed and hold your intention throughout the entire process.',
+    sp3: 'This is a simple and natural way to participate for the first time.',
+    sp4: 'Group Yagyas have a schedule. You can choose the nearest date and join.',
+    kd_pre: 'THE SPACE',
+    kd_subtitle: 'A living line of blessings, tradition and spiritual responsibility.',
+    kd_intro: 'The place where Yagyas are conducted today is sanctified by the blessings of masters of the Indian and world spiritual tradition.',
+    kd1_name: 'MAHAMANDALESHWAR<br>PILOT BABA',
+    kd1_role: 'Swami Somnath Giri Ji Maharaj',
+    kd1_desc: 'Gave the blessing that became the foundation for the creation of our ashram. During his stay he planted trees here — as a living sign of blessing and connection to this place.',
+    kd2_name: 'MAHAMANDALESHWAR<br>YOGMATA KEIKO AIKAWA',
+    kd2_role: 'Spiritual teacher from Japan',
+    kd2_desc: 'The first non-Indian woman to receive the title of Mahamandaleshwar in Juna Akhara. She personally visited this space, transmitted the blessing and planted trees here.',
+    kd3_name: 'ACHARYA<br>KUMARA SWAMI',
+    kd3_role: 'Vedic astrologer from India',
+    kd3_desc: 'Supports the connection of Jyotish knowledge with Yagya practice. His guidance helps preserve the purity of the ritual and precision in working with time and intention.',
+    kd4_name: 'DAYANANDA SWAMI',
+    kd4_role: 'Pujari',
+    kd4_desc: 'A practitioner and guide with monastic initiation in the Juna Akhara order. Conducts Yagyas in accordance with the Vedic tradition and with inner responsibility.',
+    kd_quote: 'For us, Yagya is a sacred act in which what matters is pure intention, precision of conduct, respect for tradition and inner responsibility toward the person who comes with a request.',
+    faq_title_big: 'QUESTIONS',
+    faq_title_rest: 'THAT ARISE BEFORE PARTICIPATION',
+    fq1: 'Is personal presence required?',
+    fq2: 'How do I know which Yagya is right for me?',
+    fq3: 'Where do I start if I am participating for the first time?',
+    fq4: 'What is a sankalpa?',
+    fq5: 'What is used during a Yagya?',
+    fq6: 'Can I order a Yagya for someone close to me?',
+    fq7: 'How does remote participation work?',
+    fq8: 'Is there a schedule for group Yagyas?',
+    fa1: 'You can participate in person or remotely. What matters is to hold your intention at the moment the Yagya is performed.',
+    fa2: 'The selection process helps determine the direction of the ritual in accordance with your request.',
+    fa3: 'You can begin with a Group Yagya. This is a gentle format for a first participation: you join the general direction of the ritual and hold your intention during the performance.',
+    fa4: 'A sankalpa is a concisely and clearly formulated intention for the sake of which the Yagya is performed.',
+    fa5: 'During the ritual, ghee, havan samagri, grain, herbs, sweets and other ritual substances are used.',
+    fa6: 'Yes. A Yagya can be performed with the intention of wellbeing, protection, purification or support for someone close to you.',
+    fa7: 'You know the time of the performance in advance, formulate your sankalpa and hold your intention at the moment of the ritual. During the Yagya your sankalpa is placed into the fire and offerings are made in your name. After the performance, depending on the format, you may receive a photo or video report.',
+    fa8: 'Yes. For group Yagyas there is a schedule of upcoming rituals that you can join.',
+    faq_note: 'Your request is confidential',
+    final_title: 'IF YOUR REQUEST IS READY',
+    fp1: 'You can go through the Yagya selection process and determine the format of participation<br>in accordance with your state and request.',
+    fp2: 'Every Yagya is performed with attention, precision<br>and respect for the tradition.',
+    final_accent: 'You already sense what you have brought.',
+    final_note: 'Your request remains confidential.',
+    when_quote: 'Yagya helps you enter a state<br>from which the decision becomes clearer<br><strong>and the next step — more precise.</strong>',
+    how_accent: '<em>Yagya is a sequential process</em><br>in which every stage<br>matters.',
+    yagyas_accent: 'If the direction is not yet clear,<br><span class="gold-bold">the selection process</span> will help determine the right Yagya.',
+    faq_accent: 'If the request is already there, <span class="gold-bold">the selection process</span> will help choose the right Yagya and format.',
+    cta_select: 'FIND YOUR YAGYA',
+    cta_schedule: 'VIEW SCHEDULE',
+    cta_join: 'JOIN NOW',
+    pm_title: "PARTICIPANT'S GUIDE",
+    pm_subtitle: 'FOR YAGYA',
+    pm_intro: 'Yagya is a sacred Vedic ritual requiring respect, purity, and right intention. Follow these guidelines to ensure your participation is harmonious and complete.',
+    pm_r1_h: 'Respect & Silence', pm_r1: 'Set phones to silent. Photography is permitted only before or after the yagya.',
+    pm_r2_h: 'Purity', pm_r2: 'Come after bathing in clean clothes. Avoid leather items. Before entering — rinse hands and feet.',
+    pm_r3_h: 'Footwear', pm_r3: 'Remove footwear before entering the yajna-shala.',
+    pm_r4_h: 'The Kunda', pm_r4: 'Sit so that your feet do not touch the kunda. It is the sacred altar.',
+    pm_r5_h: 'Offerings', pm_r5: 'Do not smell flowers or taste food before offering. After blessing — receive as prasad.',
+    pm_r6_h: 'Purity of Mind', pm_r6: 'Listen to mantras and prayers with faith, attention, and respect.',
+    pm_r7_h: 'Pure Heart', pm_r7: 'Make offerings sincerely. What matters is your inner state, not the object itself.',
+    pm_r8_h: 'Follow the Pujari', pm_r8: "Listen carefully and follow the pujari's instructions — this ensures the harmony of the ritual.",
+    pm_r9_h: 'Gratitude', pm_r9: 'Thank the deities during and after the yagya. Gratitude is one of the foundations of the ritual.',
+    pm_punct_h: 'Punctuality', pm_punct: 'Arrive early. Rituals are performed at precise times based on astrological calculations.',
+    pm_intent_h: 'Intention (Sankalpa)', pm_intent: 'Formulate your intention clearly and briefly before the ritual begins.',
+    pm_cost_h: 'Pricing', pm_cost: 'Current participation pricing is available in the Kailash Dham Telegram bot.',
+    pm_report_h: 'Report', pm_report: 'The yagya report and accompanying information are shared in the Kailash Dham Telegram channel.',
+  }
+};
+
+const _seoMeta = {
+  uk: {
+    title: "Яг'я — Давній Вогняний Ритуал | Kailash Dham",
+    description: "Kailash Dham — ашрам і духовний центр ведичних ритуалів. Яг'я для очищення, захисту, благословення та гармонізації. Групові та індивідуальні формати. Особиста та дистанційна участь."
+  },
+  ru: {
+    title: "Ягья — Древний Огненный Ритуал | Kailash Dham",
+    description: "Kailash Dham — ашрам и духовный центр ведических ритуалов. Ягья для очищения, защиты, благословения и гармонизации. Групповые и индивидуальные форматы. Личное и дистанционное участие."
+  },
+  en: {
+    title: "Yagya — Ancient Fire Ritual | Kailash Dham",
+    description: "Kailash Dham — an ashram and spiritual centre of Vedic rituals. Yagya for purification, protection, blessing and harmonisation. Group and individual formats. In-person and remote participation."
+  }
+};
+
+function setLang(lang) {
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.dataset.i18n;
+    if (i18n[lang] && i18n[lang][key] !== undefined) {
+      el.innerHTML = i18n[lang][key];
+    }
+  });
+  document.querySelectorAll('.lang-switcher button').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === lang);
+  });
+  document.documentElement.lang = lang;
+  localStorage.setItem('kd_lang', lang);
+
+  const seo = _seoMeta[lang] || _seoMeta.uk;
+  document.title = seo.title;
+  const descEl = document.querySelector('meta[name="description"]');
+  if (descEl) descEl.setAttribute('content', seo.description);
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  if (ogTitle) ogTitle.setAttribute('content', seo.title);
+  const ogDesc = document.querySelector('meta[property="og:description"]');
+  if (ogDesc) ogDesc.setAttribute('content', seo.description);
+  const twTitle = document.querySelector('meta[name="twitter:title"]');
+  if (twTitle) twTitle.setAttribute('content', seo.title);
+  const twDesc = document.querySelector('meta[name="twitter:description"]');
+  if (twDesc) twDesc.setAttribute('content', seo.description);
+}
+
+(function(){
+  const saved = localStorage.getItem('kd_lang') || 'uk';
+  setLang(saved);
+})();
+</script>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <a href="/polityka-konfidentsiynosti.html">Політика конфіденційності</a>
+      <a href="/publichna-oferta.html">Публічна оферта</a>
+      <a href="/polityka-povernennya-koshtiv.html">Політика повернення коштів</a>
+    </div>
+    <div class="footer-col">
+      <strong>Контактна інформація:</strong>
+      <span>ФОП Дяченко Дмитро Вікторович</span>
+      <span>ІПН: 2578013372</span>
+      <span>Адреса: Київська область, Вишгородський район, с. Димер, вул. Шевченко, 1, кв. 3</span>
+    </div>
+    <div class="footer-col">
+      <span>Телефон: <a class="footer-link" href="tel:+380638258339">+380638258339</a></span>
+      <span>Email: <a class="footer-link" href="mailto:dayanandagiri@gmail.com">dayanandagiri@gmail.com</a></span>
+      <span class="footer-note">З усіх питань щодо оплати, участі, доступу до матеріалів, перенесення або повернення коштів покупець може звернутися за вказаними контактами.</span>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
